@@ -14,9 +14,11 @@
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.7.0",
+    "material-ui": "^1.0.0-beta.47",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
@@ -29,6 +31,8 @@
     "babel-loader": "^8.2.5",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
-    "eslint-plugin-storybook": "^0.5.11"
+    "eslint-plugin-storybook": "^0.5.11",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
   }
 }

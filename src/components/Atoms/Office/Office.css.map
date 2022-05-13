@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACR,SAAS,ECCE,IAAI;EDAf,WAAW,ECKO,YAAY;CDJ/B;;AAED,AAAA,aAAa,CAAC;EACZ,SAAS,ECJE,IAAI;EDKf,WAAW,ECAO,YAAY;CDC/B",
+    "sources": [
+        "Office.scss",
+        "../../../assets/Variable.scss"
+    ],
+    "names": [],
+    "file": "Office.css"
+}

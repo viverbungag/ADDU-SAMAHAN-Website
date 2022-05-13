@@ -8,6 +8,14 @@ Run this in the terminal to install the necessary packages:
 npm install --legacy-peer-deps
 ```
 
+## StoryBook
+
+Run this in the terminal to run storybook:
+
+```bash
+npm run storybook
+```
+
 ## Getting Started
 
 First, run the development server:

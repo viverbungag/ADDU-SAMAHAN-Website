@@ -1,4 +1,4 @@
-import Officer from "../src/components/Atoms/Officer/Officer";
+import Officer from "../../src/components/Atoms/Officer/Officer";
 
 export default {
   title: "Atoms/Officer",
@@ -10,7 +10,6 @@ export const WithoutImage = {
     name: "Patrick Matayabas",
     position: "Sysdev Director",
     haveBorder: true,
-    // imageSrc: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg",
   },
 };
 

@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Run this in the terminal to install the necessary packages:
 
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 ## StoryBook

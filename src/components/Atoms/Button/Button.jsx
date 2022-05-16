@@ -1,10 +1,10 @@
 import React from "react";
-import "./Button.module.css";
+import styles from "./Button.module.scss";
 
 const Button = ({ label }) => {
   return (
-    <button className="buttonStyle">
-      <span className="buttonLabel">{label}</span>
+    <button className={styles.buttonStyle}>
+      <span className={styles.buttonLabel}>{label}</span>
     </button>
   );
 };

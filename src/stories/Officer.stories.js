@@ -10,6 +10,7 @@ export const WithoutImage = {
     name: "Patrick Matayabas",
     position: "Sysdev Director",
     haveBorder: true,
+    // imageSrc: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg",
   },
 };
 

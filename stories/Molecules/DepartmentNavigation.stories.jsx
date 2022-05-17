@@ -3,6 +3,11 @@ import DepartmentNavigation from "../../src/components/Molecules/DepartmentNavig
 export default {
   title: "Molecules/DepartmentNavigation",
   component: DepartmentNavigation,
+  parameters: {
+    backgrounds: {
+      default: "ADDU Blue",
+    },
+  },
 };
 
 export const Main = {

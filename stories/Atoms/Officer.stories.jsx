@@ -3,6 +3,11 @@ import Officer from "../../src/components/Atoms/Officer/Officer";
 export default {
   title: "Atoms/Officer",
   component: Officer,
+  parameters: {
+    backgrounds: {
+      default: "ADDU Blue",
+    },
+  },
 };
 
 export const WithoutImage = {

@@ -9,7 +9,6 @@ export const WithoutImage = {
   args: {
     name: "Patrick Matayabas",
     position: "Sysdev Director",
-    haveBorder: true,
   },
 };
 

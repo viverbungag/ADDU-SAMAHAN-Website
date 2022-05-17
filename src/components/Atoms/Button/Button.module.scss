@@ -16,6 +16,7 @@
 .buttonLabel {
   font-family: $defaultFontFamily;
   font-size: $h5FontSize;
-  font-weight: 700;
+  line-height: $h5LineHeight;
+  font-weight: $h1FontWeight;
   color: #2d419d;
 }

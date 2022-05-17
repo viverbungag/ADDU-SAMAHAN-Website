@@ -5,6 +5,8 @@ $imageBorderRadius: 17px;
 
 .nameText {
   font-size: $h5FontSize;
+  font-weight: $h5FontWeight;
+  line-height: $h5LineHeight;
   font-family: $defaultFontFamily;
   text-align: center;
   font-weight: bold;

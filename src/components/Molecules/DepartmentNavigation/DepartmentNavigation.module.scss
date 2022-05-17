@@ -1,0 +1,13 @@
+@import "../../../assets/Variable/Variable.scss";
+
+.departmentTitle {
+  font-size: $h1FontSize;
+  font-weight: $h1FontWeight;
+  line-height: $h1LineHeight;
+  font-family: $defaultFontFamily;
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 20px;
+}

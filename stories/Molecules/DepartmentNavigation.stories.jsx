@@ -6,5 +6,8 @@ export default {
 };
 
 export const Main = {
-  args: {},
+  args: {
+    departmentTitle: "DEPARTMENT TITLE",
+    buttonLabel: "LEARN MORE",
+  },
 };

@@ -1,5 +1,101 @@
 @import "../../../assets/Variable/Variable.scss";
 
-.trial {
-    font-size: 5rem;
+.navbar {
+    background-color: $color--primary;
+    padding: 0px 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    ul {
+        float: left;
+        list-style: none;
+        position: relative;
+
+        // FIRST-LEVEL DROPDOWN
+        li {
+            float: left;
+            background-color: $color--primary; // TEMP
+            padding: 0 25px;
+            
+            a {
+                color: white;
+                text-decoration: none;
+                line-height: 70px;
+            }
+
+            &:hover > ul {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        
+        // FIRST-LEVEL DROPDOWN
+        ul {
+            border-top: 3px solid rgb(179, 198, 250); //temp
+            position: absolute;
+            top: 70px;
+            left: 100px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .1s ease;
+
+            li {
+                position: relative;
+                margin: 0px;
+                width: 280px;
+                float: none;
+                display: list-item;
+            }
+            
+            // SECOND-LEVEL DROPDOWN
+            ul {
+                border-top: none;
+                border-left: 2px solid aqua; //temp
+                position: absolute;
+                top: -70px;
+                left: 280px;
+
+                li {
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        line-height: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__main {
+        display: flex;
+    }
+
+    &__help-portal {
+        position: absolute;
+        right: 80px;
+    }
+
+    .drop_down > svg {
+        position: relative;
+        top: 6px;
+        left: 6px;
+    }
+
+    .samahan_logo {
+        display: flex;
+        align-items: center;
+        float:left;
+        color: white;
+        font-size: $h4FontSize;
+    }
 }

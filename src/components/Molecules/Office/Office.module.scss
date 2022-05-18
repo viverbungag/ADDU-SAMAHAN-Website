@@ -1,4 +1,4 @@
-@import "../../../assets//Variable/Variable.scss";
+@import "../../../../styles/variables.scss";
 
 .officersContainer {
   display: flex;
@@ -20,7 +20,6 @@
   span {
     font-size: $h4FontSize;
     font-weight: $h4FontWeight;
-    font-family: $defaultFontFamily;
     color: #ffffff;
   }
 }

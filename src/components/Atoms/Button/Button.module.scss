@@ -1,4 +1,4 @@
-@import "../../../assets/Variable/Variable.scss";
+@import "../../../../styles/variables.scss";
 
 .buttonStyle {
   display: flex;
@@ -15,7 +15,6 @@
 }
 
 .buttonLabel {
-  font-family: $defaultFontFamily;
   font-size: $h5FontSize;
   font-weight: $h1FontWeight;
   color: #2d419d;

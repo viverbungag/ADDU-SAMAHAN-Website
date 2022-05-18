@@ -1,4 +1,4 @@
-import React from "react";
+import { forwardRef } from "react";
 import styles from "./Button.module.scss";
 
 // const Button = ({ label, route }) => {
@@ -10,14 +10,19 @@ import styles from "./Button.module.scss";
 //   );
 // };
 
-const Button = React.forwardRef(({ onClick, href, label}, ref) => {
+const Button = forwardRef(({ onClick, href, label }, ref) => {
   return (
-    <a className={styles["buttonStyle"]} href={href} onClick={onClick} ref={ref}>
+    <a
+      className={styles["buttonStyle"]}
+      href={href}
+      onClick={onClick}
+      ref={ref}
+    >
       <span className={styles["buttonLabel"]}>{label}</span>
     </a>
   );
-})
+});
 
-Button.displayName = 'Button';
+Button.displayName = "Button";
 
 export default Button;

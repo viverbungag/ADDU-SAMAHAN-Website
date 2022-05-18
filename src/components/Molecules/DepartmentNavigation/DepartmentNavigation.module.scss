@@ -1,10 +1,8 @@
-@import "../../../assets/Variable/Variable.scss";
+@import "../../../../styles/variables.scss";
 
 .departmentTitle {
   font-size: $h1FontSize;
   font-weight: $h1FontWeight;
-  line-height: $h1LineHeight;
-  font-family: $defaultFontFamily;
   color: #ffffff;
 }
 

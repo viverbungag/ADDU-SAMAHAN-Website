@@ -1,4 +1,4 @@
-@import "../../../assets/Variable/Variable.scss";
+@import "../../../../styles/variables.scss";
 
 $componentWidth: 184px;
 $imageBorderRadius: 17px;
@@ -6,8 +6,6 @@ $imageBorderRadius: 17px;
 .nameText {
   font-size: $h5FontSize;
   font-weight: $h5FontWeight;
-  line-height: $h5LineHeight;
-  font-family: $defaultFontFamily;
   text-align: center;
   font-weight: bold;
   color: #ffffff;
@@ -15,7 +13,6 @@ $imageBorderRadius: 17px;
 
 .positionText {
   font-size: $bodyFontSize;
-  font-family: $defaultFontFamily;
   text-align: center;
   color: #ffffff;
 }

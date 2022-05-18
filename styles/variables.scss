@@ -1,3 +1,7 @@
+/* FONT STYLING */
+$font--stack: "Montserrat", Helvetica, sans-serif;
+
+/* FONT SIZE */
 $h1FontSize: 3.052rem;
 $h2FontSize: 2.441rem;
 $h3FontSize: 1.953rem;
@@ -8,6 +12,7 @@ $body2FontSize: 0.8rem;
 $captionFontSize: 0.64rem;
 $caption2FontSize: 0.512rem;
 
+/* FONT WEIGHT */
 $h1FontWeight: 700;
 $h2FontWeight: 700;
 $h3FontWeight: 600;
@@ -18,18 +23,5 @@ $body2FontWeight: 400;
 $captionFontWeight: 400;
 $caption2FontWeight: 400;
 
-$h1LineHeight: 60px;
-$h2LineHeight: 48px;
-$h3LineHeight: 38px;
-$h4LineHeight: 30px;
-$h5LineHeight: 24px;
-$bodyLineHeight: 20px;
-$body2LineHeight: 16px;
-$captionLineHeight: 12px;
-$caption2LineHeight: 10px;
-
-$defaultFontFamily: "Montserrat";
-
-$font--stack: "Montserrat", Helvetica, sans-serif;
-
+/* COLORS */
 $color--primary: #2d419d;

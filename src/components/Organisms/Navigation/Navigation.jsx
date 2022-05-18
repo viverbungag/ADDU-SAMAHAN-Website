@@ -40,7 +40,7 @@ const Navigation = () => {
           </ul>
         </div>
         <div className={styles["navbar__help-portal"]}>
-          <Link href="/help_portal">
+          <Link href="/help_portal" passHref>
             <Button label="HELP PORTAL"/>
           </Link>
         </div>

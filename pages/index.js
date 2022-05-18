@@ -2,10 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Officer from "../src/components/Atoms/Officer/Officer";
 
-import {
-  Navigation,
-  DepartmentIntroSection,
-} from "../src/components/ComponentIndex";
+import { Navigation } from "../src/components/ComponentIndex";
 
 export default function Home() {
   return (
@@ -25,7 +22,6 @@ export default function Home() {
         <title key="title">SAMAHAN</title>
       </Head>
       <Navigation />
-      <DepartmentIntroSection />
     </>
   );
 }

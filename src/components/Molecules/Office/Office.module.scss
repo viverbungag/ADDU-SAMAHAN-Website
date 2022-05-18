@@ -1,25 +1,28 @@
 @import "../../../../styles/variables.scss";
 
+$spaceBetween: 32px;
+
+.componentContainer {
+  margin-top: 60px;
+}
+
 .officersContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  column-gap: 56px;
 }
 
 .officerContainer {
-  margin-right: 56px;
+  margin-bottom: $spaceBetween;
 }
 
 .officeTitle {
-  display: flex;
-  margin-bottom: 24px;
-  justify-content: center;
-  align-items: center;
-
-  span {
-    font-size: $h4FontSize;
-    font-weight: $h4FontWeight;
-    color: #ffffff;
-  }
+  margin-bottom: $spaceBetween;
+  text-align: center;
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  color: #ffffff;
 }

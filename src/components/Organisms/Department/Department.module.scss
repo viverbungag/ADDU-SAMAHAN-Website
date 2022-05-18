@@ -1,0 +1,21 @@
+@import "../../../../styles/variables.scss";
+
+.componentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.titleText {
+  font-size: $h1FontSize;
+  font-weight: $h1FontWeight;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 1vh;
+}

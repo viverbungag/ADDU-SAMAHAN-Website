@@ -1,8 +1,8 @@
 import React from "react";
 import { DepartmentNavigation } from "../../ComponentIndex";
-import styles from "./DepartmentsIntroSection.module.scss";
+import styles from "./DepartmentIntro.module.scss";
 
-const DepartmentsIntroSection = () => {
+const DepartmentIntro = () => {
   return (
     <div className={styles["componentContainer"]}>
       <DepartmentNavigation
@@ -17,4 +17,4 @@ const DepartmentsIntroSection = () => {
   );
 };
 
-export default DepartmentsIntroSection;
+export default DepartmentIntro;

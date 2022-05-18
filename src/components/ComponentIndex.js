@@ -8,3 +8,4 @@ export { default as Office } from "./Molecules/Office/Office";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
+export { default as DepartmentIntroSection } from "./Organisms/DepartmentsIntroSection/DepartmentsIntroSection";

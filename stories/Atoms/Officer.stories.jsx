@@ -5,7 +5,7 @@ export default {
   component: Officer,
   parameters: {
     backgrounds: {
-      default: "ADDU Blue",
+      default: "White",
     },
   },
 };

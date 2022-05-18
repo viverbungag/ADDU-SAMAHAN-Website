@@ -6,7 +6,7 @@ export default {
   component: Department,
   parameters: {
     backgrounds: {
-      default: "ADDU Blue",
+      default: "White",
     },
   },
 };

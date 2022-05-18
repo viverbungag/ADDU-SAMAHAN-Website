@@ -5,7 +5,7 @@ export default {
   component: Office,
   parameters: {
     backgrounds: {
-      default: "ADDU Blue",
+      default: "White",
     },
   },
 };

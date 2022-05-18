@@ -21,7 +21,17 @@ export default function Home() {
         {/* TITLE AND ICON */}
         <title key="title">SAMAHAN</title>
       </Head>
-      <AboutTemplate />
+
+      {/* Temporary lang ning div hehe */}
+      <div
+        style={{
+          "background-color": "#2D419D",
+          width: "100%",
+          height: "937px",
+        }}
+      >
+        <AboutTemplate />
+      </div>
     </>
   );
 }

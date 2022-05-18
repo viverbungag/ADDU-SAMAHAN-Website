@@ -2,19 +2,20 @@
 
 $componentWidth: 184px;
 $imageBorderRadius: 17px;
+$fontColor: #2d419d;
 
 .nameText {
   font-size: $h5FontSize;
   font-weight: $h5FontWeight;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: $fontColor;
 }
 
 .positionText {
   font-size: $bodyFontSize;
   text-align: center;
-  color: #ffffff;
+  color: $fontColor;
 }
 
 .image {

@@ -1,6 +1,7 @@
 @import "../../../../styles/variables.scss";
 
 $spaceBetween: 32px;
+$fontColor: #2d419d;
 
 .componentContainer {
   margin-top: 60px;
@@ -24,5 +25,5 @@ $spaceBetween: 32px;
   text-align: center;
   font-size: $h4FontSize;
   font-weight: $h4FontWeight;
-  color: #ffffff;
+  color: $fontColor;
 }

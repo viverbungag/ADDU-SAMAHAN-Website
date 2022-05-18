@@ -2,3 +2,26 @@
   margin-left: 10vw;
   margin-top: 15vh;
 }
+
+.modal {
+  position: absolute;
+  margin-left: 5%;
+  width: 90%;
+  top: 12%;
+  overflow: scroll;
+  max-height: 90%;
+  display: block;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  padding: 30px;
+}

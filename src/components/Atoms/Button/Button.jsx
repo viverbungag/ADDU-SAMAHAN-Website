@@ -1,12 +1,23 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
-const Button = ({ label }) => {
+// const Button = ({ label, route }) => {
+
+//   return (
+//     <button className={styles.buttonStyle}>
+//       <span className={styles.buttonLabel}>{label}</span>
+//     </button>
+//   );
+// };
+
+const Button = React.forwardRef(({ onClick, href, label}, ref) => {
   return (
-    <button className={styles["buttonStyle"]}>
+    <a className={styles["buttonStyle"]} href={href} onClick={onClick} ref={ref}>
       <span className={styles["buttonLabel"]}>{label}</span>
-    </button>
+    </a>
   );
-};
+})
+
+Button.displayName = 'Button';
 
 export default Button;

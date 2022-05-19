@@ -2,10 +2,11 @@
 export { default as Officer } from "./Atoms/Officer/Officer";
 export { default as Button } from "./Atoms/Button/Button";
 export { default as Tabs } from "./Atoms/Tabs/Tabs";
+
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
 export { default as Office } from "./Molecules/Office/Office";
-export {default as Initiative} from "./Molecules/Initiative/Initiative";
+export { default as Initiative } from "./Molecules/Initiative/Initiative";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
@@ -14,6 +15,13 @@ export { default as Department } from "./Organisms/Department/Department";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
+export { default as HelpPortalTemplate } from "./Template/HelpPortalTemplate/HelpPortalTemplate";
+export { default as LandingTemplate } from "./Template/LandingTemplate/LandingTemplate";
+export { default as OfficeOfThePresidentTemplate } from "./Template/OfficeOfThePresidentTemplate/OfficeOfThePresidentTemplate";
+export { default as OfficeOfTheSecretaryGeneralTemplate } from "./Template/OfficeOfTheSecretaryGeneralTemplate/OfficeOfTheSecretaryGeneralTemplate";
+export { default as OfficeOfTheTreasurerTemplate } from "./Template/OfficeOfTheTreasurerTemplate/OfficeOfTheTreasurerTemplate";
+export { default as OfficeOfTheVicePresidentTemplate } from "./Template/OfficeOfTheVicePresidentTemplate/OfficeOfTheVicePresidentTemplate";
+export { default as StudentJudicialCourtTemplate } from "./Template/StudentJudicialCourtTemplate/StudentJudicialCourtTemplate";
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";

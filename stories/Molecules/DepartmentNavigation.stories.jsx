@@ -1,4 +1,4 @@
-import DepartmentNavigation from "../../src/components/Molecules/DepartmentNavigation/DepartmentNavigation";
+import { DepartmentNavigation } from "../../src/components/ComponentIndex";
 
 export default {
   title: "Molecules/DepartmentNavigation",

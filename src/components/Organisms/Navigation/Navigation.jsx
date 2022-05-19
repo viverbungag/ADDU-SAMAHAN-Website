@@ -11,26 +11,40 @@ const Navigation = () => {
     <>
       <nav className={styles.navbar}>
         <div className={styles["navbar__main"]}>
-          <div className={styles.samahan_logo}><h1>TEMPORARY</h1></div>
+          <div className={styles.samahan_logo}>
+            <h1>TEMPORARY</h1>
+          </div>
           <ul>
             <li>
               <Link href="/about">ABOUT</Link>
             </li>
             <li className={styles.drop_down}>
               <a>OFFICES</a>
-              <Icon icon={baselineKeyboardArrowDown} color="white" height="24" />
+              <Icon
+                icon={baselineKeyboardArrowDown}
+                color="white"
+                height="24"
+              />
               <ul>
                 <li>
-                  <Link href="/OTP">Office of the President</Link>
+                  <Link href="/office_of_the_president">
+                    Office of the President
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/OVP">Office of the Vice-President</Link>
+                  <Link href="/office_of_the_vice_president">
+                    Office of the Vice-President
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/OSG">Office of the Secretary-General</Link>
+                  <Link href="/office_of_the_secretary_general">
+                    Office of the Secretary-General
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/OT">Office of the Treasurer</Link>
+                  <Link href="/office_of_the_treasurer">
+                    Office of the Treasurer
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -41,7 +55,7 @@ const Navigation = () => {
         </div>
         <div className={styles["navbar__help-portal"]}>
           <Link href="/help_portal" passHref>
-            <Button label="HELP PORTAL"/>
+            <Button label="HELP PORTAL" />
           </Link>
         </div>
       </nav>

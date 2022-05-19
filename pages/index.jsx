@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Officer from "../src/components/Atoms/Officer/Officer";
 
-import { Navigation, AboutTemplate } from "../src/components/ComponentIndex";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navigation, LandingPage } from "../src/components/ComponentIndex";
 
 export default function Home() {
   return (
@@ -21,17 +21,10 @@ export default function Home() {
         {/* TITLE AND ICON */}
         <title key="title">SAMAHAN</title>
       </Head>
-
-      {/* Temporary lang ning div hehe */}
-      <div
-        style={{
-          "background-color": "#2D419D",
-          width: "100%",
-          height: "937px",
-        }}
-      >
-        <AboutTemplate />
-      </div>
+      <>
+        <Navigation />
+        <LandingPage />
+      </>
     </>
   );
 }

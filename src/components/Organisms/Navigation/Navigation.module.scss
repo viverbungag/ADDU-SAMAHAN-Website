@@ -1,9 +1,12 @@
 @import "../../../../styles/variables.scss";
 
-.navbar {
-    background-color: $color--primary;
-    padding: 0px 5rem;
 
+$line-height: 2.5rem;
+.header {
+    width: 100vw;
+    background-color: $color--nav-bg;
+}
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,13 +27,14 @@
         // FIRST-LEVEL DROPDOWN
         li {
             float: left;
-            background-color: $color--primary; // TEMP
-            padding: 0 25px;
+            background-color: $color--nav-bg; // TEMP
+            padding: 1rem 1rem;
             
             a {
                 color: white;
                 text-decoration: none;
-                line-height: 70px;
+                line-height: $line-height;
+                cursor: pointer;
             }
 
             &:hover > ul {
@@ -41,10 +45,10 @@
         
         // FIRST-LEVEL DROPDOWN
         ul {
-            border-top: 3px solid rgb(179, 198, 250); //temp
+            border-top: 3px solid $color--nav-highlight; //temp
             position: absolute;
-            top: 70px;
-            left: 100px;
+            top: 4.5rem;
+            left: 6.25rem;
             opacity: 0;
             visibility: hidden;
             transition: all .1s ease;
@@ -52,37 +56,36 @@
             li {
                 position: relative;
                 margin: 0px;
-                width: 280px;
+                width: 18.75rem;
                 float: none;
                 display: list-item;
             }
             
             // SECOND-LEVEL DROPDOWN
-            ul {
-                border-top: none;
-                border-left: 2px solid aqua; //temp
-                position: absolute;
-                top: -70px;
-                left: 280px;
+            // ul {
+            //     border-top: none;
+            //     border-left: 2px solid aqua; //temp
+            //     position: absolute;
+            //     top: -70px;
+            //     left: 280px;
 
-                li {
-                    a {
-                        color: white;
-                        text-decoration: none;
-                        line-height: 70px;
-                    }
-                }
-            }
+            //     li {
+            //         a {
+            //             color: white;
+            //             text-decoration: none;
+            //             line-height: 70px;
+            //         }
+            //     }
+            // }
         }
     }
 
     &__main {
         display: flex;
-    }
-
-    &__help-portal {
-        position: absolute;
-        right: 80px;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        flex-grow: 1;
     }
 
     .drop_down > svg {
@@ -91,11 +94,140 @@
         left: 6px;
     }
 
+    .drop_down {
+        height: fit-content;
+    }
+
     .samahan_logo {
         display: flex;
         align-items: center;
-        float:left;
         color: white;
         font-size: $h4FontSize;
+    }
+
+    button {
+        background-color: transparent;
+        border:none;
+        display: none;
+    }
+
+    ul.show_menu {
+        display: block;
+    }
+}
+
+/* LARGE DEVICES */
+@media (max-width: 992px) {
+    .header {
+        padding: 1rem 0;
+    }
+    .navbar {
+        &__main {
+            gap: 0;
+        }
+
+        &__help-portal {
+            display: none;
+            visibility: hidden;
+        }
+
+        ul li {
+            padding: .2rem 0;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        ul ul li a {
+            line-height: 30px;
+            padding-left: 25px;
+        }
+
+        ul li, ul ul li {
+            display: block;
+            width: 100%;
+        }
+
+        ul ul {
+            top: 70px;
+            position: static;
+            float: none;
+            display: none;
+            opacity: 1;
+            visibility: 1;
+            border-top: none;
+        }
+
+        .show {
+            display: block;
+            color: white;
+            cursor: pointer;
+        }
+
+        // FOR THE NAV MENU
+        .navbar__menu--division {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            gap: .8rem;
+        }
+
+        .samahan_logo {
+            justify-content: start;
+            flex: 1;
+        }
+
+        //NAV MENU HAMBURGER ICON
+        .nav_menu {
+            display: flex;
+        }
+
+        /* HIDE MENU INITIALLY */
+        .show + a, ul {
+            display: none;
+        }
+
+        button {
+            display: block;
+            font-family: $font--stack;
+            color: white;
+            font-size: $bodyFontSize;
+            cursor: pointer;
+        }
+
+        button[id=offices] {
+            line-height: $line-height;
+        }
+
+        button[id=offices] > svg {
+            position: relative;
+            top: 6px;
+            left: 6px;
+        }
+
+        /* HIDE SUBMENU AND REPLACE IT WITH BUTTON */
+        button + a, button ~ svg {
+            display: none;
+        }
+
+    }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+    .navbar {
+        // FOR THE NAV MENU
+        .navbar__menu--division {
+            flex-wrap: wrap;
+        }
+        //NAV MENU HAMBURGER ICON
+        .nav_menu {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .samahan_logo {
+            justify-content: center;
+        }
     }
 }

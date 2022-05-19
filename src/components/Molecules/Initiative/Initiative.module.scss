@@ -1,0 +1,26 @@
+@import "../../../../styles/variables.scss";
+
+.componentContainer{
+    background-color: #2D419D;
+
+}
+
+.initiativeTitle{
+    text-align: center;
+    font-size: $h2FontSize;
+    font-weight: $h1FontWeight;
+    color: #2D419D;
+}
+
+.text{
+    text-align: justify;
+    font-size: $h4FontSize;
+    font-weight: $h5FontWeight;
+    color: #2D419D;
+}
+
+.button{
+    align-content: center;
+    margin-top: 20px;
+
+}

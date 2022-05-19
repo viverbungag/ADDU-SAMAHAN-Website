@@ -14,6 +14,21 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 3425px) {
+  html {
+    font-size: calc(px + 0.390625vw) !important;
+  }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 576px) {
+  html {
+    font-size: calc(12px + 0.390625vw);
+  }
+}
+
 /* BOOTSTRAP-TYPE CONTAINERS */
 .container,
 .container-fluid,
@@ -78,5 +93,38 @@ body {
   .container-sm,
   .container {
     max-width: 1320px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1520px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1720px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1920px;
   }
 }

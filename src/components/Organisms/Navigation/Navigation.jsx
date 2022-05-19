@@ -16,10 +16,10 @@ const Navigation = () => {
   function handleClick() {
     setMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
-        nav_list_1.current.style.display = "block"
+        nav_list_1.current.style.display = "block";
       }
       else {
-        nav_list_1.current.style.display = '';
+        nav_list_1.current.style = '';
       }
       
       return !prevClickState;
@@ -33,7 +33,7 @@ const Navigation = () => {
         nav_list_2.current.style.display = "block";
       }
       else {
-        nav_list_2.current.style.display = "";
+        nav_list_2.current.style = "";
       }
       
       return !prevClickState;
@@ -53,30 +53,30 @@ const Navigation = () => {
               </button>
             </div>
           </div>
-          <ul ref={nav_list_1}>
-            <li>
+          <ul ref={nav_list_1} className={styles["nav-list-1"]}>
+            <li className={styles["nav-links-1"]}>
               <Link href="/about">ABOUT</Link>
             </li>
-            <li className={styles.drop_down}>
+            <li className={styles.drop_down + " " + styles["nav-links-1"]}>
               <button onClick={handleSubMenuOpen} id='offices'>OFFICES <Icon icon={baselineKeyboardArrowDown} color="white" height="24"/></button>
               <a>OFFICES</a>
               <Icon icon={baselineKeyboardArrowDown} color="white" height="24" />
-              <ul ref={nav_list_2}>
-                <li>
+              <ul ref={nav_list_2} className={styles["nav-list-2"]}>
+                <li className={styles["nav-links-2"]}>
                   <Link href="/OTP">Office of the President</Link>
                 </li>
-                <li>
+                <li className={styles["nav-links-2"]}>
                   <Link href="/OVP">Office of the Vice-President</Link>
                 </li>
-                <li>
+                <li className={styles["nav-links-2"]}>
                   <Link href="/OSG">Office of the Secretary-General</Link>
                 </li>
-                <li>
+                <li className={styles["nav-links-2"]}>
                   <Link href="/OT">Office of the Treasurer</Link>
                 </li>
               </ul>
             </li>
-            <li>
+            <li className={styles["nav-links-1"]}>
               <Link href="/student_judicial_court">STUDENT JUDICIAL COURT</Link>
             </li>
           </ul>

@@ -1,7 +1,8 @@
 @import "../../../../styles/variables.scss";
 
-
 $line-height: 2.5rem;
+
+
 .header {
     width: 100vw;
     background-color: $color--nav-bg;
@@ -23,9 +24,10 @@ $line-height: 2.5rem;
         float: left;
         list-style: none;
         position: relative;
+        font-weight: $h5FontWeight;
 
         // FIRST-LEVEL DROPDOWN
-        li {
+        li.nav-links-1 {
             float: left;
             background-color: $color--nav-bg; // TEMP
             padding: 1rem 1rem;
@@ -35,6 +37,12 @@ $line-height: 2.5rem;
                 text-decoration: none;
                 line-height: $line-height;
                 cursor: pointer;
+                transition: color .1s ease;
+
+                &:active {
+                    color: $color--nav-highlight;
+                    transition: color .1s ease;
+                }
             }
 
             &:hover > ul {
@@ -53,13 +61,12 @@ $line-height: 2.5rem;
             visibility: hidden;
             transition: all .1s ease;
 
-            li {
-                position: relative;
-                margin: 0px;
-                width: 18.75rem;
-                float: none;
-                display: list-item;
-            }
+            // li {
+            //     position: relative;
+            //     margin: 0px;
+            //     float: none;
+            //     display: list-item;
+            // }
             
             // SECOND-LEVEL DROPDOWN
             // ul {
@@ -77,6 +84,16 @@ $line-height: 2.5rem;
             //         }
             //     }
             // }
+        }
+
+        // SECOND-LEVEL DROPDOWN
+        .nav-list-2 {
+            padding: 1rem 2rem;
+            background-color: $color--nav-bg;
+
+            li.nav-links-2 {
+                padding: .2rem 0;
+            }
         }
     }
 
@@ -110,10 +127,6 @@ $line-height: 2.5rem;
         border:none;
         display: none;
     }
-
-    ul.show_menu {
-        display: block;
-    }
 }
 
 /* LARGE DEVICES */
@@ -122,6 +135,11 @@ $line-height: 2.5rem;
         padding: 1rem 0;
     }
     .navbar {
+        // SECOND-LEVEL DROPDOWN
+        .nav-list-2 {
+            padding: 0 !important;
+        }
+
         &__main {
             gap: 0;
         }
@@ -131,8 +149,11 @@ $line-height: 2.5rem;
             visibility: hidden;
         }
 
+        li.nav-links-1 {
+            padding: 0 !important;
+        }
+
         ul li {
-            padding: .2rem 0;
             opacity: 1;
             visibility: visible;
         }
@@ -189,14 +210,19 @@ $line-height: 2.5rem;
 
         button {
             display: block;
-            font-family: $font--stack;
             color: white;
-            font-size: $bodyFontSize;
             cursor: pointer;
         }
-
+        
         button[id=offices] {
+            font-size: $bodyFontSize;
+            font-family: $font--stack;
             line-height: $line-height;
+            font-weight: $h5FontWeight;
+            &:active {
+                color: $color--nav-highlight;
+                transition: color .1s ease;
+            }
         }
 
         button[id=offices] > svg {
@@ -210,6 +236,11 @@ $line-height: 2.5rem;
             display: none;
         }
 
+        /* TRANSITIONS */
+        .nav-list-1 {
+            padding-top: .5rem;
+            display: none;
+        }
     }
 }
 

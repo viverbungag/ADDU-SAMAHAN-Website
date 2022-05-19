@@ -16,9 +16,9 @@ body {
 
 /* RESPONSIVENESS */
 
-@media screen and (max-width: 3425px) {
+@media screen and (max-width: 325px) {
   html {
-    font-size: calc(px + 0.390625vw) !important;
+    font-size: calc(8px + 0.390625vw) !important;
   }
 }
 

@@ -5,6 +5,7 @@ import styles from "./Initiative.module.scss"
 const Initiative = ({title,buttonLabel,onClickButton }) => {
   return (
     <>
+    <div className={styles["componentContainer"]}>
      <div className={styles["initiativeTitle"]}>
           <span>{title}</span>
         </div>
@@ -19,9 +20,10 @@ const Initiative = ({title,buttonLabel,onClickButton }) => {
 
     <br>
     </br>
-
+    
     <div className={styles["button"]}>
       <Button label={buttonLabel} onClick={onClickButton} />
+    </div>
     </div>
   </>
   )

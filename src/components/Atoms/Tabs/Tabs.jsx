@@ -1,8 +1,12 @@
 import React from 'react'
-
-const Tabs = ({category}) => {
+import styles from "./Tabs.module.scss";
+const Tabs = ({category , stylevar}) => {
   return (
-    <div>{category}</div>
+    <div>
+        <div>
+            <span className={styles["selected"]}>{category}</span>
+        </div>
+    </div>
   )
 }
 

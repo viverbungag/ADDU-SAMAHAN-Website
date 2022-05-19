@@ -5,13 +5,20 @@ export default{
     component: Tabs,
     parameters:{
         backgrounds:{
-            default: "Addu Blue",
+            default: "ADDU Blue",
         },
     },
 };
 
-export const Main = {
+export const Selected = {
     args:{
+        stylevar: "selected",
+        category: "Hakdog",
+    },
+};
+export const Unselected = {
+    args:{
+        stylevar: "unselected",
         category: "Hakdog",
     },
 };

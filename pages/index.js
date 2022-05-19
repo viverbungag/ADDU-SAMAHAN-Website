@@ -25,7 +25,7 @@ export default function Home() {
       {/* Temporary lang ning div hehe */}
       <div
         style={{
-          "background-color": "#2D419D",
+          "backgroundColor": "#2D419D",
           width: "100%",
           height: "937px",
         }}

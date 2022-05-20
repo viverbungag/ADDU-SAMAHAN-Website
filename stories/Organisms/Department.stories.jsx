@@ -1,5 +1,5 @@
 import { Department } from "../../src/components/ComponentIndex";
-import { scbData, sdData } from "../../src/data/dataIndex";
+import { scbData, sdData } from "../../src/sampleData/dataIndex";
 
 export default {
   title: "Organisms/Department",

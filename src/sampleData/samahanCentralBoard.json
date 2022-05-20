@@ -1,0 +1,115 @@
+{
+  "title": "SAMAHAN CENTRAL BOARD",
+  "offices": [
+    {
+      "officeTitle": "",
+      "officers": [
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        }
+      ]
+    },
+    {
+      "officeTitle": "CLUSTER REPRESENTATIVES",
+      "officers": [
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        }
+      ]
+    },
+    {
+      "officeTitle": "DEPUTIES",
+      "officers": [
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        },
+        {
+          "name": "Name",
+          "position": "Position",
+          "imageSrc": "http://registrar.cldhei.edu.ph/StudentOnlineID/Sample%202x2%20ID%20Image.jpg"
+        }
+      ]
+    }
+  ]
+}

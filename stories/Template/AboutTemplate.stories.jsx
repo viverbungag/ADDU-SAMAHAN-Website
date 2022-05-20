@@ -1,4 +1,5 @@
 import { AboutTemplate } from "../../src/components/ComponentIndex";
+import { scbData, sdData } from "../../src/sampleData/dataIndex";
 
 export default {
   title: "Template/AboutTemplate",
@@ -11,5 +12,8 @@ export default {
 };
 
 export const Main = {
-  args: {},
+  args: {
+    scbData: scbData,
+    sdData: sdData,
+  },
 };

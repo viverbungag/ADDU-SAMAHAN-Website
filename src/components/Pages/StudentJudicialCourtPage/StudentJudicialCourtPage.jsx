@@ -1,7 +1,12 @@
 import React from "react";
+import { StudentJudicialCourtTemplate } from "../../ComponentIndex";
 
 const StudentJudicialCourt = () => {
-  return <div>StudentJudicialCourt</div>;
+  return (
+    <>
+      <StudentJudicialCourtTemplate />
+    </>
+  );
 };
 
 export default StudentJudicialCourt;

@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  OfficeOfThePresidentPage,
-  Navigation,
-} from "../src/components/ComponentIndex";
+import { OfficeOfThePresidentPage } from "../src/components/ComponentIndex";
 
 const office_of_the_president = () => {
   return (
     <>
-      <Navigation />
       <OfficeOfThePresidentPage />
     </>
   );

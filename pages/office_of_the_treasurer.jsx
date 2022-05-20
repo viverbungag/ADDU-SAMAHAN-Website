@@ -1,16 +1,12 @@
 import React from "react";
-import {
-  OfficeOfTheTreasurerPage,
-  Navigation,
-} from "../src/components/ComponentIndex";
+import { OfficeOfTheTreasurerPage } from "../src/components/ComponentIndex";
 
-const OT = () => {
+const office_of_the_treasurer = () => {
   return (
     <>
-      <Navigation />
       <OfficeOfTheTreasurerPage />
     </>
   );
 };
 
-export default OT;
+export default office_of_the_treasurer;

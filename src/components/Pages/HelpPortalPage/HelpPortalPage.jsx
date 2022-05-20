@@ -1,7 +1,12 @@
 import React from "react";
+import { HelpPortalTemplate } from "../../ComponentIndex";
 
 const HelpPortal = () => {
-  return <div>HelpPortal</div>;
+  return (
+    <>
+      <HelpPortalTemplate />
+    </>
+  );
 };
 
 export default HelpPortal;

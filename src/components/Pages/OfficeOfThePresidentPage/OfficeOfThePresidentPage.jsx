@@ -1,7 +1,12 @@
 import React from "react";
+import { OfficeOfThePresidentTemplate } from "../../ComponentIndex";
 
 const OfficeOfThePresident = () => {
-  return <div>OfficeOfThePresident</div>;
+  return (
+    <>
+      <OfficeOfThePresidentTemplate />
+    </>
+  );
 };
 
 export default OfficeOfThePresident;

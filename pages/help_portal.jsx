@@ -1,10 +1,9 @@
 import React from "react";
-import { HelpPortalPage, Navigation } from "../src/components/ComponentIndex";
+import { HelpPortalPage } from "../src/components/ComponentIndex";
 
 const help_portal = () => {
   return (
     <>
-      <Navigation />
       <HelpPortalPage />
     </>
   );

@@ -1,7 +1,12 @@
 import React from "react";
+import { LandingTemplate } from "../../ComponentIndex";
 
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <>
+      <LandingTemplate />
+    </>
+  );
 };
 
 export default Landing;

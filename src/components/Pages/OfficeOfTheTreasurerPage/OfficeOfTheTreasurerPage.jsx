@@ -1,7 +1,12 @@
 import React from "react";
+import { OfficeOfTheTreasurerTemplate } from "../../ComponentIndex";
 
 const OfficeOfTheTreasurer = () => {
-  return <div>OfficeOfTheTreasurer</div>;
+  return (
+    <>
+      <OfficeOfTheTreasurerTemplate />
+    </>
+  );
 };
 
 export default OfficeOfTheTreasurer;

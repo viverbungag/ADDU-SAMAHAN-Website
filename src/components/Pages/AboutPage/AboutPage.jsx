@@ -1,7 +1,12 @@
 import React from "react";
+import { AboutTemplate } from "../../ComponentIndex";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <>
+      <AboutTemplate />
+    </>
+  );
 };
 
 export default About;

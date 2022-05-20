@@ -1,5 +1,10 @@
 import { React, useState } from "react";
-import { DepartmentIntro, Department, Navigation } from "../../ComponentIndex";
+import {
+  DepartmentIntro,
+  Department,
+  Navigation,
+  Footer,
+} from "../../ComponentIndex";
 import styles from "./AboutTemplate.module.scss";
 import { scbData, sdData } from "../../../data/dataIndex";
 import { Modal, Slide, Backdrop } from "@mui/material";
@@ -61,6 +66,7 @@ const AboutTemplate = () => {
           </div>
         </Slide>
       </Modal>
+      <Footer />
     </>
   );
 };

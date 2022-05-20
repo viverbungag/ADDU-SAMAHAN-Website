@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navigation, LandingPage, Footer } from "../src/components/ComponentIndex";
+import { LandingPage } from "../src/components/ComponentIndex";
 
 export default function Home() {
   return (
@@ -22,9 +22,7 @@ export default function Home() {
         <title key="title">SAMAHAN</title>
       </Head>
       <>
-        <Navigation />
         <LandingPage />
-        <Footer />
       </>
     </>
   );

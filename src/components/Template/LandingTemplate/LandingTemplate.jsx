@@ -1,7 +1,14 @@
 import React from "react";
+import { Navigation, Footer } from "../../ComponentIndex";
 
 const LandingTemplate = () => {
-  return <div>LandingTemplate</div>;
+  return (
+    <>
+      <Navigation />
+      <div>LandingTemplate</div>
+      <Footer />
+    </>
+  );
 };
 
 export default LandingTemplate;

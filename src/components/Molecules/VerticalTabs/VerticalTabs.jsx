@@ -1,13 +1,14 @@
 import React from 'react'
-
+import { Tabpanel } from '../../ComponentIndex';
 import {Tabs , Tab , Box} from '@mui/material';
-const VerticalTabs = () => {
+
+const VerticalTabs = ({data}) => {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
-  
+  console.log(data);
     return (
       <Box
         sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
@@ -20,11 +21,13 @@ const VerticalTabs = () => {
           aria-label="Vertical tabs example"
           sx={{ borderRight: 1, borderColor: 'divider' }}
         >
-          <Tab label={category} />
+          
+            {data.map(item => (<Tab label={item.heading} />))}
          
         </Tabs>
        
-       
+       <Tabpanel />
+
       </Box>
     );
 }

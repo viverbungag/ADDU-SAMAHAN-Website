@@ -9,6 +9,7 @@ export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigatio
 export { default as Office } from "./Molecules/Office/Office";
 export { default as Initiative } from "./Molecules/Initiative/Initiative";
 export { default as Socials } from "./Molecules/Socials/Socials";
+export { default as VerticalTabs } from "./Molecules/VerticalTabs/VerticalTabs";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";

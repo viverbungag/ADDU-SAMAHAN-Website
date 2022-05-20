@@ -2,6 +2,8 @@
 
 .componentContainer{
     background-color: #2D419D;
+    margin-top: 60px;
+    flex-wrap: wrap
 
 }
 
@@ -9,18 +11,20 @@
     text-align: center;
     font-size: $h2FontSize;
     font-weight: $h1FontWeight;
-    color: #2D419D;
+    color: #FFFF;
 }
 
 .text{
     text-align: justify;
+    margin: 25px 50px 75px 100px;
     font-size: $h4FontSize;
     font-weight: $h5FontWeight;
-    color: #2D419D;
+    color: #FFFF;
 }
 
 .button{
-    align-content: center;
     margin-top: 20px;
-
 }
+
+
+

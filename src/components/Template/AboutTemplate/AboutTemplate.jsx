@@ -2,38 +2,7 @@ import { React, useState } from "react";
 import { DepartmentIntro, Department, Navigation } from "../../ComponentIndex";
 import styles from "./AboutTemplate.module.scss";
 import { scbData, sdData } from "../../../data/dataIndex";
-import { Modal, Slide, Backdrop, Box, Button, Typography } from "@mui/material";
-import { makeStyles } from "@mui/styles";
-
-const style = {
-  position: "absolute",
-  transform: "translate(-50%, -50%)",
-  marginLeft: "5%",
-  width: "90%",
-  top: "10%",
-
-  boxShadow: 24,
-};
-
-const useStyles = makeStyles({
-  modal: {
-    position: "absolute",
-    top: "10%",
-    left: "10%",
-    overflow: "scroll",
-    maxHeight: 700,
-    display: "block",
-    borderRadius: "10px",
-    bgcolor: "background.paper",
-  },
-  header: {
-    padding: "12px 0",
-    borderBottom: "1px solid darkgrey",
-  },
-  content: {
-    padding: 12,
-  },
-});
+import { Modal, Slide, Backdrop } from "@mui/material";
 
 const AboutTemplate = () => {
   const [openCentralBoard, setOpenCentralBoard] = useState(false);
@@ -46,8 +15,6 @@ const AboutTemplate = () => {
 
   console.log("Central Board: ", openCentralBoard);
   console.log("Departments: ", openDepartments);
-
-  const classes = useStyles();
 
   return (
     <>

@@ -1,4 +1,4 @@
-import Officer from "../../src/components/Atoms/Officer/Officer";
+import { Officer } from "../../src/components/ComponentIndex";
 
 export default {
   title: "Atoms/Officer",

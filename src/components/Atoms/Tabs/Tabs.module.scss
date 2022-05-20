@@ -1,0 +1,15 @@
+@import "../../../../styles/variables.scss";
+
+.selected{
+    display: flex;
+    font-size: $h5FontSize;
+    font-weight: $h5FontWeight;
+    color: #FFFF;
+}
+
+.unselected{
+    display: flex;
+    font-size: $h5FontSize;
+    font-weight: $h5FontWeight;
+    color: #808080;
+}

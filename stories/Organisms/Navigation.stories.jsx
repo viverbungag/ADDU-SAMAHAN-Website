@@ -1,4 +1,4 @@
-import Navigation from "../../src/components/Organisms/Navigation/Navigation";
+import { Navigation } from "../../src/components/ComponentIndex";
 
 export default {
   title: "Organisms/Navigation",
@@ -6,7 +6,5 @@ export default {
 };
 
 export const Main = {
-  args: {
-    label: "Navigation",
-  },
+  args: {},
 };

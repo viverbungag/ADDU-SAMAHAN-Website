@@ -1,0 +1,32 @@
+@import "../../../../styles/variables.scss";
+
+.footer {
+    background-color: $color--nav-bg;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: .5rem;
+
+        font-size: $bodyFontSize;
+        font-weight: $body2FontWeight;
+        color: $color--white;
+        padding: 1rem 1rem;
+
+        span {
+            font-weight: $h1FontWeight;
+        }
+    }
+}
+
+/* MEDIUM DEVICES */
+@media (max-width: 768px) {
+    .footer {
+        &__content {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

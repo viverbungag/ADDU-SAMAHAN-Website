@@ -1381,6 +1381,13 @@
   dependencies:
     "@iconify/types" "^1.1.0"
 
+"@iconify/icons-mdi@^1.2.14":
+  "integrity" "sha512-Dsp/2f9rLwu1q9eZOYzIgQ25v2ZtWJeUAnki/ZLadH5E4SCXZ4F98NVDKQllzLsAjO1ZGft1tjBdNXowpkX/XA=="
+  "resolved" "https://registry.npmjs.org/@iconify/icons-mdi/-/icons-mdi-1.2.14.tgz"
+  "version" "1.2.14"
+  dependencies:
+    "@iconify/types" "^1.1.0"
+
 "@iconify/react@^3.2.1":
   "integrity" "sha512-yKzixjC9ct9RC/aSGo1OGxkG2rpfhlr/urRz6k2YZlIBzn92PBTlqtSx8o8dFYEorr3eUFSCBZFzBy1yw5jsAA=="
   "resolved" "https://registry.npmjs.org/@iconify/react/-/react-3.2.1.tgz"

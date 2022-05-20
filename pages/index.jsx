@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navigation, LandingPage } from "../src/components/ComponentIndex";
+import { Navigation, LandingPage, Footer } from "../src/components/ComponentIndex";
 
 export default function Home() {
   return (
@@ -24,6 +24,7 @@ export default function Home() {
       <>
         <Navigation />
         <LandingPage />
+        <Footer />
       </>
     </>
   );

@@ -3,15 +3,18 @@ export { default as Officer } from "./Atoms/Officer/Officer";
 export { default as Button } from "./Atoms/Button/Button";
 export { default as Advotabs } from "./Atoms/Tabs/Advotabs";
 export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
+
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
 export { default as Office } from "./Molecules/Office/Office";
 export { default as Initiative } from "./Molecules/Initiative/Initiative";
+export { default as Socials } from "./Molecules/Socials/Socials";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";
 export { default as Department } from "./Organisms/Department/Department";
+export { default as Footer } from "./Organisms/Footer/Footer";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

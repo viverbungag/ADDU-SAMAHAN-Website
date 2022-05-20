@@ -1,0 +1,8 @@
+@import "../../../../styles/variables.scss";
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}

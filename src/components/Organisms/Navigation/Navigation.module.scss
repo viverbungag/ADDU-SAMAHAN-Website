@@ -1,6 +1,9 @@
 @import "../../../../styles/variables.scss";
 
 $line-height: 2.5rem;
+$nav-links-1--ypadding: 2rem;
+$nav-links-1--xpadding: 1rem;
+$nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPDOWN HOVER
 
 
 .header {
@@ -30,7 +33,7 @@ $line-height: 2.5rem;
         li.nav-links-1 {
             float: left;
             background-color: $color--nav-bg; // TEMP
-            padding: 1rem 1rem;
+            padding: $nav-links-1--ypadding $nav-links-1--xpadding;
             
             a {
                 color: white;
@@ -55,7 +58,7 @@ $line-height: 2.5rem;
         ul {
             border-top: 3px solid $color--secondary; //temp
             position: absolute;
-            top: 4.5rem;
+            top: $nav-list-2--position;
             left: 6.25rem;
             opacity: 0;
             visibility: hidden;
@@ -115,13 +118,6 @@ $line-height: 2.5rem;
         height: fit-content;
     }
 
-    .samahan_logo {
-        display: flex;
-        align-items: center;
-        color: white;
-        font-size: $h4FontSize;
-    }
-
     button {
         background-color: transparent;
         border:none;
@@ -131,9 +127,6 @@ $line-height: 2.5rem;
 
 /* LARGE DEVICES */
 @media (max-width: 992px) {
-    .header {
-        padding: 1rem 0;
-    }
     .navbar {
         // SECOND-LEVEL DROPDOWN
         .nav-list-2 {
@@ -239,6 +232,7 @@ $line-height: 2.5rem;
         /* TRANSITIONS */
         .nav-list-1 {
             padding-top: .5rem;
+            padding-bottom: 2rem;
             display: none;
         }
     }
@@ -247,9 +241,18 @@ $line-height: 2.5rem;
 /* MOBILE */
 @media (max-width: 576px) {
     .navbar {
+        &__main {
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
         // FOR THE NAV MENU
         .navbar__menu--division {
             flex-wrap: wrap;
+            padding-bottom: 2rem;
         }
         //NAV MENU HAMBURGER ICON
         .nav_menu {
@@ -258,7 +261,12 @@ $line-height: 2.5rem;
         }
 
         .samahan_logo {
+            display: flex;
             justify-content: center;
+        }
+
+        .nav-list-1 {
+            padding-bottom: 2rem;
         }
     }
 }

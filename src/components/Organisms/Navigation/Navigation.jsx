@@ -1,7 +1,8 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
-import styles from "./Navigation.module.scss";
+import Image from 'next/image'
 
+import styles from "./Navigation.module.scss";
 import { Button } from "../../ComponentIndex";
 import { Icon } from "@iconify/react";
 import baselineKeyboardArrowDown from "@iconify/icons-ic/baseline-keyboard-arrow-down";
@@ -47,7 +48,7 @@ const Navigation = () => {
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
               <div className={styles.samahan_logo}>
-                <h1>TEMPORARY</h1>
+                <Image src="/assets/images/SAMAHAN-logo.png" alt="SAMAHAN Website Logo" width='220px' height='100%' objectFit='contain' draggable="false" priority></Image>
               </div>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>

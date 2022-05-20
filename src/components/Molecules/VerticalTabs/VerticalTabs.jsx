@@ -1,35 +1,39 @@
-import React from 'react'
-import { Tabpanel } from '../../ComponentIndex';
-import {Tabs , Tab , Box} from '@mui/material';
+import React from "react";
+import { Tabpanel } from "../../ComponentIndex";
+import { Tabs, Tab, Box } from "@mui/material";
 
-const VerticalTabs = ({data}) => {
-    const [value, setValue] = React.useState(0);
+const VerticalTabs = ({ data }) => {
+  const [value, setValue] = React.useState(0);
 
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
-    };
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
   console.log(data);
-    return (
-      <Box
-        sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
+  return (
+    <Box
+      sx={{
+        flexGrow: 1,
+        bgcolor: "background.paper",
+        display: "flex",
+        height: 224,
+      }}
+    >
+      <Tabs
+        orientation="vertical"
+        variant="scrollable"
+        value={value}
+        onChange={handleChange}
+        aria-label="Vertical tabs example"
+        sx={{ borderRight: 1, borderColor: "divider" }}
       >
-        <Tabs
-          orientation="vertical"
-          variant="scrollable"
-          value={value}
-          onChange={handleChange}
-          aria-label="Vertical tabs example"
-          sx={{ borderRight: 1, borderColor: 'divider' }}
-        >
-          
-            {data.map(item => (<Tab label={item.heading} />))}
-         
-        </Tabs>
-       
-       <Tabpanel />
+        {data.items.map((item) => (
+          <Tab label={item.heading} />
+        ))}
+      </Tabs>
 
-      </Box>
-    );
-}
+      <Tabpanel />
+    </Box>
+  );
+};
 
-export default VerticalTabs
+export default VerticalTabs;

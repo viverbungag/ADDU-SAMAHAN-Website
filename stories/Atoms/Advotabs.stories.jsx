@@ -1,8 +1,8 @@
-import {Tabs} from "../../src/components/ComponentIndex";
+import {Advotabs} from "../../src/components/ComponentIndex";
 
 export default{
-    title: "Atoms/Tabs",
-    component: Tabs,
+    title: "Atoms/Advotabs",
+    component: Advotabs,
     parameters:{
         backgrounds:{
             default: "ADDU Blue",

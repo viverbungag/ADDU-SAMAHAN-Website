@@ -1,7 +1,7 @@
 /* ATOMS */
 export { default as Officer } from "./Atoms/Officer/Officer";
 export { default as Button } from "./Atoms/Button/Button";
-export { default as Tabs } from "./Atoms/Tabs/Tabs";
+export { default as Advotabs } from "./Atoms/Tabs/Advotabs";
 export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 
 import styles from "./Navigation.module.scss";
 import { Button } from "../../ComponentIndex";
@@ -18,11 +18,10 @@ const Navigation = () => {
     setMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
         nav_list_1.current.style.display = "block";
+      } else {
+        nav_list_1.current.style = "";
       }
-      else {
-        nav_list_1.current.style = '';
-      }
-      
+
       return !prevClickState;
     });
   }
@@ -32,8 +31,7 @@ const Navigation = () => {
     setSubMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
         nav_list_2.current.style.display = "block";
-      }
-      else {
+      } else {
         nav_list_2.current.style = "";
       }
 
@@ -48,7 +46,15 @@ const Navigation = () => {
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
               <div className={styles.samahan_logo}>
-                <Image src="/assets/images/SAMAHAN-logo.png" alt="SAMAHAN Website Logo" width='220px' height='100%' objectFit='contain' draggable="false" priority></Image>
+                <Image
+                  src="/assets/images/SAMAHAN-logo.png"
+                  alt="SAMAHAN Website Logo"
+                  width="220px"
+                  height="100%"
+                  objectFit="contain"
+                  draggable="false"
+                  priority
+                ></Image>
               </div>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>
@@ -60,7 +66,7 @@ const Navigation = () => {
               <li className={styles["nav-links-1"]}>
                 <Link href="/about">ABOUT</Link>
               </li>
-              <li className={styles.drop_down + " " + styles["nav-links-1"]}>
+              <li className={styles["drop_down"] + " " + styles["nav-links-1"]}>
                 <button onClick={handleSubMenuOpen} id="offices">
                   OFFICES
                   <Icon

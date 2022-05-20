@@ -18,6 +18,7 @@ export { default as Footer } from "./Organisms/Footer/Footer";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
+export { default as FAQTemplate } from "./Template/FAQTemplate/FAQTemplate";
 export { default as HelpPortalTemplate } from "./Template/HelpPortalTemplate/HelpPortalTemplate";
 export { default as LandingTemplate } from "./Template/LandingTemplate/LandingTemplate";
 export { default as OfficeOfThePresidentTemplate } from "./Template/OfficeOfThePresidentTemplate/OfficeOfThePresidentTemplate";
@@ -28,6 +29,7 @@ export { default as StudentJudicialCourtTemplate } from "./Template/StudentJudic
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";
+export { default as FAQPage } from "./Pages/FAQPage/FAQPage";
 export { default as HelpPortalPage } from "./Pages/HelpPortalPage/HelpPortalPage";
 export { default as LandingPage } from "./Pages/LandingPage/LandingPage";
 export { default as OfficeOfThePresidentPage } from "./Pages/OfficeOfThePresidentPage/OfficeOfThePresidentPage";

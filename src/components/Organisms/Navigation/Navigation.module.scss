@@ -40,7 +40,7 @@ $line-height: 2.5rem;
                 transition: color .1s ease;
 
                 &:active {
-                    color: $color--nav-highlight;
+                    color: $color--aquamarine;
                     transition: color .1s ease;
                 }
             }
@@ -53,7 +53,7 @@ $line-height: 2.5rem;
         
         // FIRST-LEVEL DROPDOWN
         ul {
-            border-top: 3px solid $color--nav-highlight; //temp
+            border-top: 3px solid $color--secondary; //temp
             position: absolute;
             top: 4.5rem;
             left: 6.25rem;
@@ -220,7 +220,7 @@ $line-height: 2.5rem;
             line-height: $line-height;
             font-weight: $h5FontWeight;
             &:active {
-                color: $color--nav-highlight;
+                color: $color--secondary;
                 transition: color .1s ease;
             }
         }

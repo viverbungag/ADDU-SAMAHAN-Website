@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Officer.module.scss";
-// import "./Officer.module.css";
 
 const Officer = ({ name, position, imageSrc }) => {
   const hasImage = imageSrc == null;

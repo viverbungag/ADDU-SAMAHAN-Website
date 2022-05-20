@@ -16,9 +16,3 @@ export const Selected = {
         category: "Hakdog",
     },
 };
-export const Unselected = {
-    args:{
-        stylevar: "unselected",
-        category: "Hakdog",
-    },
-};

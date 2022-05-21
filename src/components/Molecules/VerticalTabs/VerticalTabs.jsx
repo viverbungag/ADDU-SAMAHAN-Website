@@ -8,7 +8,7 @@ const VerticalTabs = ({data}) => {
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
-  console.log(data);
+  console.log(data.items[0].heading);
     return (
       <Box
         sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
@@ -26,8 +26,23 @@ const VerticalTabs = ({data}) => {
          
         </Tabs>
        
-       <Tabpanel >
-       {data.items.map(item => (<Tab label={item.desc} />))}
+        <Tabpanel value = {value} index = {0} >
+              <h1>{data.items[0].desc}</h1>
+        </Tabpanel>
+        <Tabpanel value = {value} index = {1} >
+              <h1>{data.items[1].desc}</h1>
+        </Tabpanel>
+        <Tabpanel value = {value} index = {2} >
+              <h1>{data.items[2].desc}</h1>
+        </Tabpanel>
+        <Tabpanel value = {value} index = {3} >
+              <h1>{data.items[3].desc}</h1>
+        </Tabpanel>
+        <Tabpanel value = {value} index = {4} >
+              <h1>{data.items[4].desc}</h1>
+        </Tabpanel>
+        <Tabpanel value = {value} index = {5} >
+              <h1>{data.items[5].desc}</h1>
         </Tabpanel>
       </Box>
     );

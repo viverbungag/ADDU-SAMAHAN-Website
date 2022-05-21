@@ -21,7 +21,6 @@ export { default as Footer } from "./Organisms/Footer/Footer";
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
 export { default as FAQTemplate } from "./Template/FAQTemplate/FAQTemplate";
 export { default as HelpPortalTemplate } from "./Template/HelpPortalTemplate/HelpPortalTemplate";
-export { default as LandingTemplate } from "./Template/LandingTemplate/LandingTemplate";
 export { default as OfficeOfThePresidentTemplate } from "./Template/OfficeOfThePresidentTemplate/OfficeOfThePresidentTemplate";
 export { default as OfficeOfTheSecretaryGeneralTemplate } from "./Template/OfficeOfTheSecretaryGeneralTemplate/OfficeOfTheSecretaryGeneralTemplate";
 export { default as OfficeOfTheTreasurerTemplate } from "./Template/OfficeOfTheTreasurerTemplate/OfficeOfTheTreasurerTemplate";

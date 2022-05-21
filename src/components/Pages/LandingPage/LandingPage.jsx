@@ -12,7 +12,7 @@ const Landing = () => {
         <div className={styles["hero"] + " container"}>
           <div className={styles["hero__slogan"]}>
             <Image.default
-              src="/assets/images/HereAndNow.png"
+              src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FHereAndNow.png?alt=media&token=42b3a96b-1104-444b-969a-7836d39253a8"
               alt="Here and Now"
               layout="fill"
               objectFit="contain"

@@ -6,7 +6,7 @@ import { Button } from "../../ComponentIndex";
 import { Icon } from "@iconify/react";
 import baselineKeyboardArrowDown from "@iconify/icons-ic/baseline-keyboard-arrow-down";
 import menuFill from "@iconify/icons-eva/menu-fill";
-import { samahanLogo } from "../../../data/imageSrc.module.scss";
+import imagesSrc from "../../../data/imageSrc.module.scss";
 
 const Navigation = ({ transparent = false }) => {
   const [, setMenuClicked] = useState(false);
@@ -41,7 +41,7 @@ const Navigation = ({ transparent = false }) => {
       return !prevClickState;
     });
   }
-  console.log(samahanLogo);
+
   return (
     <>
       <header

@@ -46,7 +46,7 @@ const Navigation = ({transparent = false}) => {
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
               <div className={styles.samahan_logo}>
-                <Image
+                <Image.default
                   src="/assets/images/SAMAHAN-logo.png"
                   alt="SAMAHAN Website Logo"
                   width="220px"
@@ -54,7 +54,7 @@ const Navigation = ({transparent = false}) => {
                   objectFit="contain"
                   draggable="false"
                   priority
-                ></Image>
+                ></Image.default>
               </div>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>

@@ -16,6 +16,7 @@ export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";
 export { default as Department } from "./Organisms/Department/Department";
 export { default as Footer } from "./Organisms/Footer/Footer";
+export { default as aboutFirstSection } from "./Organisms/aboutFirstSection/aboutFirstSection";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

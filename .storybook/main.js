@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 module.exports = {
   stories: [
     "../stories/**/*.stories.mdx",

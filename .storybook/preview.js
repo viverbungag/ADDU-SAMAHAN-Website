@@ -2,14 +2,15 @@ import React from "react";
 import { addDecorator } from "@storybook/react";
 import { MemoryRouter } from "react-router";
 import "../styles/globals.css";
-import * as NextImage from "next/image";
+import Image from "next/image";
 
-const OriginalNextImage = NextImage.default;
-
-Object.defineProperty(NextImage, "default", {
+Object.defineProperty(Image, "default", {
   configurable: true,
-  value: (props) => <OriginalNextImage {...props} />,
+  enumerable: true,
+  writable: true,
+  value: (props) => <img {...props} />,
 });
+
 addDecorator((story) => (
   <MemoryRouter initialEntries={["/"]}>{story()}</MemoryRouter>
 ));

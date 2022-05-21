@@ -38,7 +38,6 @@ const Navigation = () => {
       return !prevClickState;
     });
   }
-
   return (
     <>
       <header className={styles.header}>
@@ -46,15 +45,17 @@ const Navigation = () => {
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
               <div className={styles.samahan_logo}>
-                <Image
-                  src="/assets/images/SAMAHAN-logo.png"
-                  alt="SAMAHAN Website Logo"
-                  width="220px"
-                  height="100%"
-                  objectFit="contain"
-                  draggable="false"
-                  priority
-                ></Image>
+                <a href="/">
+                  <Image.default
+                    src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/SAMAHAN-logo.png?alt=media&token=db0d0428-8499-48a2-b87f-03e8d804815e"
+                    alt="SAMAHAN Website Logo"
+                    width="220px"
+                    height="100%"
+                    objectFit="contain"
+                    draggable="false"
+                    priority
+                  />
+                </a>
               </div>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>

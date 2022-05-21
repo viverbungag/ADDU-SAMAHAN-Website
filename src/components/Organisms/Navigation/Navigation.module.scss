@@ -5,268 +5,270 @@ $nav-links-1--ypadding: 2rem;
 $nav-links-1--xpadding: 1rem;
 $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPDOWN HOVER
 
-
 .header {
-    width: 100vw;
-    background-color: $color--nav-bg;
+  width: 100vw;
+  background-color: $color--nav-bg;
 }
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  ul {
+    float: left;
+    list-style: none;
     position: relative;
+    font-weight: $h5FontWeight;
 
-    &::after {
-        content: '';
-        clear: both;
-        display: block;
+    // FIRST-LEVEL DROPDOWN
+    li.nav-links-1 {
+      float: left;
+      background-color: $color--nav-bg; // TEMP
+      padding: $nav-links-1--ypadding $nav-links-1--xpadding;
+
+      a {
+        color: white;
+        text-decoration: none;
+        line-height: $line-height;
+        cursor: pointer;
+        transition: color 0.1s ease;
+
+        &:active {
+          color: $color--aquamarine;
+          transition: color 0.1s ease;
+        }
+      }
+
+      &:hover > ul {
+        opacity: 1;
+        visibility: visible;
+      }
     }
 
+    // FIRST-LEVEL DROPDOWN
     ul {
-        float: left;
-        list-style: none;
-        position: relative;
-        font-weight: $h5FontWeight;
+      border-top: 3px solid $color--secondary; //temp
+      position: absolute;
+      top: $nav-list-2--position;
+      left: 6.25rem;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.1s ease;
 
-        // FIRST-LEVEL DROPDOWN
-        li.nav-links-1 {
-            float: left;
-            background-color: $color--nav-bg; // TEMP
-            padding: $nav-links-1--ypadding $nav-links-1--xpadding;
-            
-            a {
-                color: white;
-                text-decoration: none;
-                line-height: $line-height;
-                cursor: pointer;
-                transition: color .1s ease;
+      // li {
+      //     position: relative;
+      //     margin: 0px;
+      //     float: none;
+      //     display: list-item;
+      // }
 
-                &:active {
-                    color: $color--aquamarine;
-                    transition: color .1s ease;
-                }
-            }
+      // SECOND-LEVEL DROPDOWN
+      // ul {
+      //     border-top: none;
+      //     border-left: 2px solid aqua; //temp
+      //     position: absolute;
+      //     top: -70px;
+      //     left: 280px;
 
-            &:hover > ul {
-                opacity: 1;
-                visibility: visible;
-            }
-        }
-        
-        // FIRST-LEVEL DROPDOWN
-        ul {
-            border-top: 3px solid $color--secondary; //temp
-            position: absolute;
-            top: $nav-list-2--position;
-            left: 6.25rem;
-            opacity: 0;
-            visibility: hidden;
-            transition: all .1s ease;
-
-            // li {
-            //     position: relative;
-            //     margin: 0px;
-            //     float: none;
-            //     display: list-item;
-            // }
-            
-            // SECOND-LEVEL DROPDOWN
-            // ul {
-            //     border-top: none;
-            //     border-left: 2px solid aqua; //temp
-            //     position: absolute;
-            //     top: -70px;
-            //     left: 280px;
-
-            //     li {
-            //         a {
-            //             color: white;
-            //             text-decoration: none;
-            //             line-height: 70px;
-            //         }
-            //     }
-            // }
-        }
-
-        // SECOND-LEVEL DROPDOWN
-        .nav-list-2 {
-            padding: 1rem 2rem;
-            background-color: $color--nav-bg;
-
-            li.nav-links-2 {
-                padding: .2rem 0;
-            }
-        }
+      //     li {
+      //         a {
+      //             color: white;
+      //             text-decoration: none;
+      //             line-height: 70px;
+      //         }
+      //     }
+      // }
     }
 
-    &__main {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 20px;
-        flex-grow: 1;
-    }
+    // SECOND-LEVEL DROPDOWN
+    .nav-list-2 {
+      padding: 1rem 2rem;
+      background-color: $color--nav-bg;
 
-    .drop_down > svg {
-        position: relative;
-        top: 6px;
-        left: 6px;
+      li.nav-links-2 {
+        padding: 0.2rem 0;
+      }
     }
+  }
 
-    .drop_down {
-        height: fit-content;
-    }
+  &__main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+  }
 
-    button {
-        background-color: transparent;
-        border:none;
-        display: none;
-    }
+  .drop_down > svg {
+    position: relative;
+    top: 6px;
+    left: 6px;
+  }
+
+  .drop_down {
+    height: fit-content;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    display: none;
+  }
 }
 
 /* LARGE DEVICES */
 @media (max-width: 992px) {
-    .navbar {
-        // SECOND-LEVEL DROPDOWN
-        .nav-list-2 {
-            padding: 0 !important;
-        }
-
-        &__main {
-            gap: 0;
-        }
-
-        &__help-portal {
-            display: none;
-            visibility: hidden;
-        }
-
-        li.nav-links-1 {
-            padding: 0 !important;
-        }
-
-        ul li {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        ul ul li a {
-            line-height: 30px;
-            padding-left: 25px;
-        }
-
-        ul li, ul ul li {
-            display: block;
-            width: 100%;
-        }
-
-        ul ul {
-            top: 70px;
-            position: static;
-            float: none;
-            display: none;
-            opacity: 1;
-            visibility: 1;
-            border-top: none;
-        }
-
-        .show {
-            display: block;
-            color: white;
-            cursor: pointer;
-        }
-
-        // FOR THE NAV MENU
-        .navbar__menu--division {
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            align-items: center;
-            gap: .8rem;
-        }
-
-        .samahan_logo {
-            justify-content: start;
-            flex: 1;
-        }
-
-        //NAV MENU HAMBURGER ICON
-        .nav_menu {
-            display: flex;
-        }
-
-        /* HIDE MENU INITIALLY */
-        .show + a, ul {
-            display: none;
-        }
-
-        button {
-            display: block;
-            color: white;
-            cursor: pointer;
-        }
-        
-        button[id=offices] {
-            font-size: $bodyFontSize;
-            font-family: $font--stack;
-            line-height: $line-height;
-            font-weight: $h5FontWeight;
-            &:active {
-                color: $color--secondary;
-                transition: color .1s ease;
-            }
-        }
-
-        button[id=offices] > svg {
-            position: relative;
-            top: 6px;
-            left: 6px;
-        }
-
-        /* HIDE SUBMENU AND REPLACE IT WITH BUTTON */
-        button + a, button ~ svg {
-            display: none;
-        }
-
-        /* TRANSITIONS */
-        .nav-list-1 {
-            padding-top: .5rem;
-            padding-bottom: 2rem;
-            display: none;
-        }
+  .navbar {
+    // SECOND-LEVEL DROPDOWN
+    .nav-list-2 {
+      padding: 0 !important;
     }
+
+    &__main {
+      gap: 0;
+    }
+
+    &__help-portal {
+      display: none;
+      visibility: hidden;
+    }
+
+    li.nav-links-1 {
+      padding: 0 !important;
+    }
+
+    ul li {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    ul ul li a {
+      line-height: 30px;
+      padding-left: 25px;
+    }
+
+    ul li,
+    ul ul li {
+      display: block;
+      width: 100%;
+    }
+
+    ul ul {
+      top: 70px;
+      position: static;
+      float: none;
+      display: none;
+      opacity: 1;
+      visibility: 1;
+      border-top: none;
+    }
+
+    .show {
+      display: block;
+      color: white;
+      cursor: pointer;
+    }
+
+    // FOR THE NAV MENU
+    .navbar__menu--division {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .samahan_logo {
+      justify-content: start;
+      flex: 1;
+    }
+
+    //NAV MENU HAMBURGER ICON
+    .nav_menu {
+      display: flex;
+    }
+
+    /* HIDE MENU INITIALLY */
+    .show + a,
+    ul {
+      display: none;
+    }
+
+    button {
+      display: block;
+      color: white;
+      cursor: pointer;
+    }
+
+    button[id="offices"] {
+      font-size: $bodyFontSize;
+      font-family: $font--stack;
+      line-height: $line-height;
+      font-weight: $h5FontWeight;
+      &:active {
+        color: $color--secondary;
+        transition: color 0.1s ease;
+      }
+    }
+
+    button[id="offices"] > svg {
+      position: relative;
+      top: 6px;
+      left: 6px;
+    }
+
+    /* HIDE SUBMENU AND REPLACE IT WITH BUTTON */
+    button + a,
+    button ~ svg {
+      display: none;
+    }
+
+    /* TRANSITIONS */
+    .nav-list-1 {
+      padding-top: 0.5rem;
+      padding-bottom: 2rem;
+      display: none;
+    }
+  }
 }
 
 /* MOBILE */
 @media (max-width: 576px) {
-    .navbar {
-        &__main {
-            padding: 0 1.5rem;
-        }
+  .navbar {
+    &__main {
+      padding: 0 1.5rem;
     }
+  }
 }
 
 @media (max-width: 320px) {
-    .navbar {
-        // FOR THE NAV MENU
-        .navbar__menu--division {
-            flex-wrap: wrap;
-            padding-bottom: 2rem;
-        }
-        //NAV MENU HAMBURGER ICON
-        .nav_menu {
-            width: 100%;
-            justify-content: center;
-        }
-
-        .samahan_logo {
-            display: flex;
-            justify-content: center;
-        }
-
-        .nav-list-1 {
-            padding-bottom: 2rem;
-        }
+  .navbar {
+    // FOR THE NAV MENU
+    .navbar__menu--division {
+      flex-wrap: wrap;
+      padding-bottom: 2rem;
     }
+    //NAV MENU HAMBURGER ICON
+    .nav_menu {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .samahan_logo {
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav-list-1 {
+      padding-bottom: 2rem;
+    }
+  }
 }

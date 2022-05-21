@@ -9,6 +9,19 @@ const VerticalTabs = ({ data }) => {
     setValue(newValue);
   };
   console.log(data.items[0].heading);
+
+  // const temp = [<Tabpanel></Tabpanel>,<Tabpanel></Tabpanel>,<Tabpanel></Tabpanel>,<Tabpanel></Tabpanel>,<Tabpanel></Tabpanel>];
+
+  // for (var x = 0; x < data.items.length; x++){
+  //   temp.push(<Tabpanel></Tabpanel>);
+  // }
+
+  const arr = [1, 2, 3, 4, 5]
+
+  arr.map((item, index)=> <Tabpanel value = {item} index = {index}>{item}</Tabpanel>);
+
+  <Tabpanel></Tabpanel>, <Tabpanel></Tabpanel>, <Tabpanel></Tabpanel>, <Tabpanel></Tabpanel>, <Tabpanel></Tabpanel>;
+
   return (
     <Box
       sx={{

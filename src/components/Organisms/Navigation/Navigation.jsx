@@ -6,7 +6,7 @@ import { Button } from "../../ComponentIndex";
 import { Icon } from "@iconify/react";
 import baselineKeyboardArrowDown from "@iconify/icons-ic/baseline-keyboard-arrow-down";
 import menuFill from "@iconify/icons-eva/menu-fill";
-import { samahanLogo } from "../../../data/imageSrc.module.scss";
+import imagesSrc from "../../../data/imageSrc.module.scss";
 
 const Navigation = ({ transparent = false }) => {
   const [, setMenuClicked] = useState(false);
@@ -41,7 +41,11 @@ const Navigation = ({ transparent = false }) => {
       return !prevClickState;
     });
   }
-  console.log(samahanLogo);
+  const var1 = imagesSrc.samahanLogo.json();
+  const var2 =
+    "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSAMAHAN-logo.png?alt=media&token=6548244f-7d40-4a52-af76-e0350268a1c0";
+  console.log(imagesSrc.samahanLogo);
+
   return (
     <>
       <header

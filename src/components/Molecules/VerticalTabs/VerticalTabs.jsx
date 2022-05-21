@@ -22,12 +22,13 @@ const VerticalTabs = ({data}) => {
           sx={{ borderRight: 1, borderColor: 'divider' }}
         >
           
-            {data.map(item => (<Tab label={item.heading} />))}
+            {data.items.map(item => (<Tab label={item.heading} />))}
          
         </Tabs>
        
-       <Tabpanel />
-
+       <Tabpanel >
+       {data.items.map(item => (<Tab label={item.desc} />))}
+        </Tabpanel>
       </Box>
     );
 }

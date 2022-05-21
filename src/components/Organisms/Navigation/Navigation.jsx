@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 import baselineKeyboardArrowDown from "@iconify/icons-ic/baseline-keyboard-arrow-down";
 import menuFill from "@iconify/icons-eva/menu-fill";
 
-const Navigation = () => {
+const Navigation = ({transparent = false}) => {
   const [, setMenuClicked] = useState(false);
   const [, setSubMenuClicked] = useState(false);
   const nav_list_1 = useRef();
@@ -41,7 +41,7 @@ const Navigation = () => {
 
   return (
     <>
-      <header className={styles.header}>
+      <header className={transparent ? styles["header-transparent"] : styles.header}>
         <nav className={styles.navbar + " container"}>
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>

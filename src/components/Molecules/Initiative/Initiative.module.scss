@@ -1,30 +1,30 @@
 @import "../../../../styles/variables.scss";
 
-.componentContainer{
-    background-color: #2D419D;
-    margin-top: 60px;
-    flex-wrap: wrap
-
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
 }
 
-.initiativeTitle{
-    text-align: center;
-    font-size: $h2FontSize;
-    font-weight: $h1FontWeight;
-    color: #FFFF;
+.titleContainer {
+  text-align: center;
+  font-size: $h2FontSize;
+  font-weight: $h1FontWeight;
+  color: #ffff;
 }
 
-.text{
-    text-align: justify;
-    margin: 25px 50px 75px 100px;
-    font-size: $h4FontSize;
-    font-weight: $h5FontWeight;
-    color: #FFFF;
+.descriptionContainer {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  color: #ffff;
+  line-height: 2rem;
+  max-width: 1000px;
+  text-indent: 3rem;
 }
 
-.button{
-    margin-top: 20px;
+.button {
+  margin-top: 1rem;
 }
-
-
-

@@ -15,6 +15,16 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+/* CUSTOM FONT */
+@font-face {
+  font-family: 'brant bold';
+  src: url('../public/assets/fonts/brant/brant-bold-webfont.woff2') format('woff2'),
+      url('../public/assets/fonts/brant/brant-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 325px) {

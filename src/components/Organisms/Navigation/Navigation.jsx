@@ -47,7 +47,7 @@ const Navigation = () => {
               <div className={styles.samahan_logo}>
                 <a href="/">
                   <Image.default
-                    src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/SAMAHAN-logo.png?alt=media&token=db0d0428-8499-48a2-b87f-03e8d804815e"
+                    src="/assets/images/SAMAHAN-logo.png"
                     alt="SAMAHAN Website Logo"
                     width="220px"
                     height="100%"

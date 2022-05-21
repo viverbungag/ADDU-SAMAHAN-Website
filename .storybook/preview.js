@@ -4,11 +4,13 @@ import { MemoryRouter } from "react-router";
 import "../styles/globals.css";
 import Image from "next/image";
 
+const NextImageDefualt = Image.default;
+
 Object.defineProperty(Image, "default", {
   configurable: true,
   enumerable: true,
   writable: true,
-  value: (props) => <img {...props} />,
+  value: (props) => <NextImageDefualt {...props} unoptimized />,
 });
 
 addDecorator((story) => (

@@ -11,6 +11,7 @@ import menuFill from "@iconify/icons-eva/menu-fill";
 const Navigation = ({transparent = false}) => {
   const [, setMenuClicked] = useState(false);
   const [, setSubMenuClicked] = useState(false);
+  const header = useRef();
   const nav_list_1 = useRef();
   const nav_list_2 = useRef();
 
@@ -18,8 +19,10 @@ const Navigation = ({transparent = false}) => {
     setMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
         nav_list_1.current.style.display = "block";
+        header.current.style.backgroundColor = "#1A275F";
       } else {
         nav_list_1.current.style = "";
+        header.current.style = "";
       }
 
       return !prevClickState;
@@ -41,21 +44,23 @@ const Navigation = ({transparent = false}) => {
 
   return (
     <>
-      <header className={transparent ? styles["header-transparent"] : styles.header}>
+      <header className={transparent ? styles["header-transparent"] : styles.header} ref={header}>
         <nav className={styles.navbar + " container"}>
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
-              <div className={styles.samahan_logo}>
-                <Image.default
-                  src="/assets/images/SAMAHAN-logo.png"
-                  alt="SAMAHAN Website Logo"
-                  width="220px"
-                  height="100%"
-                  objectFit="contain"
-                  draggable="false"
-                  priority
-                ></Image.default>
-              </div>
+              <Link href="/">
+                <div className={styles.samahan_logo}>
+                  <Image.default
+                    src="/assets/images/SAMAHAN-logo.png"
+                    alt="SAMAHAN Website Logo"
+                    width="220px"
+                    height="100%"
+                    objectFit="contain"
+                    draggable="false"
+                    priority
+                  ></Image.default>
+                </div>
+              </Link>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>
                   <Icon icon={menuFill} color="white" height="32" />
@@ -113,7 +118,7 @@ const Navigation = ({transparent = false}) => {
           </div>
           <div className={styles["navbar__help-portal"]}>
             <Link href="/help_portal" passHref>
-              <Button label="HELP PORTAL" />
+              <Button label="HELP PORTAL" id="help-portal-btn"/>
             </Link>
           </div>
         </nav>

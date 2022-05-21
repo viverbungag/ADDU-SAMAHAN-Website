@@ -7,7 +7,10 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
 
 .header {
   background-color: $color--nav-bg;
+  position: absolute;
+  width: 100%;
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -120,6 +123,22 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
     background-color: transparent;
     border: none;
     display: none;
+  }
+}
+
+/* TRANSPARENT VERSION */
+.header-transparent {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  width: 100%;
+
+  .nav-links-1 {
+    background-color: transparent !important;
+  }
+
+  &:hover {
+    background-color: $color--nav-bg;
   }
 }
 

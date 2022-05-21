@@ -25,13 +25,25 @@ const VerticalTabs = ({ data }) => {
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: "divider" }}
+      />
+      <Tabs
+        orientation="vertical"
+        variant="scrollable"
+        value={value}
+        onChange={handleChange}
+        aria-label="Vertical tabs example"
+        sx={{ borderRight: 1, borderColor: "divider" }}
       >
         {data.items.map((item) => (
           <Tab label={item.heading} />
         ))}
       </Tabs>
 
-      <Tabpanel />
+      <Tabpanel>
+        {data.items.map((item) => (
+          <Tab label={item.desc} />
+        ))}
+      </Tabpanel>
     </Box>
   );
 };

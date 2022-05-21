@@ -2,11 +2,11 @@
 export { default as Officer } from "./Atoms/Officer/Officer";
 export { default as Button } from "./Atoms/Button/Button";
 export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
+export { default as Initiative } from "./Atoms/Initiative/Initiative";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
 export { default as Office } from "./Molecules/Office/Office";
-export { default as Initiative } from "./Molecules/Initiative/Initiative";
 export { default as Socials } from "./Molecules/Socials/Socials";
 export { default as VerticalTabs } from "./Molecules/VerticalTabs/VerticalTabs";
 

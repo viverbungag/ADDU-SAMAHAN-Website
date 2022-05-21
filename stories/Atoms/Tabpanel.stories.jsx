@@ -1,5 +1,5 @@
 import {Tabpanel} from "../../src/components/ComponentIndex";
-
+import {advoData} from "../../src/data/dataIndex";
 export default {
     title: "Atoms/Tabpanel",
     component: Tabpanel,

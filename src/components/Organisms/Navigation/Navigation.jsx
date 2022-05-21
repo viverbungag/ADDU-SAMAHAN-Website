@@ -1,14 +1,14 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
 import styles from "./Navigation.module.scss";
 import { Button } from "../../ComponentIndex";
 import { Icon } from "@iconify/react";
 import baselineKeyboardArrowDown from "@iconify/icons-ic/baseline-keyboard-arrow-down";
 import menuFill from "@iconify/icons-eva/menu-fill";
+import { samahanLogo } from "../../../data/imageSrc.module.scss";
 
-const Navigation = () => {
+const Navigation = ({ transparent = false }) => {
   const [, setMenuClicked] = useState(false);
   const [, setSubMenuClicked] = useState(false);
   const nav_list_1 = useRef();
@@ -38,16 +38,19 @@ const Navigation = () => {
       return !prevClickState;
     });
   }
+  console.log(samahanLogo);
   return (
     <>
-      <header className={styles.header}>
+      <header
+        className={transparent ? styles["header-transparent"] : styles.header}
+      >
         <nav className={styles.navbar + " container"}>
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
               <div className={styles.samahan_logo}>
                 <a href="/">
                   <Image.default
-                    src="/assets/images/SAMAHAN-logo.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSAMAHAN-logo.png?alt=media&token=6548244f-7d40-4a52-af76-e0350268a1c0"
                     alt="SAMAHAN Website Logo"
                     width="220px"
                     height="100%"

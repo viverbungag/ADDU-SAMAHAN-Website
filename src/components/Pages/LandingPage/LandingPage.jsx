@@ -7,7 +7,7 @@ import styles from "./LandingPage.module.scss";
 const Landing = () => {
   return (
     <>
-      <Navigation />
+      <Navigation transparent={true} />
       <section className={styles["landing"]}>
         <div className={styles["hero"] + " container"}>
           <div className={styles["hero__slogan"]}>

@@ -1,0 +1,65 @@
+{
+"title" :"Initiatives",
+"offices":[
+    {
+        "officeTitle": "OFFICE OF THE SAMAHAN PRESIDENT",
+        "officers": [
+          {
+            "name": "Initiative #",
+            "text": "......."
+           
+          },
+          {
+            "name": "Initiative #",
+            "text": "......."
+           
+          },
+          {
+            "name": "Initiative #",
+            "text": "......."
+            
+          },
+          {
+            "name": "Initiative #",
+            "text": "......."
+            
+          }
+        ]
+    },
+    {
+        "officeTitle": "OFFICE OF THE SAMAHAN VICE-PRESIDENT",
+        "officers": [
+          {
+            "name": "Initiative #",
+            "text": "......."
+           
+          } 
+        ]
+
+    },
+
+    {
+    "officeTitle": "OFFICE OF THE SAMAHAN SECRETARY-GENERAL",
+    "officers": [
+      {
+        "name": "Initiative #",
+        "text": "......."
+       
+      }
+    ]
+    },
+
+    {
+    "officeTitle": "OFFICE OF THE SAMAHAN TREASURER",
+    "officers": [
+      {
+        "name": "Initiative #",
+        "text": "......."
+       
+      }
+    ]
+    }
+
+]}
+
+

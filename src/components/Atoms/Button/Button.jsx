@@ -12,14 +12,16 @@ import styles from "./Button.module.scss";
 
 const Button = forwardRef(({ onClick, href, label }, ref) => {
   return (
-    <a
-      className={styles["buttonStyle"]}
-      href={href}
-      onClick={onClick}
-      ref={ref}
-    >
-      <span className={styles["buttonLabel"]}>{label}</span>
-    </a>
+    <div className={styles["button"]}>
+      <a
+        className={styles["buttonStyle"]}
+        href={href}
+        onClick={onClick}
+        ref={ref}
+      >
+        <span className={styles["buttonLabel"]}>{label}</span>
+      </a>
+    </div>
   );
 });
 

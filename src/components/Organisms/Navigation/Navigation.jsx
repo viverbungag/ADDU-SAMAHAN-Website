@@ -11,6 +11,7 @@ import { samahanLogo } from "../../../data/imageSrc.module.scss";
 const Navigation = ({ transparent = false }) => {
   const [, setMenuClicked] = useState(false);
   const [, setSubMenuClicked] = useState(false);
+  const header = useRef();
   const nav_list_1 = useRef();
   const nav_list_2 = useRef();
 
@@ -18,8 +19,10 @@ const Navigation = ({ transparent = false }) => {
     setMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
         nav_list_1.current.style.display = "block";
+        header.current.style.backgroundColor = "#1A275F";
       } else {
         nav_list_1.current.style = "";
+        header.current.style = "";
       }
 
       return !prevClickState;
@@ -43,12 +46,13 @@ const Navigation = ({ transparent = false }) => {
     <>
       <header
         className={transparent ? styles["header-transparent"] : styles.header}
+        ref={header}
       >
         <nav className={styles.navbar + " container"}>
           <div className={styles["navbar__main"]}>
             <div className={styles["navbar__menu--division"]}>
-              <div className={styles.samahan_logo}>
-                <a href="/">
+              <Link href="/">
+                <div className={styles.samahan_logo}>
                   <Image.default
                     src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSAMAHAN-logo.png?alt=media&token=6548244f-7d40-4a52-af76-e0350268a1c0"
                     alt="SAMAHAN Website Logo"
@@ -57,9 +61,9 @@ const Navigation = ({ transparent = false }) => {
                     objectFit="contain"
                     draggable="false"
                     priority
-                  />
-                </a>
-              </div>
+                  ></Image.default>
+                </div>
+              </Link>
               <div className={styles.nav_menu}>
                 <button onClick={handleClick}>
                   <Icon icon={menuFill} color="white" height="32" />
@@ -117,7 +121,7 @@ const Navigation = ({ transparent = false }) => {
           </div>
           <div className={styles["navbar__help-portal"]}>
             <Link href="/help_portal" passHref>
-              <Button label="HELP PORTAL" />
+              <Button label="HELP PORTAL" id="help-portal-btn" />
             </Link>
           </div>
         </nav>

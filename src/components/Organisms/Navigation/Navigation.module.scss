@@ -9,6 +9,7 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
   background-color: $color--nav-bg;
   position: absolute;
   width: 100%;
+  z-index: 999;
 }
 
 .navbar {
@@ -124,6 +125,16 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
     border: none;
     display: none;
   }
+
+  .samahan_logo {
+    /* CLEARER IMAGE */
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+    -ms-interpolation-mode: nearest-neighbor;
+    cursor: pointer;
+  }
 }
 
 /* TRANSPARENT VERSION */
@@ -132,6 +143,7 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
   transition: background-color 0.3s ease;
   position: absolute;
   width: 100%;
+  z-index: 999;
 
   .nav-links-1 {
     background-color: transparent !important;
@@ -170,6 +182,9 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
 
     ul ul li a {
       line-height: 30px;
+    }
+
+    ul ul li {
       padding-left: 25px;
     }
 

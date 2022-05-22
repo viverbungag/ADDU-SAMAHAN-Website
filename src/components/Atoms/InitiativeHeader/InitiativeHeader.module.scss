@@ -1,0 +1,19 @@
+@import "../../../../styles/variables.scss";
+
+.subTitle {
+  font-size: $h5FontSize;
+  font-weight: $h5FontWeight;
+  color: $color--white;
+}
+
+.mainTitle {
+  font-size: $h1FontSize;
+  font-weight: $h1FontWeight;
+  color: $color--white;
+  margin: 6px 0 12px;
+}
+
+header {
+  border-bottom: 1px solid $color--white;
+  position: relative;
+}

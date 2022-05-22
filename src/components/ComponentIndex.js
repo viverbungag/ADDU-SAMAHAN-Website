@@ -3,12 +3,16 @@ export { default as Officer } from "./Atoms/Officer/Officer";
 export { default as Button } from "./Atoms/Button/Button";
 export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
 export { default as Initiative } from "./Atoms/Initiative/Initiative";
+export { default as InitiativeCard } from "./Atoms/InitiativeCard/InitiativeCard";
+export { default as InitiativeHeader } from "./Atoms/InitiativeHeader/InitiativeHeader";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
 export { default as Office } from "./Molecules/Office/Office";
 export { default as Socials } from "./Molecules/Socials/Socials";
 export { default as VerticalTabs } from "./Molecules/VerticalTabs/VerticalTabs";
+export { default as InitiativeList } from "./Molecules/InitiativeList/InitiativeList";
+export { default as InitiativeModal } from "./Molecules/InitiativeModal/InitiativeModal";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";

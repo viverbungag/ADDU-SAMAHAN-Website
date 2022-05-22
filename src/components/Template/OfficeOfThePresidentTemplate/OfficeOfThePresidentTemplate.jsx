@@ -1,11 +1,11 @@
 import React from "react";
-import { Navigation, Footer } from "../../ComponentIndex";
+import { Navigation, Footer, OfficeInitiative } from "../../ComponentIndex";
 
-const OfficeOfThePresidentTemplate = () => {
+const OfficeOfThePresidentTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
       <Navigation />
-      <div>OfficeOfThePresidentTemplate</div>
+      <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
       <Footer />
     </>
   );

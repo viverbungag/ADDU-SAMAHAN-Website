@@ -5,7 +5,7 @@ import styles from "./InitiativeModal.module.scss";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
   console.log(data);
-  const { title, initiativeNum, content, imgBgSrc } = data.initiatives.find(
+  const { title, initiativeNum, content, imgBgSrc } = data.find(
     (item) => item.id === id
   );
 
@@ -36,8 +36,8 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
             className={styles["title-container"]}
             layoutId={styles[`title-container-${id}`]}
           >
-            <span className={styles["category"]}>{initiativeNum}</span>
-            <h2>{title}</h2>
+            <p className={styles["category"]}>{initiativeNum}</p>
+            <p className={styles["card-title"]}>{title}</p>
           </motion.div>
           <motion.div className={styles["content-container"]} animate>
             <span className={styles["content-text"]}>{content}</span>

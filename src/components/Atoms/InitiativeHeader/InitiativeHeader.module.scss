@@ -3,17 +3,17 @@
 .subTitle {
   font-size: $h5FontSize;
   font-weight: $h5FontWeight;
-  color: $color--white;
+  color: $color--dark-grey;
 }
 
 .mainTitle {
   font-size: $h1FontSize;
   font-weight: $h1FontWeight;
-  color: $color--white;
+  color: $color--dark-grey;
   margin: 6px 0 12px;
 }
 
 header {
-  border-bottom: 1px solid $color--white;
+  border-bottom: 1px solid $color--dark-grey;
   position: relative;
 }

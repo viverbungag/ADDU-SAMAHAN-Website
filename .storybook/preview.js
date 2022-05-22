@@ -40,6 +40,10 @@ export const parameters = {
         name: "Grey",
         value: "#BABABA",
       },
+      {
+        name: "Dark Grey",
+        value: "#282828",
+      },
     ],
   },
 };

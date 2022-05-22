@@ -20,6 +20,7 @@ export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/Departme
 export { default as Department } from "./Organisms/Department/Department";
 export { default as Footer } from "./Organisms/Footer/Footer";
 export { default as aboutFirstSection } from "./Organisms/aboutFirstSection/aboutFirstSection";
+export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

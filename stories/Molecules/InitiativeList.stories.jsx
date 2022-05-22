@@ -9,7 +9,7 @@ export default {
 export const Main = {
   args: {
     selectedId: "initiative_1",
-    data: inData,
+    data: inData.initiatives,
     initialRoute: "",
   },
 };

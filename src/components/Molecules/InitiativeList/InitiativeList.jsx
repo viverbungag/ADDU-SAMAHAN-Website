@@ -5,7 +5,7 @@ import styles from "./InitiativeList.module.scss";
 const InitiativeList = ({ selectedId, data, initialRoute }) => {
   return (
     <ul className={styles["card-list"]}>
-      {data.initiatives.map((card) => (
+      {data.map((card) => (
         <InitiativeCard
           key={card.id}
           {...card}

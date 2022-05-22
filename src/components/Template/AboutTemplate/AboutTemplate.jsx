@@ -19,7 +19,7 @@ const AboutTemplate = ({ scbData, sdData }) => {
 
   return (
     <>
-      <Navigation />
+      <Navigation transparent={true} />
       <div className={styles["departmentIntroContainer"]}>
         <DepartmentIntro
           onClickCentralBoard={handleOpenCentralBoard}

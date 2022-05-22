@@ -1,0 +1,85 @@
+@import "../../../../styles/variables.scss";
+
+.help-portal {
+    &__hero {
+        height: 14.375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $color--primary;
+
+        .hero__welcome {
+            text-align: center;
+            color: $color--white;
+            font-weight: $h4FontWeight;
+            font-size: $h4FontSize;
+            
+            span {
+                display: block;
+                font-weight: 900;
+                font-size: $h1FontSize;
+            }
+        }
+    }
+
+    &__guidebook {
+        height: 10.5rem;
+        background-color: #7DB1FF;
+
+        .guidebook-wrapper {
+            height: 10.5rem;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+            justify-content: center;
+        }
+
+        .guidebook {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            img {
+                max-width:100%;
+                object-fit: cover;
+            }
+        }
+
+        .download-area {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 2rem;
+            flex-grow: 1;
+
+            .prompt {
+                color: $color--white;
+                display: flex;
+                flex-direction: column;
+                gap: 0.625rem;
+
+                h2 {
+                    font-size: $h4FontSize;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .help-portal {
+        &__guidebook {
+            height: 20rem;
+        }
+    }
+    .guidebook-wrapper {
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+
+    .download-area {
+        gap: 1rem;
+    }
+}

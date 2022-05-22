@@ -15,7 +15,7 @@ const VerticalTabs = ({ data }) => {
         flexGrow: 1,
         bgcolor: "background.paper",
         display: "flex",
-        height: 224,
+        height: 300,
       }}
     >
       <Tabs
@@ -33,7 +33,11 @@ const VerticalTabs = ({ data }) => {
 
      
 
+<<<<<<< HEAD
       {data.items.map((item, index) => {console.log(); return (<Tabpanel value = {value} index = {index}><h1>{item.desc}</h1></Tabpanel>)})}
+=======
+      {data.items.map((item, index) => {console.log(); return (<Tabpanel value = {value} subHeading = {item.subHeading} index = {index}>{item.desc}</Tabpanel>)})}
+>>>>>>> c40bdb48d4ac0a573b01a179275c4108ebe4120a
     </Box>
   );
 };

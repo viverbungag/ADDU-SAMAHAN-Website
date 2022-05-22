@@ -1,3 +1,42 @@
-.componentContainer{
-    background-color: blue;
+@import "../../../../styles/variables.scss";
+
+.flexContainer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    row-gap: 1rem;
+}
+
+.largeText{
+    margin-right: 25%;
+    margin-top: 5%;
+    text-align: right;
+    color: #ffff;
+    font-size: $h2FontSize;
+    font-weight: $h1FontWeight;
+}
+
+.firstParagraph{
+    text-align: justify;
+    font-size: $bodyFontSize;
+    font-weight: $bodyFontWeight;
+    color: #ffff;
+    line-height: 2rem;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-left: 27%;
+    
+}
+
+.secondParagraph{
+    text-align: justify;
+    font-size: $bodyFontSize;
+    font-weight: $bodyFontWeight;
+    color: #ffff;
+    line-height: 2rem;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-left: 27%;
 }

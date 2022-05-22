@@ -1,9 +1,15 @@
 import React from 'react'
 import styles from "./aboutFirstSection.module.scss";
 
-const aboutFirstSection = () => {
+const aboutFirstSection = ({title, firstParagraph, secondParagraph}) => {
   return (
-    <div className={styles["componentContainer"]}>aboutFirstSection</div>
+    <>
+    <div className={styles["flexContainer"]}>
+    <div className={styles["largeText"]}>{title}</div>
+    <div className={styles["firstParagraph"]}>{firstParagraph}</div>
+    <div className={styles["secondParagraph"]}>{secondParagraph}</div>
+    </div>
+    </>
   )
 }
 

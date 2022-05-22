@@ -2,7 +2,7 @@ import { AboutTemplate } from "../../src/components/ComponentIndex";
 import { scbData, sdData } from "../../src/sampleData/dataIndex";
 
 export default {
-  title: "Template/AboutTemplate",
+  title: "Template/About",
   component: AboutTemplate,
   parameters: {
     backgrounds: {

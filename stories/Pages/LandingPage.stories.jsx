@@ -1,7 +1,7 @@
 import { LandingPage } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Pages/LandingPage",
+  title: "Pages/Landing",
   component: LandingPage,
 };
 

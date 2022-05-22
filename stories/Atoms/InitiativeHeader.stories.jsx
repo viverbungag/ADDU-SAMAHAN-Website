@@ -1,11 +1,11 @@
 import { InitiativeHeader } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Atoms/InitiativeHeader",
+  title: "Atoms/Initiative Header",
   component: InitiativeHeader,
   parameters: {
     backgrounds: {
-      default: "ADDU Blue",
+      default: "White",
     },
   },
 };

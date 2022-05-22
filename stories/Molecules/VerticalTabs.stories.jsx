@@ -1,7 +1,7 @@
 import { VerticalTabs } from "../../src/components/ComponentIndex";
 import { advoData } from "../../src/data/dataIndex";
 export default {
-  title: "Molecules/VerticalTabs",
+  title: "Molecules/Vertical Tabs",
   component: VerticalTabs,
 };
 

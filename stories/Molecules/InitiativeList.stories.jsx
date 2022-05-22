@@ -2,7 +2,7 @@ import { InitiativeList } from "../../src/components/ComponentIndex";
 import { inData } from "../../src/sampleData/dataIndex";
 
 export default {
-  title: "Molecules/InitiativeList",
+  title: "Molecules/Initiative List",
   component: InitiativeList,
 };
 

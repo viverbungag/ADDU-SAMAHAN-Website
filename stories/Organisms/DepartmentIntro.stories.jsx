@@ -1,7 +1,7 @@
 import { DepartmentIntro } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Organisms/DepartmentIntro",
+  title: "Organisms/Department Intro",
   component: DepartmentIntro,
   parameters: {
     backgrounds: {

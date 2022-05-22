@@ -2,7 +2,7 @@ import { InitiativeModal } from "../../src/components/ComponentIndex";
 import { inData } from "../../src/sampleData/dataIndex";
 
 export default {
-  title: "Molecules/InitiativeModal",
+  title: "Molecules/Initiative Modal",
   component: InitiativeModal,
 };
 

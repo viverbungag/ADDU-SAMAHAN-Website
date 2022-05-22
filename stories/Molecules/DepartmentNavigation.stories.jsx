@@ -1,7 +1,7 @@
 import { DepartmentNavigation } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Molecules/DepartmentNavigation",
+  title: "Molecules/Department Navigation",
   component: DepartmentNavigation,
   parameters: {
     backgrounds: {

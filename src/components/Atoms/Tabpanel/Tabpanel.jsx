@@ -2,9 +2,10 @@ import * as React from 'react';
 
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import styles from "./Tabpanel.module.scss";
 
 export default function TabPanel(props) {
-  const { children, value, index} = props;
+  const { children, value, index, subHeading} = props;
 
   return (
     <div
@@ -15,9 +16,12 @@ export default function TabPanel(props) {
      
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+  
+        <Box sx = {{p : 3}}>
+          <Typography className={styles["subHeading"]}>{subHeading}</Typography>
+          <Typography className={styles["content"]}>{children}</Typography>
         </Box>
+       
       )}
     </div>
   );

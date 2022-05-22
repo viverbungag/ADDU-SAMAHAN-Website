@@ -1,0 +1,14 @@
+@import "../../../../styles/variables.scss";
+
+.content{
+    text-align: center;
+    justify-content: left;
+    padding-top: 3rem;
+}
+
+.subHeading{
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: $h5FontSize;
+}

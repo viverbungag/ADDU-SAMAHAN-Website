@@ -18,18 +18,18 @@ const InitiativeCard = ({
         <Link href={`${initialRoute}/${id}`}>
           <motion.div
             className={styles["card-content"]}
-            layoutId={styles[`card-container-${id}`]}
+            layoutId={`card-container-${id}`}
           >
             <motion.div
               className={styles["card-image-container"]}
-              layoutId={styles[`card-image-container-${id}`]}
+              layoutId={`card-image-container-${id}`}
             >
               <img className={styles["card-image"]} src={imgBgSrc} alt="" />
             </motion.div>
 
             <motion.div
               className={styles["title-container"]}
-              layoutId={styles[`title-container-${id}`]}
+              layoutId={`title-container-${id}`}
             >
               <p className={styles["category"]}>{initiativeNum}</p>
               <p className={styles["card-title"]}>{title}</p>

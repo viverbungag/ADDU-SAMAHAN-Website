@@ -94,6 +94,7 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
     .nav-list-2 {
       padding: 1rem 2rem;
       background-color: $color--nav-bg;
+      z-index: 1001;
 
       li.nav-links-2 {
         padding: 0.2rem 0;

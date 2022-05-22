@@ -31,13 +31,14 @@ const VerticalTabs = ({ data }) => {
         ))}
       </Tabs>
 
-     
-
-<<<<<<< HEAD
-      {data.items.map((item, index) => {console.log(); return (<Tabpanel value = {value} index = {index}><h1>{item.desc}</h1></Tabpanel>)})}
-=======
-      {data.items.map((item, index) => {console.log(); return (<Tabpanel value = {value} subHeading = {item.subHeading} index = {index}>{item.desc}</Tabpanel>)})}
->>>>>>> c40bdb48d4ac0a573b01a179275c4108ebe4120a
+      {data.items.map((item, index) => {
+        console.log();
+        return (
+          <Tabpanel value={value} subHeading={item.subHeading} index={index}>
+            {item.desc}
+          </Tabpanel>
+        );
+      })}
     </Box>
   );
 };

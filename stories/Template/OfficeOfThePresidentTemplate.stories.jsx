@@ -6,9 +6,17 @@ export default {
   component: OfficeOfThePresidentTemplate,
 };
 
-export const Main = {
+export const ClickedNone = {
   args: {
     id: "",
+    data: pInData,
+    initialRoute: "",
+  },
+};
+
+export const ClickedInitiative1 = {
+  args: {
+    id: "initiative_1",
     data: pInData,
     initialRoute: "",
   },

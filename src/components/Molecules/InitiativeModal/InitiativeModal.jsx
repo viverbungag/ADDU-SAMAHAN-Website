@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+// import { Link } from "react-router-dom";
 import styles from "./InitiativeModal.module.scss";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
@@ -11,16 +12,18 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
 
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0, transition: { duration: 0.15 } }}
-        transition={{ duration: 0.2, delay: 0.15 }}
-        style={{ pointerEvents: "auto" }}
-        className={styles["overlay"]}
-      >
-        <Link to={`${initialRoute}/`} />
-      </motion.div>
+      <Link href={`${initialRoute}/`}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0, transition: { duration: 0.15 } }}
+          transition={{ duration: 0.2, delay: 0.15 }}
+          style={{ pointerEvents: "auto" }}
+          className={styles["overlay"]}
+        ></motion.div>
+      </Link>
+      {/* <Link to="/" /> */}
+
       <div className={styles["card-content-container"] + " " + styles["open"]}>
         <motion.div
           className={styles["card-content"]}

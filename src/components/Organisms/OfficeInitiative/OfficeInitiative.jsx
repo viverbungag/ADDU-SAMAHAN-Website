@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import {
   InitiativeList,
   InitiativeModal,

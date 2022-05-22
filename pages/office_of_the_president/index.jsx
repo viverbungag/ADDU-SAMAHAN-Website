@@ -4,7 +4,7 @@ import { OfficeOfThePresidentPage } from "../../src/components/ComponentIndex";
 const office_of_the_president = () => {
   return (
     <>
-      <OfficeOfThePresidentPage />
+      <OfficeOfThePresidentPage id="" initialRoute="/office_of_the_president" />
     </>
   );
 };

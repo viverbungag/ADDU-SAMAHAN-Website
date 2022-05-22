@@ -20,48 +20,62 @@ const AboutTemplate = ({ scbData, sdData }) => {
   return (
     <>
       <Navigation transparent={true} />
-      <div className={styles["departmentIntroContainer"]}>
-        <DepartmentIntro
-          onClickCentralBoard={handleOpenCentralBoard}
-          onClickDepartments={handleOpenDepartments}
-        />
-      </div>
-
-      <Modal
-        open={openCentralBoard}
-        onClose={handleCloseCentralBoard}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Slide direction="up" in={openCentralBoard} mountOnEnter unmountOnExit>
-          <div className={styles["modal"]}>
-            <div className={styles["content"]}>
-              <Department title={sdData.title} offices={sdData.offices} />
-            </div>
+      <section className={styles["about"]}>
+        <div className={"container " + styles["component-container"]}>
+          <div className={styles["departmentIntroContainer"]}>
+            <DepartmentIntro
+              onClickCentralBoard={handleOpenCentralBoard}
+              onClickDepartments={handleOpenDepartments}
+            />
           </div>
-        </Slide>
-      </Modal>
 
-      <Modal
-        open={openDepartments}
-        onClose={handleCloseDepartments}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Slide direction="up" in={openDepartments} mountOnEnter unmountOnExit>
-          <div className={styles["modal"]}>
-            <div className={styles["content"]}>
-              <Department title={scbData.title} offices={scbData.offices} />
-            </div>
-          </div>
-        </Slide>
-      </Modal>
+          <Modal
+            open={openCentralBoard}
+            onClose={handleCloseCentralBoard}
+            closeAfterTransition
+            BackdropComponent={Backdrop}
+            BackdropProps={{
+              timeout: 500,
+            }}
+          >
+            <Slide
+              direction="up"
+              in={openCentralBoard}
+              mountOnEnter
+              unmountOnExit
+            >
+              <div className={styles["modal"]}>
+                <div className={styles["content"]}>
+                  <Department title={sdData.title} offices={sdData.offices} />
+                </div>
+              </div>
+            </Slide>
+          </Modal>
+
+          <Modal
+            open={openDepartments}
+            onClose={handleCloseDepartments}
+            closeAfterTransition
+            BackdropComponent={Backdrop}
+            BackdropProps={{
+              timeout: 500,
+            }}
+          >
+            <Slide
+              direction="up"
+              in={openDepartments}
+              mountOnEnter
+              unmountOnExit
+            >
+              <div className={styles["modal"]}>
+                <div className={styles["content"]}>
+                  <Department title={scbData.title} offices={scbData.offices} />
+                </div>
+              </div>
+            </Slide>
+          </Modal>
+        </div>
+      </section>
       <Footer />
     </>
   );

@@ -31,24 +31,9 @@ const VerticalTabs = ({ data }) => {
         ))}
       </Tabs>
 
-      <Tabpanel value={value} index={0}>
-        <h1>{data.items[0].desc}</h1>
-      </Tabpanel>
-      <Tabpanel value={value} index={1}>
-        <h1>{data.items[1].desc}</h1>
-      </Tabpanel>
-      <Tabpanel value={value} index={2}>
-        <h1>{data.items[2].desc}</h1>
-      </Tabpanel>
-      <Tabpanel value={value} index={3}>
-        <h1>{data.items[3].desc}</h1>
-      </Tabpanel>
-      <Tabpanel value={value} index={4}>
-        <h1>{data.items[4].desc}</h1>
-      </Tabpanel>
-      <Tabpanel value={value} index={5}>
-        <h1>{data.items[5].desc}</h1>
-      </Tabpanel>
+     
+
+      {data.items.map((item, index) => {console.log(); return (<Tabpanel value = {value} index = {index}><h1>{item.desc}</h1></Tabpanel>)})}
     </Box>
   );
 };

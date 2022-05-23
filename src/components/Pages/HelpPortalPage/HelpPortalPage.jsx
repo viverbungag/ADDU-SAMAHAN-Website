@@ -1,7 +1,7 @@
 import React from "react";
 import { HelpPortalTemplate } from "../../ComponentIndex";
 
-import faqData from "../../../data/faqData.json";
+import { faqData } from "../../../data/dataIndex";
 
 const HelpPortal = () => {
   return (

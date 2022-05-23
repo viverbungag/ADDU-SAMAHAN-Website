@@ -1,10 +1,15 @@
 import React from "react";
 import { OfficeOfTheVicePresidentTemplate } from "../../ComponentIndex";
+import { vpInData } from "../../../data/dataIndex";
 
-const OfficeOfTheVicePresident = () => {
+const OfficeOfTheVicePresident = ({ id, initialRoute }) => {
   return (
     <>
-      <OfficeOfTheVicePresidentTemplate />
+      <OfficeOfTheVicePresidentTemplate
+        id={id}
+        data={vpInData}
+        initialRoute={initialRoute}
+      />
     </>
   );
 };

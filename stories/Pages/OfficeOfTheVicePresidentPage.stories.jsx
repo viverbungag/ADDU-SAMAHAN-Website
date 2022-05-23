@@ -1,8 +1,8 @@
-import { OfficeOfThePresidentPage } from "../../src/components/ComponentIndex";
+import { OfficeOfTheVicePresidentPage } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Pages/Office of the President",
-  component: OfficeOfThePresidentPage,
+  title: "Pages/Office of the Vice President Page",
+  component: OfficeOfTheVicePresidentPage,
 };
 
 export const ClickedNone = {

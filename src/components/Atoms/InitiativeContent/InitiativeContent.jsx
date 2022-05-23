@@ -16,9 +16,9 @@ const InitiativeContent = ({ data }) => {
         {isHypertextExisting && (
           <div>
             <Link href={data.hyperlink.link}>
-              <span className={styles["content-hypertext"]}>
+              <a target="_blank" className={styles["content-hypertext"]}>
                 {data.hyperlink.shownText}
-              </span>
+              </a>
             </Link>
           </div>
         )}

@@ -6,6 +6,7 @@ export { default as Initiative } from "./Atoms/Initiative/Initiative";
 export { default as InitiativeHeader } from "./Atoms/InitiativeHeader/InitiativeHeader";
 export { default as InitiativeTitle } from "./Atoms/InitiativeTitle/InitiativeTitle";
 export { default as InitiativeContent } from "./Atoms/InitiativeContent/InitiativeContent";
+export { default as FAQCard } from "./Atoms/FAQCard/FAQCard";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
@@ -15,15 +16,16 @@ export { default as VerticalTabs } from "./Molecules/VerticalTabs/VerticalTabs";
 export { default as InitiativeList } from "./Molecules/InitiativeList/InitiativeList";
 export { default as InitiativeModal } from "./Molecules/InitiativeModal/InitiativeModal";
 export { default as InitiativeCard } from "./Molecules/InitiativeCard/InitiativeCard";
+export { default as FAQCategories } from "./Molecules/FAQCategories/FAQCategories";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";
 export { default as Department } from "./Organisms/Department/Department";
 export { default as Footer } from "./Organisms/Footer/Footer";
-export { default as aboutFirstSection } from "./Organisms/aboutFirstSection/aboutFirstSection";
+export { default as AboutFirstSection } from "./Organisms/AboutFirstSection/AboutFirstSection";
 export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
-export { default as aboutSecondSection } from "./Organisms/aboutSecondSection/aboutSecondSection";
+export { default as AboutSecondSection } from "./Organisms/AboutSecondSection/AboutSecondSection";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

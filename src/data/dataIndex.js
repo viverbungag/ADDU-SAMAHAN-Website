@@ -5,3 +5,5 @@ export { default as iniData } from "./initiativeData.json";
 export { default as image } from "./imageSrc.json";
 export { default as pInData } from "./presidentInitiatives.json";
 export { default as vpInData } from "./vicePresidentInitiatives.json";
+export { default as abtData1 } from "./aboutFirstSection.json";
+export { default as faqData } from "./faqData.json";

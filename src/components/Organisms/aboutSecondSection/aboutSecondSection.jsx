@@ -1,31 +1,32 @@
 import React from 'react'
-import styles from "./aboutSecondSection.module.scss";
+import styles from "./AboutSecondSection.module.scss";
 
-const aboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
+const AboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
   return (
     <>
+    <div className="container">
     <div className={styles["flexContainer"]}>
     <div className={styles["outer"]}>
 
     <div className={styles["inner"]}>
     <div className={styles["Here"]}>Here
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p className={styles["paragraph"]}>{firstParagraph}</p>
     </div>
     <div className={styles["AndNow"]}>And
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p className={styles["paragraph"]}>{secondParagraph}</p>
     </div>
     <div className={styles["AndNow"]}>Now
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p className={styles["paragraph"]}>{thirdParagraph}</p>
     </div>
 
     </div>
 
   
-    
+    </div>
     </div>
     </div>
     </>
   )
 }
 
-export default aboutSecondSection
+export default AboutSecondSection

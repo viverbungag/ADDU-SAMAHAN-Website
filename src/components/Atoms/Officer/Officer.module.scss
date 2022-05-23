@@ -32,16 +32,6 @@ $fontColor: #17267c;
 .imageContainer {
   width: $componentWidth;
   height: $componentWidth;
-
-  background: #ffffff;
-  border: 1px solid #000000;
-  border-radius: $imageBorderRadius;
-}
-
-.imageContainer--no-border {
-  width: $componentWidth;
-  height: $componentWidth;
-
   border-radius: $imageBorderRadius;
 }
 
@@ -49,4 +39,9 @@ $fontColor: #17267c;
   display: flex;
   flex-direction: column;
   width: $componentWidth;
+}
+
+:export {
+  componentWidth: $componentWidth;
+  imageBorderRadius: $imageBorderRadius;
 }

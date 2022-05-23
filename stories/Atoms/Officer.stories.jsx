@@ -10,14 +10,7 @@ export default {
   },
 };
 
-export const WithoutImage = {
-  args: {
-    name: "Patrick Matayabas",
-    position: "Sysdev Director",
-  },
-};
-
-export const WithImage = {
+export const Main = {
   args: {
     name: "Patrick Matayabas",
     position: "Sysdev Director",

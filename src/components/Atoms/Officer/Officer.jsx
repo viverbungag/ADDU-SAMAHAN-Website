@@ -1,24 +1,23 @@
 import React from "react";
 import styles from "./Officer.module.scss";
+import Image from "next/image";
 
 const Officer = ({ name, position, imageSrc }) => {
-  const hasImage = imageSrc == null;
+  const hasImage = imageSrc !== "";
   return (
     <>
       <div className={styles["officerContainer"]}>
-        <div
-          className={
-            hasImage
-              ? styles["imageContainer"]
-              : styles["imageContainer--no-border"]
-          }
-        >
-          <img
-            className={styles["image"]}
-            src={imageSrc}
-            alt="Image"
-            draggable={false}
-          />
+        <div className={styles["imageContainer"]}>
+          {hasImage && (
+            <Image.default
+              src={imageSrc}
+              alt="Image"
+              width={styles.componentWidth}
+              height={styles.componentWidth}
+              borderRadus={styles.imageBorderRadius}
+              draggable={false}
+            />
+          )}
         </div>
         <div className={styles["textContainer"]}>
           <div className={styles["nameText"]}>{name}</div>

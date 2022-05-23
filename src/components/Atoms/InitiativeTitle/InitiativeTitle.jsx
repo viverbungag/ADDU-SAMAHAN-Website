@@ -10,7 +10,7 @@ const InitiativeTitle = ({ id, initiativeNum, title, imgBgSrc }) => {
         className={styles["card-image-container"]}
         layoutId={`card-image-container-${id}`}
       >
-        <Image layout="fill" src={imgBgSrc} draggable={false} alt="" />
+        <Image.default layout="fill" src={imgBgSrc} draggable={false} alt="" />
       </motion.div>
       <motion.div
         className={styles["title-container"]}

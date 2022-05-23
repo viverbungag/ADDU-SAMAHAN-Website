@@ -1,8 +1,8 @@
 import { React, useState } from "react";
 import {
   DepartmentIntro,
-  aboutFirstSection,
-  aboutSecondSection,
+  AboutFirstSection,
+  AboutSecondSection,
   Department,
   Navigation,
   Footer,
@@ -21,9 +21,9 @@ const AboutTemplate = ({ scbData, sdData, abtData1 }) => {
 
   return (
     <>
-      <Navigation transparent={true} />
+      <Navigation />
       <div>
-        <aboutFirstSection data={abtData1} />
+        <AboutFirstSection data={abtData1} />
       </div>
       <section className={styles["about"]}>
         <div className={"container " + styles["component-container"]}>

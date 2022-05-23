@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from "./aboutSecondSection.module.scss";
+import styles from "./AboutSecondSection.module.scss";
 
-const aboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
+const AboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
   return (
     <>
     <div className={styles["flexContainer"]}>
@@ -28,4 +28,4 @@ const aboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) =
   )
 }
 
-export default aboutSecondSection
+export default AboutSecondSection

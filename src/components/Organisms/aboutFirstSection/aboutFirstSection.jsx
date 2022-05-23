@@ -1,16 +1,20 @@
 import React from 'react'
-import styles from "./aboutFirstSection.module.scss";
+import styles from "./AboutFirstSection.module.scss";
 
-const aboutFirstSection = ({data}) => {
+const AboutFirstSection = ({data}) => {
   return (
     <>
+    <div className="container">
     <div className={styles["flexContainer"]}>
     <div className={styles["largeText"]}>{data.title}</div>
     <div className={styles["firstParagraph"]}>{data.firstP}</div>
     <div className={styles["secondParagraph"]}>{data.secondP}</div>
+
+    </div>
+
     </div>
     </>
   )
 }
 
-export default aboutFirstSection
+export default AboutFirstSection

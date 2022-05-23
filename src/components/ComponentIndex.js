@@ -22,9 +22,9 @@ export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";
 export { default as Department } from "./Organisms/Department/Department";
 export { default as Footer } from "./Organisms/Footer/Footer";
-export { default as aboutFirstSection } from "./Organisms/aboutFirstSection/aboutFirstSection";
+export { default as AboutFirstSection } from "./Organisms/AboutFirstSection/AboutFirstSection";
 export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
-export { default as aboutSecondSection} from "./Organisms/aboutSecondSection/aboutSecondSection";
+export { default as AboutSecondSection} from "./Organisms/AboutSecondSection/AboutSecondSection";
 
 
 /* TEMPLATES */

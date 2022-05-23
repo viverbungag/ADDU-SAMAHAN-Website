@@ -9,13 +9,13 @@ const aboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) =
 
     <div className={styles["inner"]}>
     <div className={styles["Here"]}>Here
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p>{firstParagraph}</p>
     </div>
     <div className={styles["AndNow"]}>And
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p>{secondParagraph}</p>
     </div>
     <div className={styles["AndNow"]}>Now
-    <p className={styles["firstParagraph"]}>{firstParagraph}</p>
+    <p>{thirdParagraph}</p>
     </div>
 
     </div>

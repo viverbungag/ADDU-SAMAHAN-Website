@@ -5,7 +5,7 @@ import styles from "./OfficeOfTheVicePresidentTemplate.module.scss";
 const OfficeOfTheVicePresidentTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
-      <div className={"office-of-the-vice-president"}>
+      <div className={styles["office-of-the-vice-president"]}>
         <Navigation />
         <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
         <Footer />

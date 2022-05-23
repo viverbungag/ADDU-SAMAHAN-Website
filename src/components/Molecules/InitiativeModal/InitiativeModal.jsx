@@ -6,9 +6,7 @@ import styles from "./InitiativeModal.module.scss";
 import { InitiativeTitle, InitiativeContent } from "../../ComponentIndex";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
-  const { title, initiativeNum, content, imgBgSrc } = data.find(
-    (item) => item.id === id
-  );
+  const currentData = data.find((item) => item.id === id);
 
   return (
     <>
@@ -30,12 +28,12 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
         >
           <InitiativeTitle
             id={id}
-            initiativeNum={initiativeNum}
-            title={title}
-            imgBgSrc={imgBgSrc}
+            initiativeNum={currentData.initiativeNum}
+            title={currentData.title}
+            imgBgSrc={currentData.imgBgSrc}
             open
           />
-          <InitiativeContent content={content} />
+          <InitiativeContent data={currentData} />
         </motion.div>
       </div>
     </>

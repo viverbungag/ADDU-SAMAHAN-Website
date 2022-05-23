@@ -3,7 +3,6 @@ import { OfficeOfThePresidentTemplate } from "../../ComponentIndex";
 import { pInData } from "../../../data/dataIndex";
 
 const OfficeOfThePresident = ({ id, initialRoute }) => {
-  console.log(pInData);
   return (
     <>
       <OfficeOfThePresidentTemplate

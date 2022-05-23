@@ -8,6 +8,7 @@
   padding: 8rem 2rem 2rem 2rem;
   max-width: $maxWidth;
   width: 90vw;
+  align-items: center;
 }
 
 .content-text {
@@ -17,6 +18,14 @@
   color: #ffff;
   line-height: 2rem;
   text-indent: 2rem;
+}
+
+.content-hypertext {
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffff;
 }
 
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {

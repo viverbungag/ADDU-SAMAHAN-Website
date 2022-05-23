@@ -5,6 +5,7 @@ export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
 export { default as Initiative } from "./Atoms/Initiative/Initiative";
 export { default as InitiativeHeader } from "./Atoms/InitiativeHeader/InitiativeHeader";
 export { default as InitiativeTitle } from "./Atoms/InitiativeTitle/InitiativeTitle";
+export { default as FAQCard } from "./Atoms/FAQCard/FAQCard";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
@@ -14,6 +15,7 @@ export { default as VerticalTabs } from "./Molecules/VerticalTabs/VerticalTabs";
 export { default as InitiativeList } from "./Molecules/InitiativeList/InitiativeList";
 export { default as InitiativeModal } from "./Molecules/InitiativeModal/InitiativeModal";
 export { default as InitiativeCard } from "./Molecules/InitiativeCard/InitiativeCard";
+export { default as FAQCategories } from "./Molecules/FAQCategories/FAQCategories";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";

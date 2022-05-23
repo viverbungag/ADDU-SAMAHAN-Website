@@ -1,45 +1,34 @@
-import { HelpPortalTemplate } from "../../src/components/ComponentIndex";
-
-export default {
-  title: "Template/Help Portal",
-  component: HelpPortalTemplate,
-};
-
-export const Main = {
-  args: {
-    faqData: {
-      categories: [
+{
+    "categories": [
         {
             "title": "SIS and AdDU Emails",
-            "description": "Lorem",
+            "description": "",
             "icon": "emailOutline",
             "route": "/help_portal/SISAndAdDUEmails"
         },
         {
             "title": "AdDU Online Learning Environment",
-            "description": "ipsum",
+            "description": "",
             "icon": "webIcon",
             "route": "/help_portal/AdDUOnlineLearningEnvironment"
         },
         {
-            "title": "AdDU GSuite Accounts and Email Responses",
-            "description": "sit",
+            "title": "AdDU GSuite Account",
+            "description": "",
             "icon": "googleIcon",
             "route": "/help_portal/AdDUEmail"
         },
         {
             "title": "Enrollment and Registration",
-            "description": "dolor",
+            "description": "",
             "icon": "schoolOutline",
             "route": "/help_portal/EnrollmentAndRegistration"
         },
         {
             "title": "Scholarship",
-            "description": "amit",
+            "description": "",
             "icon": "idCardH",
             "route": "/help_portal/Scholarship"
         }
-      ]
-    }
-  }
+    ]
 }

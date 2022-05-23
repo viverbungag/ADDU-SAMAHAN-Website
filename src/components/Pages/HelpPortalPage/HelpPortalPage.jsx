@@ -1,10 +1,12 @@
 import React from "react";
 import { HelpPortalTemplate } from "../../ComponentIndex";
 
+import faqData from "../../../data/faqData.json";
+
 const HelpPortal = () => {
   return (
     <>
-      <HelpPortalTemplate />
+      <HelpPortalTemplate faqData={faqData} />
     </>
   );
 };

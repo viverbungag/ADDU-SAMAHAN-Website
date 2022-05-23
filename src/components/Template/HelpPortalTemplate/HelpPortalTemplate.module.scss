@@ -2,17 +2,19 @@
 
 .help-portal {
     &__hero {
-        height: 14.375rem;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        padding: 3rem 0;
+        gap: .75rem;
+        
         background-color: $color--primary;
+        color: $color--white;
 
         .hero__welcome {
             text-align: center;
-            color: $color--white;
             font-weight: $h4FontWeight;
             font-size: $h4FontSize;
             
@@ -21,6 +23,10 @@
                 font-weight: 900;
                 font-size: $h1FontSize;
             }
+        }
+
+        p {
+            text-align: center;
         }
     }
 
@@ -64,6 +70,25 @@
                     font-size: $h4FontSize;
                 }
             }
+        }
+    }
+
+    &__FAQ {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3.125rem 0;
+        gap: 2rem;
+        
+        color: $color--primary;
+        
+        .category-area {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
     }
 }

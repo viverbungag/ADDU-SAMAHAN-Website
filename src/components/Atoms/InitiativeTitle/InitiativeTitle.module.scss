@@ -1,0 +1,41 @@
+@import "../../../../styles/variables.scss";
+
+.card-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 150px;
+  width: 100vw;
+  background-color: $color--triadic-900;
+}
+
+.open .card-image-container,
+.open .title-container {
+  z-index: 1;
+}
+
+.title-container {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  max-width: 300px;
+}
+
+.open .title-container {
+  top: 30px;
+  left: 30px;
+}
+
+.card-title {
+  font-size: $h3FontSize;
+  font-weight: $h2FontWeight;
+  color: $color--white;
+  margin: 8px 0;
+}
+
+.category {
+  color: #fff;
+  font-size: $bodyFontSize;
+  text-transform: uppercase;
+}

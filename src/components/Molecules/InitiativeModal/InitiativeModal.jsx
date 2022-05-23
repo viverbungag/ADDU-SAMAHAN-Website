@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 // import { Link } from "react-router-dom";
 import styles from "./InitiativeModal.module.scss";
+import { InitiativeTitle } from "../../ComponentIndex";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
   console.log(data);
@@ -22,26 +23,18 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
           className={styles["overlay"]}
         ></motion.div>
       </Link>
-      {/* <Link to="/" /> */}
 
       <div className={styles["card-content-container"] + " " + styles["open"]}>
         <motion.div
           className={styles["card-content"]}
           layoutId={`card-container-${id}`}
         >
-          <motion.div
-            className={styles["card-image-container"]}
-            layoutId={`card-image-container-${id}`}
-          >
-            <img className={styles["card-image"]} src={imgBgSrc} alt="" />
-          </motion.div>
-          <motion.div
-            className={styles["title-container"]}
-            layoutId={`title-container-${id}`}
-          >
-            <p className={styles["category"]}>{initiativeNum}</p>
-            <p className={styles["card-title"]}>{title}</p>
-          </motion.div>
+          <InitiativeTitle
+            id={id}
+            initiativeNum={initiativeNum}
+            title={title}
+            imgBgSrc={imgBgSrc}
+          />
           <motion.div className={styles["content-container"]} animate>
             <span className={styles["content-text"]}>{content}</span>
           </motion.div>

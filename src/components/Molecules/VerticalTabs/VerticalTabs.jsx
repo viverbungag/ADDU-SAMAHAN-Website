@@ -26,15 +26,20 @@ const VerticalTabs = ({ data }) => {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
-        {data.items.map((item) => (
-          <Tab label={item.heading} />
+        {data.items.map((item, index) => (
+          <Tab key={index} label={item.heading} />
         ))}
       </Tabs>
 
       {data.items.map((item, index) => {
         console.log();
         return (
-          <Tabpanel value={value} subHeading={item.subHeading} index={index}>
+          <Tabpanel
+            key={index}
+            value={value}
+            subHeading={item.subHeading}
+            index={index}
+          >
             {item.desc}
           </Tabpanel>
         );

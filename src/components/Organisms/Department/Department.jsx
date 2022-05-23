@@ -7,8 +7,12 @@ const Department = ({ title, offices }) => {
     <>
       <div className={styles["componentContainer"]}>
         <span className={styles["titleText"]}>{title}</span>
-        {offices.map((office) => (
-          <Office officeTitle={office.officeTitle} officers={office.officers} />
+        {offices.map((office, index) => (
+          <Office
+            key={index}
+            officeTitle={office.officeTitle}
+            officers={office.officers}
+          />
         ))}
         <div className={styles["button"]}>
           <Button label={"< BACK"}></Button>

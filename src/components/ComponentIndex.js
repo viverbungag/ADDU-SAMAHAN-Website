@@ -4,6 +4,7 @@ export { default as Button } from "./Atoms/Button/Button";
 export { default as Tabpanel } from "./Atoms/Tabpanel/Tabpanel";
 export { default as Initiative } from "./Atoms/Initiative/Initiative";
 export { default as InitiativeHeader } from "./Atoms/InitiativeHeader/InitiativeHeader";
+export { default as InitiativeTitle } from "./Atoms/InitiativeTitle/InitiativeTitle";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";

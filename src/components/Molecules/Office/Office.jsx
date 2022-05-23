@@ -10,9 +10,10 @@ const Office = ({ officeTitle, officers }) => {
           <span>{officeTitle}</span>
         </div>
         <div className={styles["officersContainer"]}>
-          {officers.map((officer) => (
+          {officers.map((officer, index) => (
             <div className={styles["officerContainer"]}>
               <Officer
+                key={index}
                 name={officer.name}
                 position={officer.position}
                 imageSrc={officer.imageSrc}

@@ -14,9 +14,9 @@ const InitiativeCard = ({
 }) => {
   console.log(`${initialRoute}/${id}`);
   return (
-    <li className={styles["card"]}>
-      <div className={styles["card-content-container"]}>
-        <Link href={`${initialRoute}/${id}`}>
+    <Link href={`${initialRoute}/${id}`} scroll={false}>
+      <li className={styles["card"]}>
+        <div className={styles["card-content-container"]}>
           <motion.div
             className={styles["card-content"]}
             layoutId={`card-container-${id}`}
@@ -28,9 +28,9 @@ const InitiativeCard = ({
               imgBgSrc={imgBgSrc}
             />
           </motion.div>
-        </Link>
-      </div>
-    </li>
+        </div>
+      </li>
+    </Link>
   );
 };
 

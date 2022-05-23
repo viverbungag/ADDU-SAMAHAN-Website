@@ -50,7 +50,6 @@ class MyApp extends App {
           {/* TITLE AND ICON */}
           <title key="title">SAMAHAN</title>
         </Head>
-
         <AnimateSharedLayout type="crossfade">
           <Component {...pageProps} key={router.route} />
         </AnimateSharedLayout>

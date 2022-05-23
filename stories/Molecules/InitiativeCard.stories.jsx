@@ -1,7 +1,7 @@
 import { InitiativeCard } from "../../src/components/ComponentIndex";
 
 export default {
-  title: "Atoms/Initiative Card",
+  title: "Molecules/Initiative Card",
   component: InitiativeCard,
 };
 

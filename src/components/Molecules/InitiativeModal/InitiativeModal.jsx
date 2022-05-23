@@ -13,7 +13,7 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
 
   return (
     <>
-      <Link href={`${initialRoute}/`}>
+      <Link href={`${initialRoute}/`} scroll={false}>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

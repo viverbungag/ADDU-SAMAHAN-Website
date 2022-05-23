@@ -13,7 +13,12 @@ const Officer = ({ name, position, imageSrc }) => {
               : styles["imageContainer--no-border"]
           }
         >
-          <img className={styles["image"]} src={imageSrc} alt="Image" />
+          <img
+            className={styles["image"]}
+            src={imageSrc}
+            alt="Image"
+            draggable={false}
+          />
         </div>
         <div className={styles["textContainer"]}>
           <div className={styles["nameText"]}>{name}</div>

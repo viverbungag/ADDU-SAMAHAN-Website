@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import {
   DepartmentIntro,
+  aboutFirstSection,
+  aboutSecondSection,
   Department,
   Navigation,
   Footer,
@@ -8,7 +10,7 @@ import {
 import styles from "./AboutTemplate.module.scss";
 import { Modal, Slide, Backdrop } from "@mui/material";
 
-const AboutTemplate = ({ scbData, sdData }) => {
+const AboutTemplate = ({ scbData, sdData, abtData1 }) => {
   const [openCentralBoard, setOpenCentralBoard] = useState(false);
   const handleOpenCentralBoard = () => setOpenCentralBoard(true);
   const handleCloseCentralBoard = () => setOpenCentralBoard(false);
@@ -20,6 +22,9 @@ const AboutTemplate = ({ scbData, sdData }) => {
   return (
     <>
       <Navigation transparent={true} />
+      <div>
+        <aboutFirstSection data={abtData1} />
+      </div>
       <section className={styles["about"]}>
         <div className={"container " + styles["component-container"]}>
           <div className={styles["departmentIntroContainer"]}>

@@ -4,15 +4,17 @@
   position: relative;
   padding: 25px;
   height: 200px;
-  flex: 0 0 40%;
-  max-width: 40%;
+  flex: 1 0 100%;
+  max-width: 100%;
   list-style: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .card:nth-child(4n + 1),
 .card:nth-child(4n + 4) {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 .card:nth-child(odd) {
@@ -70,111 +72,24 @@
   display: none;
 }
 
-.card-open-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+// @media only screen and (max-width: 800px) {
+//   .card {
+//     flex: 0 0 50%;
+//     max-width: 50%;
+//   }
 
-.card-image-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  height: 150px;
-  width: 100vw;
-  background-color: $color--triadic-900;
-  transform: translate3d(0px, 0px, 0px) scale(1, 1) !important;
-}
-
-.open .card-image-container,
-.open .title-container {
-  z-index: 1;
-}
-
-.title-container {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  max-width: 300px;
-  transform: translate3d(0px, 0px, 0px) scale(1, 1) !important;
-}
-
-.open .title-container {
-  top: 30px;
-  left: 30px;
-}
-
-.card-title {
-  font-size: $h3FontSize;
-  font-weight: $h2FontWeight;
-  color: $color--white;
-  margin: 8px 0;
-}
-
-.category {
-  color: #fff;
-  font-size: $bodyFontSize;
-  text-transform: uppercase;
-}
-
-.overlay {
-  z-index: 1;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.8);
-  will-change: opacity;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  // max-width: 990px;
-}
-
-.overlay a {
-  display: block;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100vw;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.content-container {
-  padding: 11rem 35px 35px 35px;
-  max-width: 700px;
-  width: 90vw;
-}
-
-.content-text {
-  text-align: justify;
-  font-size: $bodyFontSize;
-  font-weight: $bodyFontWeight;
-  color: #ffff;
-  line-height: 2rem;
-}
-
-@media only screen and (max-width: 800px) {
-  .card {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  .card:nth-child(4n + 1),
-  .card:nth-child(4n + 4) {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
+//   .card:nth-child(4n + 1),
+//   .card:nth-child(4n + 4) {
+//     flex: 0 0 50%;
+//     max-width: 50%;
+//   }
+// }
 
 @media only screen and (max-width: 600px) {
   .card {
     flex: 1 0 100%;
     max-width: 100%;
-    padding: 10px;
+    height: 230px;
     padding-left: 0;
     padding-right: 0;
   }

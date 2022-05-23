@@ -5,9 +5,12 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  height: 150px;
+  height: 200px;
   width: 100vw;
-  background-color: $color--triadic-900;
+  background-color: $color--primary;
+}
+.open {
+  height: 7.2rem;
 }
 
 .open .card-image-container,
@@ -17,8 +20,9 @@
 
 .title-container {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 25px;
+  top: 1.6rem;
+  left: 1.6rem;
   max-width: 300px;
 }
 

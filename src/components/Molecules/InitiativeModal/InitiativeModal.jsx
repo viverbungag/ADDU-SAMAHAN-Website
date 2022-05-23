@@ -34,6 +34,7 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
             initiativeNum={initiativeNum}
             title={title}
             imgBgSrc={imgBgSrc}
+            open
           />
           <motion.div className={styles["content-container"]} animate>
             <span className={styles["content-text"]}>{content}</span>

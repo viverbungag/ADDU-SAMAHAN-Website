@@ -3,11 +3,16 @@ import { motion } from "framer-motion";
 import styles from "./InitiativeTitle.module.scss";
 import Image from "next/image";
 
-const InitiativeTitle = ({ id, initiativeNum, title, imgBgSrc }) => {
+const InitiativeTitle = ({ id, initiativeNum, title, imgBgSrc, open }) => {
+  console.log(open);
   return (
     <>
       <motion.div
-        className={styles["card-image-container"]}
+        className={
+          open
+            ? styles["card-image-container"] + " " + styles["open"]
+            : styles["card-image-container"]
+        }
         layoutId={`card-image-container-${id}`}
       >
         <Image.default layout="fill" src={imgBgSrc} draggable={false} alt="" />

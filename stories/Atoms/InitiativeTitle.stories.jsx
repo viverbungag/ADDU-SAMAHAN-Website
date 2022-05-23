@@ -16,6 +16,6 @@ export const Main = {
     initiativeNum: "Initiative 1",
     title: "Initiative Title",
     imgBgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fsolid-color-image.png?alt=media&token=b315c32a-3b67-43fa-8b46-6cb7a29b135a",
+      "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fsecondary-solid-color-image.png?alt=media&token=c43b8d6b-8236-498d-9129-8e2a9d7103fe",
   },
 };

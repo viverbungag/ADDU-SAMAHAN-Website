@@ -1,5 +1,7 @@
 @import "../../../../styles/variables.scss";
 
+$maxWidth: 1200px;
+
 .card {
   position: relative;
   padding: 25px;
@@ -56,11 +58,12 @@
   overflow: hidden;
   width: 100%;
   height: fit-content;
+  max-height: 90%;
   margin: 0 auto;
 }
 
 .open .card-content {
-  max-width: 700px;
+  max-width: $maxWidth;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -68,54 +71,6 @@
 
 .open .card-content::-webkit-scrollbar {
   display: none;
-}
-
-.card-open-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.card-image-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  height: 150px;
-  width: 100vw;
-  background-color: $color--triadic-900;
-}
-
-.open .card-image-container,
-.open .title-container {
-  z-index: 1;
-}
-
-.title-container {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  max-width: 300px;
-}
-
-.open .title-container {
-  top: 30px;
-  left: 30px;
-}
-
-.card-title {
-  font-size: $h3FontSize;
-  font-weight: $h2FontWeight;
-  color: $color--white;
-  margin: 8px 0;
-}
-
-.category {
-  color: #fff;
-  font-size: $bodyFontSize;
-  text-transform: uppercase;
 }
 
 .overlay {
@@ -142,8 +97,8 @@
 }
 
 .content-container {
-  padding: 11rem 35px 35px 35px;
-  max-width: 700px;
+  padding: 8rem 35px 35px 35px;
+  max-width: $maxWidth;
   width: 90vw;
 }
 
@@ -153,6 +108,15 @@
   font-weight: $bodyFontWeight;
   color: #ffff;
   line-height: 2rem;
+}
+
+@media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
+  .open .card-content {
+    max-width: 90%;
+  }
+  .content-container {
+    max-width: 90%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -181,9 +145,5 @@
   .card:nth-child(4n + 4) {
     flex: 1 0 100%;
     max-width: 100%;
-  }
-
-  .card-content-container.open {
-    padding: 0;
   }
 }

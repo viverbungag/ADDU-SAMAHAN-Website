@@ -7,10 +7,7 @@ const OfficeOfThePresidentTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
       <div className={styles["office-of-the-president"]}>
-        <div className={styles["nav-container"]}>
-          <Navigation />
-        </div>
-
+        <Navigation />
         <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
       </div>
       <Footer />

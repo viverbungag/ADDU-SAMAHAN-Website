@@ -3,10 +3,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 // import { Link } from "react-router-dom";
 import styles from "./InitiativeModal.module.scss";
-import { InitiativeTitle } from "../../ComponentIndex";
+import { InitiativeTitle, InitiativeContent } from "../../ComponentIndex";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
-  console.log(data);
   const { title, initiativeNum, content, imgBgSrc } = data.find(
     (item) => item.id === id
   );
@@ -36,9 +35,7 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
             imgBgSrc={imgBgSrc}
             open
           />
-          <motion.div className={styles["content-container"]} animate>
-            <span className={styles["content-text"]}>{content}</span>
-          </motion.div>
+          <InitiativeContent content={content} />
         </motion.div>
       </div>
     </>

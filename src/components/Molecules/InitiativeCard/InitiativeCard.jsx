@@ -12,7 +12,6 @@ const InitiativeCard = ({
   imgBgSrc,
   initialRoute,
 }) => {
-  console.log(`${initialRoute}/${id}`);
   return (
     <Link href={`${initialRoute}/${id}`} scroll={false}>
       <li className={styles["card"]}>

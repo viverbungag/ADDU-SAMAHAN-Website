@@ -96,25 +96,8 @@ $maxWidth: 1200px;
   transform: translateX(-50%);
 }
 
-.content-container {
-  padding: 8rem 35px 35px 35px;
-  max-width: $maxWidth;
-  width: 90vw;
-}
-
-.content-text {
-  text-align: justify;
-  font-size: $bodyFontSize;
-  font-weight: $bodyFontWeight;
-  color: #ffff;
-  line-height: 2rem;
-}
-
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
   .open .card-content {
-    max-width: 90%;
-  }
-  .content-container {
     max-width: 90%;
   }
 }

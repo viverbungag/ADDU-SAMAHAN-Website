@@ -1,11 +1,12 @@
 @import "../../../../styles/variables.scss";
+@import "../../Molecules/InitiativeModal/InitiativeModal.module.scss";
 
 .card-image-container {
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
-  height: 200px;
+  height: 12.5rem;
   width: 100vw;
   background-color: $color--primary;
 }
@@ -23,12 +24,12 @@
   top: 25px;
   top: 1.6rem;
   left: 1.6rem;
-  max-width: 300px;
+  max-width: calc(#{$maxWidth} - (#{$maxWidth}* 0.1));
 }
 
 .open .title-container {
-  top: 30px;
-  left: 30px;
+  top: 300px;
+  left: 300px;
 }
 
 .card-title {
@@ -42,4 +43,10 @@
   color: #fff;
   font-size: $bodyFontSize;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
+  .title-container {
+    max-width: 90%;
+  }
 }

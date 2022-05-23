@@ -1,12 +1,15 @@
 import React from "react";
-import { Navigation, Footer } from "../../ComponentIndex";
+import { Navigation, Footer, OfficeInitiative } from "../../ComponentIndex";
+import styles from "./OfficeOfTheVicePresidentTemplate.module.scss";
 
-const OfficeOfTheVicePresidentTemplate = () => {
+const OfficeOfTheVicePresidentTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
-      <Navigation />
-      <div>OfficeOfTheVicePresidentTemplate</div>
-      <Footer />
+      <div className={"office-of-the-vice-president"}>
+        <Navigation />
+        <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
+        <Footer />
+      </div>
     </>
   );
 };

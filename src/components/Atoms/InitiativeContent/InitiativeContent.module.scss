@@ -1,0 +1,26 @@
+@import "../../../../styles/variables.scss";
+@import "../../Molecules/InitiativeModal/InitiativeModal.module.scss";
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 8rem 2rem 2rem 2rem;
+  max-width: $maxWidth;
+  width: 90vw;
+}
+
+.content-text {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  color: #ffff;
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+
+@media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
+  .content-container {
+    max-width: 90%;
+  }
+}

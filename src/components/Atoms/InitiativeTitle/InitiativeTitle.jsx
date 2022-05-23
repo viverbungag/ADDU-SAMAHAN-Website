@@ -4,7 +4,6 @@ import styles from "./InitiativeTitle.module.scss";
 import Image from "next/image";
 
 const InitiativeTitle = ({ id, initiativeNum, title, imgBgSrc, open }) => {
-  console.log(open);
   return (
     <>
       <motion.div

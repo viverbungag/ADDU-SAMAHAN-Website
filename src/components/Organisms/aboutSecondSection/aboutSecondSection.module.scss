@@ -1,0 +1,60 @@
+@import "../../../../styles/variables.scss";
+
+.flexComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    row-gap: 1rem;
+}
+
+.inner{
+    justify-content: right;
+    align-items: right;
+    row-gap: 1rem;
+    
+}
+
+.outer{
+    display:flexbox;
+    vertical-align: middle;
+
+    
+}
+
+.Here{
+    color: #ffff;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 10%;
+    line-height: 1rem;
+    margin-top: 80px;
+}
+
+
+.AndNow{
+    color: #ffff;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 10%;
+    line-height: 1rem;
+    
+    
+}
+
+.firstParagraph{
+    text-align: justify;
+    font-size: $bodyFontSize;
+    font-weight: $bodyFontWeight;
+    color: #ffff;
+    max-width: 1000px;
+    margin-left: 27%;
+    margin-right: 50px;
+   
+}
+
+
+
+
+
+

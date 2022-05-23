@@ -1,5 +1,10 @@
 @import "../../../../styles/variables.scss";
 
+
+.component-container{
+    background-color: $color--primary;
+}
+
 .flexContainer{
     
     display: flex;

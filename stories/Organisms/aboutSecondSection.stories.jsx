@@ -1,8 +1,8 @@
-import { aboutSecondSection } from "../../src/components/ComponentIndex";
+import { AboutSecondSection } from "../../src/components/ComponentIndex";
 
 export default {
-    title: "Organisms/aboutSecondSection",
-    component: aboutSecondSection,
+    title: "Organisms/About Page Second Section",
+    component: AboutSecondSection,
     parameters: {
       backgrounds: {
         default: "ADDU Blue",

@@ -1,9 +1,9 @@
-import { aboutFirstSection } from "../../src/components/ComponentIndex";
+import { AboutFirstSection } from "../../src/components/ComponentIndex";
 import { abtData1 } from "../../src/data/dataIndex";
 
 export default {
   title: "Organisms/About Page First Section",
-  component: aboutFirstSection,
+  component: AboutFirstSection,
   parameters: {
     backgrounds: {
       default: "ADDU Blue",

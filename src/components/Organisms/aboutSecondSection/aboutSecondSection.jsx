@@ -4,6 +4,7 @@ import styles from "./AboutSecondSection.module.scss";
 const AboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
   return (
     <>
+    <div className="container">
     <div className={styles["flexContainer"]}>
     <div className={styles["outer"]}>
 
@@ -21,7 +22,7 @@ const AboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) =
     </div>
 
   
-    
+    </div>
     </div>
     </div>
     </>

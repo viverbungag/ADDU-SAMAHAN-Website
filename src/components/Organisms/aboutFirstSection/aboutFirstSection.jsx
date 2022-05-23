@@ -4,6 +4,7 @@ import styles from "./AboutFirstSection.module.scss";
 const AboutFirstSection = ({data}) => {
   return (
     <>
+    <div className={styles["component-container"]}>
     <div className="container">
     <div className={styles["flexContainer"]}>
     <div className={styles["largeText"]}>{data.title}</div>
@@ -12,6 +13,7 @@ const AboutFirstSection = ({data}) => {
 
     </div>
 
+    </div>
     </div>
     </>
   )

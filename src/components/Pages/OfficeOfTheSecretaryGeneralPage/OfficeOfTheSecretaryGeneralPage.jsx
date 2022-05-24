@@ -1,7 +1,7 @@
 import React from "react";
 import { OfficeOfTheSecretaryGeneralTemplate } from "../../ComponentIndex";
 
-const OfficeOfTheSecretaryGeneral = () => {
+const OfficeOfTheSecretaryGeneral = ({ id, initialRoute }) => {
   return (
     <>
       <OfficeOfTheSecretaryGeneralTemplate />

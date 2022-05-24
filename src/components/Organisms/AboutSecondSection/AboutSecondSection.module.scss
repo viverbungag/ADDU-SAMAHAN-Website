@@ -11,44 +11,36 @@
     justify-content: right;
     align-items: right;
     row-gap: 1rem;
-}
-
-.inner{
-    justify-content: right;
-    align-items: right;
-    row-gap: 1rem;
     
 }
 
-.outer{
-    display:flexbox;
-    vertical-align: middle;
-
-    
-}
 
 .Here{
+    display: flexbox;
     color: #ffff;
     font-size: 100px;
     font-weight: bold;
     margin-left: 5%;
     line-height: 1rem;
-    margin-top: 80px;
-   
+    padding-top: 80px;
     
+
+   
 }
 
 
 .AndNow{
+    display: flexbox;
     color: #ffff;
     font-size: 100px;
     font-weight: bold;
     margin-left: 5%;
     line-height: 1rem;
-    margin-bottom: 22px;    
+    padding-bottom: 22px;
 }
 
 .paragraph{
+    display: inline-block;
     text-align: justify;
     font-size: $bodyFontSize;
     font-weight: $bodyFontWeight;
@@ -56,6 +48,8 @@
     max-width: 1000px;
     margin-left: 23%;
     margin-right: 50px;
+    line-height: 20px;
+    
    
 }
 

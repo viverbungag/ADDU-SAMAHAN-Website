@@ -1,28 +1,26 @@
 import React from 'react'
 import styles from "./AboutSecondSection.module.scss";
 
-const AboutSecondSection = ({firstParagraph, secondParagraph, thirdParagraph}) => {
+const AboutSecondSection = ({data}) => {
   return (
     <>
+    <div className={styles["component-container"]}>
     <div className="container">
     <div className={styles["flexContainer"]}>
-    <div className={styles["outer"]}>
-
-    <div className={styles["inner"]}>
     <div className={styles["Here"]}>Here
-    <p className={styles["paragraph"]}>{firstParagraph}</p>
+    <p className={styles["paragraph"]}>{data.firstP}</p>
     </div>
+   
     <div className={styles["AndNow"]}>And
-    <p className={styles["paragraph"]}>{secondParagraph}</p>
+      <p className={styles["paragraph"]}>{data.secondP}</p>
     </div>
     <div className={styles["AndNow"]}>Now
-    <p className={styles["paragraph"]}>{thirdParagraph}</p>
+      <p className={styles["paragraph"]}>{data.thirdP}</p>
     </div>
 
     </div>
 
-  
-    </div>
+    
     </div>
     </div>
     </>

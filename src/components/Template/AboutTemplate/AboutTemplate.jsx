@@ -10,7 +10,7 @@ import {
 import styles from "./AboutTemplate.module.scss";
 import { Modal, Slide, Backdrop } from "@mui/material";
 
-const AboutTemplate = ({ scbData, sdData, abtData1 }) => {
+const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 }) => {
   const [openCentralBoard, setOpenCentralBoard] = useState(false);
   const handleOpenCentralBoard = () => setOpenCentralBoard(true);
   const handleCloseCentralBoard = () => setOpenCentralBoard(false);
@@ -24,6 +24,9 @@ const AboutTemplate = ({ scbData, sdData, abtData1 }) => {
       <Navigation />
       <div>
         <AboutFirstSection data={abtData1} />
+      </div>
+      <div>
+        <AboutSecondSection data={abtData2}/>
       </div>
       <section className={styles["about"]}>
         <div className={"container " + styles["component-container"]}>

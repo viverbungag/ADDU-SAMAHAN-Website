@@ -1,6 +1,8 @@
 import React from "react";
 import { Tabpanel } from "../../ComponentIndex";
 import { Tabs, Tab, Box } from "@mui/material";
+import styles from './VerticalTabs.Module.scss';
+import Typography from '@mui/material/Typography';
 
 const VerticalTabs = ({ data }) => {
   const [value, setValue] = React.useState(0);
@@ -16,6 +18,7 @@ const VerticalTabs = ({ data }) => {
         bgcolor: "background.paper",
         display: "flex",
         height: 300,
+        
       }}
     >
       <Tabs
@@ -27,12 +30,14 @@ const VerticalTabs = ({ data }) => {
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
         {data.items.map((item, index) => (
+         
           <Tab key={index} label={item.heading} />
+          
         ))}
       </Tabs>
 
       {data.items.map((item, index) => {
-        console.log();
+        
         return (
           <Tabpanel
             key={index}
@@ -40,7 +45,15 @@ const VerticalTabs = ({ data }) => {
             subHeading={item.subHeading}
             index={index}
           >
+            {console.log(item.subHeading)}
+            
+            
+            
+
+           
             {item.desc}
+           
+
           </Tabpanel>
         );
       })}

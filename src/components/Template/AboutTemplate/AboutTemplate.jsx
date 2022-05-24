@@ -3,6 +3,7 @@ import {
   DepartmentIntro,
   AboutFirstSection,
   AboutSecondSection,
+  VerticalTabs,
   Department,
   Navigation,
   Footer,
@@ -10,7 +11,7 @@ import {
 import styles from "./AboutTemplate.module.scss";
 import { Modal, Slide, Backdrop } from "@mui/material";
 
-const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 }) => {
+const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
   const [openCentralBoard, setOpenCentralBoard] = useState(false);
   const handleOpenCentralBoard = () => setOpenCentralBoard(true);
   const handleCloseCentralBoard = () => setOpenCentralBoard(false);
@@ -27,6 +28,10 @@ const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 }) => {
       </div>
       <div>
         <AboutSecondSection data={abtData2}/>
+      </div>
+      <div>
+        {console.log(aData)}
+        <VerticalTabs data = {aData} />
       </div>
       <section className={styles["about"]}>
         <div className={"container " + styles["component-container"]}>

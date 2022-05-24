@@ -53,3 +53,24 @@ export const ClickedInitiatve6 = {
     initialRoute: "",
   },
 };
+
+export const ClickedInitiatve7 = {
+  args: {
+    id: "initiative_7",
+    initialRoute: "",
+  },
+};
+
+export const ClickedInitiatve8 = {
+  args: {
+    id: "initiative_8",
+    initialRoute: "",
+  },
+};
+
+export const ClickedInitiatve9 = {
+  args: {
+    id: "initiative_9",
+    initialRoute: "",
+  },
+};

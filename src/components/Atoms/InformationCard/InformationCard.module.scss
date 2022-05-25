@@ -1,0 +1,32 @@
+@import "../../../../styles/variables.scss";
+
+.InformationCard {
+    width: 100%;
+    max-width: 380px;
+    min-width: fit-content;
+    background-color: $color--primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.875rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    color: $color--white;
+    font-size: $h5FontSize;
+    font-weight: $h1FontWeight;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.28);
+
+    transition: transform .3s ease-in-out,
+                background-color .1s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    &:active {
+        background-color: #213179;
+    }
+}

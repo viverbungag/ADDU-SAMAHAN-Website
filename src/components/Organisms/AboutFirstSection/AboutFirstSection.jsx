@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./AboutFirstSection.module.scss";
-
+import Fade from 'react-reveal/Fade';
 const AboutFirstSection = ({data}) => {
   return (
     <>
@@ -18,12 +18,15 @@ const AboutFirstSection = ({data}) => {
 
     <div className={styles["container"]}>
       <div>
+        <Fade right>
         <h1 className={styles["header"]}>{data.title}</h1>
+        </Fade>
       </div>
       <div>
+        <Fade right>
         <p className={styles["paragraph"]}>{data.firstP}</p>
         <p className={styles["paragraph"]}>{data.secondP}</p>
-
+        </Fade>
       </div>
     </div>
     </>

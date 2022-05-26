@@ -11,10 +11,12 @@
 
 .outerBox{
     background-color: $color--primary;
+    display: flex;
+    flex-direction: column;
 }
 
 .tabStyle{
-    color: white;
+    color: black;
 }
 
 .outerTab{
@@ -22,10 +24,11 @@
 }
 .header{
     text-align: center;
-    padding: 30px 0;
+    padding-bottom: 2rem;
     color: #FFFF;
     font-weight: $h1FontWeight;
     font-size: 72px;
+    padding-left: 6rem;
 }
 .six{
     color: aquamarine;

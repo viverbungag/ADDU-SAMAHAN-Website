@@ -3,6 +3,8 @@ import { Tabpanel } from "../../ComponentIndex";
 import { Tabs, Tab, Box } from "@mui/material";
 import styles from './VerticalTabs.Module.scss';
 import Typography from '@mui/material/Typography';
+import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Slide';
 
 const VerticalTabs = ({ data }) => {
   const [value, setValue] = React.useState(0);
@@ -13,7 +15,8 @@ const VerticalTabs = ({ data }) => {
   console.log(data.items[0].heading);
   return (
     <div className={styles["outerBox"]}>
-    <h1 className={styles["header"]}>ADVOCA<span>SIX</span></h1>
+   <Bounce> <h1 className={styles["header"]}>ADVOCA<span>SIX</span></h1></Bounce>
+   <Slide bottom> 
     <Box
       sx={{
         
@@ -35,7 +38,7 @@ const VerticalTabs = ({ data }) => {
       >
         {data.items.map((item, index) => (
          
-          <Tab key={index} label={item.heading} sx={{color: 'white'}} />
+          <Tab key={index} label={item.heading} sx={{color: "white"}} />
           
         ))}
       </Tabs>
@@ -64,6 +67,7 @@ const VerticalTabs = ({ data }) => {
       })}
       </div>
     </Box>
+    </Slide> 
     </div>
   );
 };

@@ -14,11 +14,15 @@
     
 }
 
-
+.outerSection{
+    display: flex;
+    flex-direction: column;
+}
 .container{
     display: flex;
     justify-content: center;
     background-color:rgb(242, 243, 244);
+    
 }
 
 .paragraph{

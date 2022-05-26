@@ -24,6 +24,7 @@ const AboutSecondSection = ({data}) => {
     
     </div>
     </div> */}
+    <div className={styles["outerSection"]}>
     <div className={styles["container"]}>
       <div >
       <Fade left>
@@ -37,6 +38,7 @@ const AboutSecondSection = ({data}) => {
         <p className={styles["paragraph"]}>{data.thirdP}</p>
       </div>
       </Fade>
+    </div>
     </div>
     </>
   )

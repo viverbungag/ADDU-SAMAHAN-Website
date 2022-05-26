@@ -23,14 +23,14 @@ const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
   return (
     <>
       <Navigation />
-      <div className={styles["section"]}>
+      <div className={"container" + styles["section"]}>
         <AboutFirstSection data={abtData1} />
       </div>
-      <div className={styles["section"]}>
+      <div className={"container" + styles["section"]}>
         <AboutSecondSection data={abtData2}/>
       </div>
-      <div className={styles["section"]}>
-        {console.log(aData)}
+      <div className={"container" + styles["section"]}>
+       
         <VerticalTabs data = {aData} />
       </div>
       <section className={styles["about"]}>

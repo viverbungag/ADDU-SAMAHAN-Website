@@ -15,42 +15,24 @@
 }
 
 
-.Here{
-    display: flexbox;
-    color: #ffff;
-    font-size: 100px;
-    font-weight: bold;
-    margin-left: 5%;
-    line-height: 1rem;
-    padding-top: 80px;
-    
-
-   
-}
-
-
-.AndNow{
-    display: flexbox;
-    color: #ffff;
-    font-size: 100px;
-    font-weight: bold;
-    margin-left: 5%;
-    line-height: 1rem;
-    padding-bottom: 22px;
+.container{
+    display: flex;
+    justify-content: center;
 }
 
 .paragraph{
-    display: inline-block;
-    text-align: justify;
-    font-size: $bodyFontSize;
-    font-weight: $bodyFontWeight;
-    color: #ffff;
-    max-width: 1000px;
-    margin-left: 23%;
-    margin-right: 50px;
-    line-height: 20px;
+    padding: 10px;
+    color: #FFFF;
+    margin-right: 30px;
+}
+
+.header{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: $h1FontWeight;
+    color: #FFFF;
+    padding: 0 40px;
     
-   
 }
 
 

@@ -15,7 +15,7 @@ const AboutFirstSection = ({data}) => {
 
     </div>
     </div> */}
-
+  
     <div className={styles["container"]}>
       <div>
         <Fade right>
@@ -24,7 +24,7 @@ const AboutFirstSection = ({data}) => {
       </div>
       <div>
         <Fade right>
-        <p className={styles["paragraph"]}>{data.firstP}</p>
+        <p className={styles["paragraph1"]}>{data.firstP}</p>
         <p className={styles["paragraph"]}>{data.secondP}</p>
         </Fade>
       </div>

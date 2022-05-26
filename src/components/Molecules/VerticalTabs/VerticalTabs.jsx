@@ -13,6 +13,7 @@ const VerticalTabs = ({ data }) => {
   console.log(data.items[0].heading);
   return (
     <div className={styles["outerBox"]}>
+    <h1 className={styles["header"]}>ADVOCA<span>SIX</span></h1>
     <Box
       sx={{
         

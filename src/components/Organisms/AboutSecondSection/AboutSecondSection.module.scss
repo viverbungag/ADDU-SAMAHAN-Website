@@ -18,11 +18,12 @@
 .container{
     display: flex;
     justify-content: center;
+    background-color:rgb(242, 243, 244);
 }
 
 .paragraph{
     padding: 10px;
-    color: #FFFF;
+    color: black;
     margin-right: 30px;
 }
 
@@ -30,7 +31,7 @@
     font-size: 100px;
     line-height: 100px;
     font-weight: $h1FontWeight;
-    color: #FFFF;
+    color: $color--primary;
     padding: 0 40px;
     
 }

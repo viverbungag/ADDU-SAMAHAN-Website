@@ -1,0 +1,49 @@
+{
+  "mainTitle": "VICE PRESIDENT",
+  "subTitle": "OFFICE OF THE",
+  "initiatives": [
+    {
+      "id": "initiative_1",
+      "initiativeNum": "Initiative 1",
+      "title": "Student Assembly Archives",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "content": [
+        {
+          "type": "paragraph",
+          "body": "As we continue our struggle during the pandemic, many families are in dire need for financial assistance. As we promote cura personalis in this time of pandemic, the OST will be continuing its plans to help selected bonafide students in the university by providing three types of assistance which are the following:"
+        },
+        {
+          "type": "table",
+          "rowCount": "2",
+          "body": [
+            {
+              "rowType": "header",
+              "rowContent": ["AdDU Perks: OST Financial Aid Program"]
+            },
+            {
+              "rowType": "normal",
+              "rowContent": [
+                "a. Tuition Fee Subsidy",
+                "Provide tuition fee subsidy to selected students, without any scholarship grant provided by both the university and/or external grantors, for the first semester of AY 2022-2023."
+              ]
+            },
+            {
+              "rowType": "normal",
+              "rowContent": [
+                "b. Book Assistance",
+                "Provide book assistance to selected students, to be given at the first weeks of both semesters of AY 2022-2023."
+              ]
+            },
+            {
+              "rowType": "normal",
+              "rowContent": [
+                "c. Book Assistance",
+                "Financial Assistance for Thesis and Research"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

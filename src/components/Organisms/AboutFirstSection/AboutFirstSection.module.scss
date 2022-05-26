@@ -5,48 +5,30 @@
     background-color: $color--primary;
 }
 
-.flexContainer{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
-    row-gap: 1rem;
-    
-}
+.container{
+   padding-left: 15rem;
+   padding-bottom: 10rem;
+   padding-top: 5rem;
+   width: auto;
+   text-align: center;
+   background-color: $color--primary;
+   display: flex;
+   flex-direction: column;
+   
+   
 
-.largeText{
-    margin-right: 25%;
-    margin-top: 5%;
-    text-align: right;
-    color: #ffff;
-    font-size: $h2FontSize;
+}
+.header{
+    font-size: 80px;
     font-weight: $h1FontWeight;
+    letter-spacing: -9px;
+    color: #FFFF;
 }
 
-.firstParagraph{
-    text-align: justify;
-    font-style: italic;
-    font-size: $bodyFontSize;
-    font-weight: $bodyFontWeight;
-    color: #ffff;
-    line-height: 2rem;
-    max-width: 1000px;
-    margin-top: 20px;
-    margin-left: 27%;
-    margin-right:10px;
-    
-}
-
-.secondParagraph{
-    text-align: justify;
-    font-size: $bodyFontSize;
-    font-weight: $bodyFontWeight;
-    color: #ffff;
-    line-height: 2rem;
-    max-width: 1000px;
-    margin-top: 20px;
-    margin-left: 27%;
-    margin-right: 10px;
-    
+.paragraph{
+    color: #FFFF;
+    padding: 15px 0;
+    text-align: left;
+    margin-left: 135px;
+    margin-right: 30px;
 }

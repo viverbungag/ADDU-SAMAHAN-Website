@@ -3,12 +3,14 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import styles from "./Tabpanel.module.scss";
-
+import { textAlign } from '@mui/system';
+import Flip from 'react-reveal/Flip';
 export default function TabPanel(props) {
   const { children, value, index, subHeading} = props;
 
   return (
-    <div
+    <div className={styles["innerBox"]}>   
+       <div
       role="tabpanel"
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
@@ -17,14 +19,17 @@ export default function TabPanel(props) {
     >
       {value === index && (
   
-        <Box sx = {{p : 3}}>
+        <div className={styles["box"]}>
+          <Flip bottom >
           
           <h2 className={styles["subHeading"]}>{subHeading}</h2>
           <Typography className={styles["content"]}>{children}</Typography>
-          
-        </Box>
+          </Flip>
+        </div>
        
       )}
     </div>
+    </div>
+
   );
 }

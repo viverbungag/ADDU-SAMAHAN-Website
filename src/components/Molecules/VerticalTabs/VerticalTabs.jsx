@@ -3,6 +3,8 @@ import { Tabpanel } from "../../ComponentIndex";
 import { Tabs, Tab, Box } from "@mui/material";
 import styles from './VerticalTabs.Module.scss';
 import Typography from '@mui/material/Typography';
+import Bounce from 'react-reveal/Bounce';
+import Slide from 'react-reveal/Slide';
 
 const VerticalTabs = ({ data }) => {
   const [value, setValue] = React.useState(0);
@@ -12,31 +14,37 @@ const VerticalTabs = ({ data }) => {
   };
   console.log(data.items[0].heading);
   return (
+    <div className={styles["outerBox"]}>
+   <Bounce> <h1 className={styles["header"]}>ADVOCA<span>SIX</span></h1></Bounce>
+   <Slide bottom> 
     <Box
       sx={{
-        flexGrow: 1,
-        bgcolor: "background.paper",
+        
+        
         display: "flex",
-        height: 300,
+        height: 400,
         
       }}
     >
+      <div className={styles["outerTab"]}>
       <Tabs
         orientation="vertical"
         variant="scrollable"
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: "divider" }}
+        indicatorColor="secondary"
+        sx={{ borderRight: 2, borderColor: "divider" }}
       >
         {data.items.map((item, index) => (
          
-          <Tab key={index} label={item.heading} />
+          <Tab key={index} label={item.heading} sx={{color: "white"}} />
           
         ))}
       </Tabs>
-
-      {data.items.map((item, index) => {
+      </div>
+      <div>
+     {data.items.map((item, index) => {
         
         return (
           <Tabpanel
@@ -57,7 +65,10 @@ const VerticalTabs = ({ data }) => {
           </Tabpanel>
         );
       })}
+      </div>
     </Box>
+    </Slide> 
+    </div>
   );
 };
 

@@ -3,16 +3,28 @@
 .content{
     text-align: center;
     justify-content: left;
+    color: $color--white;
     padding-top: 3rem;
 }
 
 .subHeading{
     text-align: center;
-    
+    color: $color--white;
     font-weight: bold;
     
 }
 
 .innerBox{
-    background-color: black;
+    background-color: $color--primary;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+.box{
+    text-align: center;
+    width: 100%;
+    justify-content: 'left';
+     display: 'inline-block';
+     
 }

@@ -29,7 +29,7 @@ const InitiativeContent = ({ content }) => {
             );
           }
 
-          if (item.includes("table")) {
+          if (item.type.includes("table")) {
             return <div></div>;
           }
         })}

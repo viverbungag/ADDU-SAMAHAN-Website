@@ -10,11 +10,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs",
     "chromatic": "npx chromatic --project-token=16e1cc5704a9",
-    "chromatic-build": "npx chromatic --project-token=16e1cc5704a9 --force-rebuild"
+    "build-chromatic": "npx chromatic --project-token=16e1cc5704a9 --force-rebuild"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/style": "^0.8.0",
+    "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.8.0",
     "@mui/styles": "^5.8.0",
     "framer-motion": "^6.3.3",

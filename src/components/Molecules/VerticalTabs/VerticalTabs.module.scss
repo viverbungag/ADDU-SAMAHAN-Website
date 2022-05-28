@@ -1,0 +1,36 @@
+@import "../../../../styles/variables.scss";
+
+.tabdesign{
+    border: 1px;
+    border-color: black;
+}
+
+.content{
+    color: black;
+}
+
+.outerBox{
+    background-color: $color--primary;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tabStyle{
+    color: black;
+}
+
+.outerTab{
+    width: fit-content;
+}
+.header{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #FFFF;
+    font-weight: $h1FontWeight;
+    font-size: 72px;
+    padding-left: 6rem;
+}
+.six{
+    color: aquamarine;
+}

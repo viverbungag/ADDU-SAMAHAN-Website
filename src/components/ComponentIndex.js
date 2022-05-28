@@ -18,6 +18,7 @@ export { default as InitiativeList } from "./Molecules/InitiativeList/Initiative
 export { default as InitiativeModal } from "./Molecules/InitiativeModal/InitiativeModal";
 export { default as InitiativeCard } from "./Molecules/InitiativeCard/InitiativeCard";
 export { default as FAQCategories } from "./Molecules/FAQCategories/FAQCategories";
+export { default as FAQAccordion } from "./Molecules/FAQAccordion/FAQAccordion";
 
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";

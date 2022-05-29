@@ -3,19 +3,55 @@ import { motion } from "framer-motion";
 import styles from "./InitiativeContent.module.scss";
 import Link from "next/link";
 
-function contentRecurrsion(contents) {
+const contentRecurrsion = (contents) => {
   return contents.map((content, index) => {
     const hasSubContent = typeof content.contents === "object";
+    const hasContinuation =
+      "hasContinuation" in content && content.hasContinuation;
 
-    if (hasSubContent) {
-      return contentRecurrsion(content.contents);
+    if (content.type === "paragraph container") {
+      return (
+        <div className={styles["paragraph-content--container"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </div>
+      );
     }
 
     if (content.type === "paragraph") {
       return (
         <span key={index} className={styles["paragraph-content"]}>
-          {console.log(content.contents)}
-          {content.contents}
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </span>
+      );
+    }
+
+    if (content.type === "paragraph bold") {
+      return (
+        <span key={index} className={styles["paragraph-content--bold"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </span>
+      );
+    }
+
+    if (content.type === "paragraph hyperlink") {
+      return (
+        <span>
+          <Link href={content.link}>
+            <a
+              target="_blank"
+              className={styles["paragraph-content--hypertext"]}
+            >
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </a>
+          </Link>
         </span>
       );
     }
@@ -25,7 +61,9 @@ function contentRecurrsion(contents) {
         <div key={index}>
           <Link href={content.link}>
             <a target="_blank" className={styles["content-hypertext"]}>
-              {content.contents}
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
             </a>
           </Link>
         </div>
@@ -33,99 +71,143 @@ function contentRecurrsion(contents) {
     }
 
     if (content.type === "table") {
-      return <table className={styles["table"]}></table>;
+      return (
+        <table className={styles["table"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </table>
+      );
+    }
+
+    if (content.type === "table row") {
+      return (
+        <tr>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </tr>
+      );
+    }
+
+    if (content.type === "table header") {
+      return (
+        <th colspan={content.colspan}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </th>
+      );
+    }
+
+    if (content.type === "table cell") {
+      return (
+        <td colspan={content.colspan}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </td>
+      );
+    }
+
+    if (content.type === "ordered list") {
+      switch (content.listType) {
+        case "lowercase letter":
+          return (
+            <ol className={styles["orderedList"]} type="a">
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </ol>
+          );
+
+        case "uppercase letter":
+          return (
+            <ol className={styles["orderedList"]} type="A">
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </ol>
+          );
+
+        default:
+          return (
+            <ol className={styles["orderedList"]}>
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </ol>
+          );
+      }
+    }
+
+    if (content.type === "unordered list") {
+      return (
+        <ul className={styles["unorderedList"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </ul>
+      );
+    }
+
+    if (content.type === "list item") {
+      return (
+        <li className={styles["listItem"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </li>
+      );
+    }
+
+    if (content.type === "description list") {
+      return (
+        <dl>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </dl>
+      );
+    }
+
+    if (content.type === "description term") {
+      return (
+        <dt>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </dt>
+      );
+    }
+
+    if (content.type === "description data") {
+      return (
+        <dd className={styles["descriptionData"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </dd>
+      );
+    }
+
+    if (content.type === "title") {
+      return (
+        <h2 className={styles["title"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </h2>
+      );
     }
   });
-}
+};
 
 const InitiativeContent = ({ content }) => {
   return (
     <>
       <motion.div className={styles["content-container"]} animate>
         {contentRecurrsion(content)}
-        {/* {content.map((item, index) => {
-          if (item.type === "paragraph") {
-            return (
-              <span key={index} className={styles["content-text"]}>
-                {item.body}
-              </span>
-            );
-          }
-
-          if (item.type === "hyperlink") {
-            return (
-              <div key={index}>
-                <Link href={item.body.link}>
-                  <a target="_blank" className={styles["content-hypertext"]}>
-                    {item.body.shownText}
-                  </a>
-                </Link>
-              </div>
-            );
-          }
-
-          if (item.type === "table") {
-            return (
-              <table className={styles["table"]}>
-                {item.body.map((row, index) => {
-                  return (
-                    <tr>
-                      {row.map((content) => {
-                        if (content.rowType === "header") {
-                          return (
-                            <th colspan={content.colspan}>
-                              {content.rowContent}
-                            </th>
-                          );
-                        }
-
-                        if (content.rowType === "normal") {
-                          return (
-                            <td colspan={content.colspan}>
-                              {content.rowContent}
-                            </td>
-                          );
-                        }
-
-                        if (content.rowType === "unordered list") {
-                          return (
-                            <ul>
-                              {content.rowContent.map(
-                                (perRowContent, index) => {
-                                  if (perRowContent.listType === "normal") {
-                                    if (perRowContent.hasDescription) {
-                                      return (
-                                        <dl>
-                                          {perRowContent.listContent.map(
-                                            (perListContent, index) => {
-                                              return (
-                                                <dd>
-                                                  - {perListContent.description}
-                                                </dd>
-                                              );
-                                            }
-                                          )}
-                                        </dl>
-                                      );
-                                    } else {
-                                      return (
-                                        <li>{perRowContent.listContent}</li>
-                                      );
-                                    }
-                                  }
-                                }
-                              )}
-                            </ul>
-                          );
-                        }
-                      })}
-                    </tr>
-                  );
-                })}
-              </table>
-            );
-          }
-        })} */}
       </motion.div>
     </>
   );

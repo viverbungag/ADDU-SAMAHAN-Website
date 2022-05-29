@@ -1,0 +1,652 @@
+{
+  "mainTitle": "VICE PRESIDENT",
+  "subTitle": "OFFICE OF THE",
+  "initiatives": [
+    {
+      "id": "initiative_1",
+      "initiativeNum": "Initiative 1",
+      "title": "AdDU Perks: OST Financial Aid Program",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": [
+        {
+          "type": "paragraph",
+          "contents": "As we continue our struggle during the pandemic, many families are in dire need for financial assistance. As we promote cura personalis in this time of pandemic, the OST will be continuing its plans to help selected bonafide students in the university by providing three types of assistance which are the following:"
+        },
+        {
+          "type": "table",
+          "contents": [
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table header",
+                  "colspan": 2,
+                  "contents": "AdDU Perks: OST Financial Aid Program"
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "a. Tuition Fee Subsidy"
+                },
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "Provide tuition fee subsidy to selected students, without any scholarship grant provided by both the university and/or external grantors, for the first semester of AY 2022-2023."
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "b. Book Assistance"
+                },
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "Provide book assistance to selected students, to be given at the first weeks of both semesters of AY 2022-2023."
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "c. Book Assistance"
+                },
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "Financial Assistance for Thesis and Research"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "contents": "This is the main philosophy behind AdDU Perks: OST Financial Aid Program. Applications for the program will be open in the first weeks of July 2022."
+        }
+      ]
+    },
+    {
+      "id": "initiative_2",
+      "initiativeNum": "Initiative 2",
+      "title": "AdDU Perks: Gadget and HPW Assistance",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": [
+        {
+          "type": "paragraph",
+          "contents": "The SAMAHAN, in partnership with the Office of the University President and Admissions Office, have facilitated the application and distribution of iPads, Tablets, and HPWs for Ateneans."
+        },
+        {
+          "type": "paragraph",
+          "contents": "Applications will commence in June to July 2022 as the university enters the first semester of a new academic year. Grantees should be enrolled in the first semester of AY 2022-2023. Stay tuned for updates via SAMAHAN social media accounts."
+        }
+      ]
+    },
+    {
+      "id": "initiative_3",
+      "initiativeNum": "Initiative 3",
+      "title": "AdDU Premiums",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": [
+        {
+          "type": "table",
+          "contents": [
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table header",
+                  "colspan": 2,
+                  "contents": "AdDU Premiums"
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "1. Google GSuite"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "20GB Storage for each user"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Unlimited Originality Reports with peer comparison using Google Classroom or Google Assignments"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Document Approvals"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": [
+                        {
+                          "type": "description term",
+                          "contents": "Google Meet"
+                        },
+                        {
+                          "type": "description list",
+                          "contents": [
+                            {
+                              "type": "description data",
+                              "contents": "- Maximum 500 participants"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- In-domain live streaming for up to 100k viewers (for non-student accounts only)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Recordings saved to Drive (ended in January 2022 for non-paid subscriptions)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Polling and QA"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Breakout rooms"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Attendance tracking (for faculty accounts only)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Noise cancellation"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "contents": "Effective by July 2022."
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "2. Office 365"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "Microsoft Office Licensing"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Microsoft OS Launching"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "3. Canva"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "Canva Premium Subscription"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "4. Github"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "Free access to student developers’ pack"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "5. Grammarly"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "Grammarly Premium Subscription [Limited Users as of 2022]"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table header",
+                  "colspan": 2,
+                  "contents": "AdDU Perks: OST Financial Aid Program"
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "1. Apple Music"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "50% Off"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "2. Spotify"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "50% off"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "3. Deezer"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "50% Off"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "4. Adobe Creative Cloud"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "60% Off"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "contents": "This is the main philosophy behind AdDU Perks: OST Financial Aid Program. Applications for the program will be open in the first weeks of July 2022."
+        }
+      ]
+    },
+    {
+      "id": "initiative_4",
+      "initiativeNum": "Initiative 4",
+      "title": "AdDU Blue Book: Live Budget Tracker",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": []
+    },
+    {
+      "id": "initiative_5",
+      "initiativeNum": "Initiative 5",
+      "title": "AdDU To Cart",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": [
+        {
+          "type": "paragraph",
+          "contents": "AdDU To Cart is an initiative that aims to provide support for Atenean local businesses. It will serve as a catalog for Atenean businesses where it will show a directory of shops that consumers can buy from in hopes of helping the economy and business industry in Davao City."
+        },
+        {
+          "type": "paragraph",
+          "contents": "This 2022, AdDU To Cart will also serve as an income generating project where proceeds will go to funding Atenean-led passion projects, in partnership with the Office of the SAMAHAN Secretary-General’s Paper Boat Project."
+        }
+      ]
+    },
+    {
+      "id": "initiative_6",
+      "initiativeNum": "Initiative 6",
+      "title": "Student Insurance",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "contents": [
+        {
+          "type": "paragraph container",
+          "contents": [
+            {
+              "type": "paragraph",
+              "contents": "Once enrolled in Ateneo de Davao University, each college student will be paying an insurance valid for one year. View in full the complete list and description of benefits: "
+            },
+            {
+              "type": "paragraph hyperlink",
+              "link": "https://drive.google.com/file/d/1sgl7cRuCSYnBivNo4csWJi0YCAhtjArW/view",
+              "contents": "https://tinyurl.com/AdDUInsurancePrimer21-22 "
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "contents": "REQUIREMENTS"
+        },
+        {
+          "type": "paragraph container",
+          "contents": [
+            {
+              "type": "paragraph",
+              "contents": "To facilitate processing of your claim, please submit the"
+            },
+            {
+              "type": "paragraph bold",
+              "contents": " Duly Accomplished Personal Accident Claim Form "
+            },
+            {
+              "type": "paragraph",
+              "contents": " together with the required supporting documents listed below. We reserve the right to request for additional information or document, if necessary."
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "contents": "FOR ACCIDENTAL PERMANENT DISABILITY; BURNS BENEFIT; ACCIDENTAL MEDICAL EXPENSES & OTHER RELATED CLAIM:"
+        },
+        {
+          "type": "ordered list",
+          "contents": [
+            {
+              "type": "list item",
+              "contents": "Original copy of Incident Report"
+            },
+            {
+              "type": "list item",
+              "contents": "Original copy of investigation Report issued by the competent authorities with findings on the alleged accident"
+            },
+            {
+              "type": "list item",
+              "contents": "Original copy of all medical invoices, hospital bill statements of account and official receipts / proof of payments;"
+            },
+            {
+              "type": "list item",
+              "contents": "All hospital & medical records detailing the diagnosis and treatment received"
+            },
+            {
+              "type": "list item",
+              "contents": "Medical specialist report on sustained permanent  disability, if applicable:"
+            },
+            {
+              "type": "list item",
+              "contents": "Copy of School ID and valid government ID (if available) with three (3) specimen signatures;"
+            },
+            {
+              "type": "list item",
+              "contents": "Copy of Driver’s License if driving at the time of the accident;"
+            },
+            {
+              "type": "list item",
+              "contents": "Photograph of insured (in amputation cases)."
+            },
+            {
+              "type": "list item",
+              "contents": "Proof of Claimant’s Relationship to Insured (if the Insured is Minor)"
+            },
+            {
+              "type": "list item",
+              "contents": "Copy of Shipping Line, Plane or Bus Tickets, Car / Taxi Receipts or the likes, if applicable"
+            }
+          ]
+        },
+        {
+          "type": "title",
+          "contents": "FOR ACCIDENTAL DEATH AND BURIAL BENEFIT:"
+        },
+        {
+          "type": "ordered list",
+          "contents": [
+            {
+              "type": "list item",
+              "contents": "Original copy of investigation Report issued by the competent authorities with findings on the allegeD accident;"
+            },
+            {
+              "type": "list item",
+              "contents": "Original copy of all medical invoices and receipts;"
+            },
+            {
+              "type": "list item",
+              "contents": "All hospital & medical records"
+            },
+            {
+              "type": "list item",
+              "contents": "Medical specialist report certifying death;"
+            },
+            {
+              "type": "list item",
+              "contents": "Copy of School ID and valid government IDs of the deceased;"
+            },
+            {
+              "type": "list item",
+              "contents": "Copy of Driver’s License if driving at the time of the accident;"
+            },
+            {
+              "type": "list item",
+              "contents": "Certified True Copy or PSA Certified Death Certificate;"
+            },
+            {
+              "type": "list item",
+              "contents": "Original copy of Official Receipts for Burial Expenses;"
+            },
+            {
+              "type": "list item",
+              "contents": "PSA Certified Copy of Birth Certificate of the Insured"
+            },
+            {
+              "type": "list item",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "contents": "Proof of Beneficiary"
+                },
+                {
+                  "type": "ordered list",
+                  "listType": "lowercase letter",
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": [
+                        {
+                          "type": "paragraph",
+                          "contents": "IF MARITAL STATUS OF DECEASED IS SINGLE:"
+                        },
+                        {
+                          "type": "unordered list",
+                          "contents": [
+                            {
+                              "type": "list item",
+                              "contents": "PSA Certified True Copy of Certificate of No Marriage:"
+                            },
+                            {
+                              "type": "list item",
+                              "contents": "PSA Certified True Copy of the Marriage Certificate of the Surviving Parents;"
+                            },
+                            {
+                              "type": "list item",
+                              "contents": "Copy of the Valid Government ID of Both Surviving Parent"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list item",
+                      "contents": [
+                        {
+                          "type": "paragraph",
+                          "contents": "IF MARITAL STATUS OF THE DECEASED IS MARRIED:"
+                        },
+                        {
+                          "type": "unordered list",
+                          "contents": [
+                            {
+                              "type": "list item",
+                              "contents": "PSA Certified True Copy of the Marriage Certificate;"
+                            },
+                            {
+                              "type": "list item",
+                              "contents": "Copy of the Valid Government ID of the Surviving Spouse"
+                            },
+                            {
+                              "type": "list item",
+                              "contents": "Copy of Birth Certificate of Surviving Children"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list item",
+                      "contents": [
+                        {
+                          "type": "paragraph",
+                          "contents": "IF SURVIVED BY OTHER RELATIVES:"
+                        },
+                        {
+                          "type": "unordered list",
+                          "contents": [
+                            {
+                              "type": "list item",
+                              "contents": "Please indicate relationship of the surviving relative with the deceased so we could inform you of the documents needed."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph container",
+          "contents": [
+            {
+              "type": "paragraph",
+              "contents": "Submit all the needed requirements and forward all your concerns regarding the Student Insurance Policy to"
+            },
+            {
+              "type": "paragraph bold",
+              "contents": " Mr. Carl Denver Conchas"
+            },
+            {
+              "type": "paragraph",
+              "contents": " from the Office of Student Affairs at"
+            },
+            {
+              "type": "paragraph bold",
+              "contents": " cdbconchas@addu.ed.ph"
+            }
+          ]
+        },
+        {
+          "type": "paragraph container",
+          "contents": [
+            {
+              "type": "paragraph bold",
+              "contents": "Note:"
+            },
+            {
+              "type": "paragraph",
+              "contents": " Please keep in mind that insurance processing might take up to  three (3) weeks. Please be patient and do not hesitate to contact us with any questions or follow-ups. Thank you very much!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

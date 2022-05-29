@@ -22,12 +22,55 @@ $tableBorders: 1px solid #ffffff;
   text-indent: 2rem;
 }
 
+.paragraph-content--container {
+  text-indent: 2rem;
+}
+
+.paragraph-content--bold {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: bold;
+  color: #ffff;
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+
+.paragraph-content--hypertext {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  color: #ffff;
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+
 .content-hypertext {
-  font-size: $h4FontSize;
-  font-weight: $h4FontWeight;
+  font-size: $h5FontSize;
+  font-weight: $h5FontWeight;
   line-height: 2rem;
   text-align: center;
   color: #ffff;
+}
+
+.title {
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  text-align: center;
+  color: #ffff;
+}
+
+.orderedList,
+.unorderedList {
+  margin-left: 1rem;
+  padding: 1rem;
+  color: $color--white;
+}
+
+.listItem,
+.descriptionData {
+  margin-left: 1rem;
+  padding: 0.3rem;
+  color: $color--white;
 }
 
 .table {
@@ -36,14 +79,14 @@ $tableBorders: 1px solid #ffffff;
   width: 90%;
 
   th,
-  td {
+  td,
+  tr {
     border: $tableBorders;
     padding: 1rem;
     color: $color--white;
   }
 
-  ul {
-    margin-left: 1rem;
+  .paragraph-content {
     padding: 1rem;
     color: $color--white;
   }

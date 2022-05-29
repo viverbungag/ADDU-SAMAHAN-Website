@@ -9,4 +9,4 @@ export { default as abtData1 } from "./aboutFirstSection.json";
 export { default as faqData } from "./faqData.json";
 export { default as sgInData } from "./secretaryGeneralInitiatives.json";
 export { default as abtData2 } from "./aboutSecondSection.json";
-export { default as tInData } from "./treasurerData.json";
+export { default as tInData } from "./treasurerInitiatives.json";

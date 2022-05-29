@@ -30,9 +30,11 @@ $fontColor: #17267c;
 }
 
 .imageContainer {
+  position: relative;
   width: $componentWidth;
   height: $componentWidth;
   border-radius: $imageBorderRadius;
+  overflow: hidden;
 }
 
 .officerContainer {

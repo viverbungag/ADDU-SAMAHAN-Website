@@ -374,7 +374,12 @@
       "initiativeNum": "Initiative 4",
       "title": "AdDU Blue Book: Live Budget Tracker",
       "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "contents": []
+      "contents": [
+        {
+          "type": "google sheets",
+          "contents": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRBkPJaLmaCG8JXJ13TGub0Ayk_sb5v2ZCYd2_Ae_HzqsF5j6KHY7ALpNUP-p3N8meRSMCkWugbBGwo/pubhtml?widget=true&amp;headers=false"
+        }
+      ]
     },
     {
       "id": "initiative_5",

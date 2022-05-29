@@ -2,7 +2,8 @@ import React from "react";
 import { OfficeOfTheTreasurerTemplate } from "../../ComponentIndex";
 import { tInData } from "../../../data/dataIndex";
 
-const OfficeOfTheTreasurer = ({ id, initialRoute }) => {
+const OfficeOfTheTreasurerPage = ({ id, initialRoute }) => {
+  console.log(initialRoute);
   return (
     <>
       <OfficeOfTheTreasurerTemplate
@@ -14,4 +15,4 @@ const OfficeOfTheTreasurer = ({ id, initialRoute }) => {
   );
 };
 
-export default OfficeOfTheTreasurer;
+export default OfficeOfTheTreasurerPage;

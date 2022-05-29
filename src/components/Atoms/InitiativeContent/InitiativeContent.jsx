@@ -198,6 +198,16 @@ const contentRecurrsion = (contents) => {
         </h2>
       );
     }
+
+    if (content.type === "google sheets") {
+      console.log(content.contents);
+      return (
+        <iframe
+          className={styles["googleSheets"]}
+          src={content.contents}
+        ></iframe>
+      );
+    }
   });
 };
 

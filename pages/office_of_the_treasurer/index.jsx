@@ -1,5 +1,5 @@
 import React from "react";
-import { OfficeOfTheTreasurerPage } from "../src/components/ComponentIndex";
+import { OfficeOfTheTreasurerPage } from "../../src/components/ComponentIndex";
 
 const office_of_the_treasurer = () => {
   return (

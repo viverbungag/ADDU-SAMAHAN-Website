@@ -97,6 +97,10 @@ $tableBorders: 1px solid #ffffff;
   }
 }
 
+.googleSheets {
+  width: 100%;
+}
+
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
   .content-container {
     max-width: 90%;

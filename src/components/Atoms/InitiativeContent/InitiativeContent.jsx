@@ -9,7 +9,7 @@ const InitiativeContent = ({ content }) => {
     <>
       <motion.div className={styles["content-container"]} animate>
         {content.map((item, index) => {
-          if (item.type.includes("paragraph")) {
+          if (item.type === "paragraph") {
             return (
               <span key={index} className={styles["content-text"]}>
                 {item.body}
@@ -17,9 +17,9 @@ const InitiativeContent = ({ content }) => {
             );
           }
 
-          if (item.type.includes("hyperlink")) {
+          if (item.type === "hyperlink") {
             return (
-              <div>
+              <div key={index}>
                 <Link href={item.body.link}>
                   <a target="_blank" className={styles["content-hypertext"]}>
                     {item.body.shownText}
@@ -29,8 +29,34 @@ const InitiativeContent = ({ content }) => {
             );
           }
 
-          if (item.type.includes("table")) {
-            return <div></div>;
+          if (item.type === "table") {
+            return (
+              <table className={styles["table"]}>
+                {item.body.map((row, index) => {
+                  return (
+                    <tr>
+                      {row.map((content) => {
+                        if (content.rowType === "header") {
+                          return (
+                            <th colspan={content.colspan}>
+                              {content.rowContent}
+                            </th>
+                          );
+                        }
+
+                        if (content.rowType === "normal") {
+                          return (
+                            <td colspan={content.colspan}>
+                              {content.rowContent}
+                            </td>
+                          );
+                        }
+                      })}
+                    </tr>
+                  );
+                })}
+              </table>
+            );
           }
         })}
       </motion.div>

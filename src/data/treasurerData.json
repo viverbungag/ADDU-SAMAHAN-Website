@@ -14,33 +14,50 @@
         },
         {
           "type": "table",
-          "rowCount": "2",
           "body": [
-            {
-              "rowType": "header",
-              "rowContent": ["AdDU Perks: OST Financial Aid Program"]
-            },
-            {
-              "rowType": "normal",
-              "rowContent": [
-                "a. Tuition Fee Subsidy",
-                "Provide tuition fee subsidy to selected students, without any scholarship grant provided by both the university and/or external grantors, for the first semester of AY 2022-2023."
-              ]
-            },
-            {
-              "rowType": "normal",
-              "rowContent": [
-                "b. Book Assistance",
-                "Provide book assistance to selected students, to be given at the first weeks of both semesters of AY 2022-2023."
-              ]
-            },
-            {
-              "rowType": "normal",
-              "rowContent": [
-                "c. Book Assistance",
-                "Financial Assistance for Thesis and Research"
-              ]
-            }
+            [
+              {
+                "rowType": "header",
+                "colspan": 2,
+                "rowContent": "AdDU Perks: OST Financial Aid Program"
+              }
+            ],
+            [
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "a. Tuition Fee Subsidy"
+              },
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "Provide tuition fee subsidy to selected students, without any scholarship grant provided by both the university and/or external grantors, for the first semester of AY 2022-2023."
+              }
+            ],
+            [
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "b. Book Assistance"
+              },
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "Provide book assistance to selected students, to be given at the first weeks of both semesters of AY 2022-2023."
+              }
+            ],
+            [
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "c. Book Assistance"
+              },
+              {
+                "rowType": "normal",
+                "colspan": 1,
+                "rowContent": "Financial Assistance for Thesis and Research"
+              }
+            ]
           ]
         }
       ]

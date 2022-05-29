@@ -1,6 +1,8 @@
 @import "../../../../styles/variables.scss";
 @import "../../Molecules/InitiativeModal/InitiativeModal.module.scss";
 
+$tableBorders: 1px solid #ffffff;
+
 .content-container {
   display: flex;
   flex-direction: column;
@@ -26,6 +28,23 @@
   line-height: 2rem;
   text-align: center;
   color: #ffff;
+}
+
+.table {
+  border: $tableBorders;
+  border-collapse: collapse;
+  width: 90%;
+
+  th,
+  td {
+    border: $tableBorders;
+    padding: 1rem;
+    color: $color--white;
+  }
+
+  th {
+    font-size: $h5FontSize;
+  }
 }
 
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {

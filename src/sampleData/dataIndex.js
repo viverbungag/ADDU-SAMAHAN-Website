@@ -7,3 +7,4 @@ export { default as abtData1 } from "./aboutFirstSection.json";
 export { default as sgInData } from "./secretaryGeneralInitiatives.json";
 export { default as abtData2 } from "./aboutSecondSection.json";
 export { default as advoData } from "./advocaSix.json";
+export { default as tInData } from "./treasurerInitiatives.json";

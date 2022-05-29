@@ -13,7 +13,7 @@ $tableBorders: 1px solid #ffffff;
   align-items: center;
 }
 
-.content-text {
+.paragraph-content {
   text-align: justify;
   font-size: $bodyFontSize;
   font-weight: $bodyFontWeight;
@@ -38,6 +38,12 @@ $tableBorders: 1px solid #ffffff;
   th,
   td {
     border: $tableBorders;
+    padding: 1rem;
+    color: $color--white;
+  }
+
+  ul {
+    margin-left: 1rem;
     padding: 1rem;
     color: $color--white;
   }

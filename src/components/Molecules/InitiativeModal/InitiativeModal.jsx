@@ -33,7 +33,7 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
             imgBgSrc={currentData.imgBgSrc}
             open
           />
-          <InitiativeContent content={currentData.content} />
+          <InitiativeContent content={currentData.contents} />
         </motion.div>
       </div>
     </>

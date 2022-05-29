@@ -5,24 +5,34 @@
       "officeTitle": "OFFICE OF THE SAMAHAN PRESIDENT",
       "officers": [
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Meriraven Romero",
+          "position": "Director, Dept. of External Affairs",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FRomero-Raven.png?alt=media&token=2ffd7bc0-3165-4f15-801d-e126f79bcdbf"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Denise Maxyn Amarga",
+          "position": "Deputy Director, Dept. of External Affairs",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2Fsample-boy.jpg?alt=media&token=8d693944-533a-45b6-a4be-c3939af02de9"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Mohammad Abdunur Unga",
+          "position": "Director, Dept. of Campaigns & Advocacies",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FUnga-Mohammad.png?alt=media&token=19f9127d-2d75-480a-88d1-67879be5d450"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Jaspear Danduan",
+          "position": "Deputy Director, Dept. of Campaigns & Advocacies",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FDanduan-Jaspear.png?alt=media&token=d23326f0-4462-4cee-9bba-320d801832f0"
+        },
+        {
+          "name": "Marian Magsigay",
+          "position": "Director, Ecoteneo Student Unit",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FMagsigay-Marian.png?alt=media&token=398e7c82-2c28-4fb6-a6da-721e705ffe42"
+        },
+        {
+          "name": "Mary Jastine Lapating",
+          "position": "Deputy Director, Ecoteneo Student Unit",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FLapating-Mary.png?alt=media&token=1a75e5b9-7537-4057-acab-bbec62a392dc"
         }
       ]
     },
@@ -30,49 +40,24 @@
       "officeTitle": "OFFICE OF THE SAMAHAN VICE-PRESIDENT",
       "officers": [
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Monica Gwen Cortes",
+          "position": "Director, Dept. of Academic Affairs",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FCortes-Monica.png?alt=media&token=7fe4e411-0d33-46cb-b093-2e7950040b6f"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Kathy Pariñas",
+          "position": "Deputy Director, Dept. of Academic Affairs",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FPari%C3%B1as-Kathy.png?alt=media&token=137b862e-2e0d-4c91-aae1-92a7d94dcb11"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Rodel Banal",
+          "position": "Director, Dept. for Disaster Risk Management",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FBanal-Rodel.png?alt=media&token=a1aaf79f-fed2-40e7-926e-4451fa24a074"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        }
-      ]
-    },
-    {
-      "officeTitle": "OFFICE OF THE SAMAHAN VICE-PRESIDENT",
-      "officers": [
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        },
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        },
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        },
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Therese Marie Arceo",
+          "position": "Deputy Director, Dept. for Disaster Risk Management",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FArceo-Thea.png?alt=media&token=b2e2422b-694c-4956-afd3-4b0db760b87d"
         }
       ]
     },
@@ -80,74 +65,54 @@
       "officeTitle": "OFFICE OF THE SAMAHAN SECRETARY-GENERAL",
       "officers": [
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Erica Ingrid Silfverberg",
+          "position": "Director, SAMAHAN Creative Team",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FSilfverberg-Ingrid.png?alt=media&token=4bd5d078-a0be-4a01-888b-eeee7233a268"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Leandro Miguel Tupas",
+          "position": "Deputy Director, SAMAHAN Creative Team",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FTupas-Leandro.png?alt=media&token=cde62f0b-1410-4c6c-97b1-9d95a2d2d102"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Liezel Restauro",
+          "position": "Director, Ateneo SAMAHAN Productions",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FRestauro-Liezel.png?alt=media&token=3d3db8af-3ed6-4138-8b30-5fadcea2b900"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        }
-      ]
-    },
-    {
-      "officeTitle": "OFFICE OF THE SAMAHAN SECRETARY-GENERAL",
-      "officers": [
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Zayne Jacob",
+          "position": "Deputy Director, Ateneo SAMAHAN Productions",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FJacob-Zayne.png?alt=media&token=8e7f253d-7335-45d6-b013-7041ceba8f7a"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Katrina Jesrene Datoy",
+          "position": "Director, Dept. of Communications",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FDatoy-Katrina.png?alt=media&token=d201f221-1fce-47fd-9600-d212849bbb4e"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Cassie Valencia",
+          "position": "Deputy Director, Dept. of Communications",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FValencia-Cassie.png?alt=media&token=dd92fb80-d819-4c8b-998d-99b2067707f9"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
-        }
-      ]
-    },
-    {
-      "officeTitle": "OFFICE OF THE SAMAHAN TREASURER",
-      "officers": [
-        {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Jan Patrick Matayabas",
+          "position": "Director, Dept. of Systems Development",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FMatayabas-Patrick.png?alt=media&token=1013d025-7db0-4c3d-a18c-f100647f873f"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Janna Wong",
+          "position": "Deputy Director, Dept. of Systems Development",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2Fsample-boy.jpg?alt=media&token=8d693944-533a-45b6-a4be-c3939af02de9"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Mae Antonnette Balili",
+          "position": "Director, Dept. of Research & Development",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2Fsample-boy.jpg?alt=media&token=8d693944-533a-45b6-a4be-c3939af02de9"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Trisha Mae Manapol",
+          "position": "Deputy Director, Dept. of Research & Development",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FManapol-Trisha.png?alt=media&token=3e13196a-9db4-48cb-935f-8788ca4a3e5e"
         }
       ]
     },
@@ -155,24 +120,24 @@
       "officeTitle": "OFFICE OF THE SAMAHAN TREASURER",
       "officers": [
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Louie Joy Gutib",
+          "position": "Director, SAMAHAN Logistics Department",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FGutib-Louie.png?alt=media&token=7a4dfef1-7eb0-440f-b003-4073f28db1ac"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Jomard Sam Delos Reyes",
+          "position": "Deputy Director, SAMAHAN Logistics Department",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FDelosReyes-Jomard.png?alt=media&token=c7fdfef4-1345-4a36-96bb-712964fc9050"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Joice Jonah Esteron",
+          "position": "Director, Dept. of Sponsorships & Support",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FEsteron-Joice.png?alt=media&token=7f01063d-95c8-4d0f-bb21-48cede10beaa"
         },
         {
-          "name": "Patrick Matayabas",
-          "position": "Sysdev Director",
-          "imageSrc": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+          "name": "Pam Danica Dy",
+          "position": "Deputy Director, Dept. of Sponsorships & Support",
+          "imageSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FProfile%20Pics%2FDy-Pam.png?alt=media&token=03a9452d-cc0a-4dab-9e91-3f5d2beb972d"
         }
       ]
     }

@@ -9,7 +9,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "paragraph container") {
       return (
-        <div className={styles["paragraph-content--container"]}>
+        <div key={index} className={styles["paragraph-content--container"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -39,7 +39,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "paragraph hyperlink") {
       return (
-        <span>
+        <span key={index}>
           <Link href={content.link}>
             <a
               target="_blank"
@@ -70,7 +70,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "table") {
       return (
-        <table className={styles["table"]}>
+        <table key={index} className={styles["table"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -80,7 +80,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "table row") {
       return (
-        <tr>
+        <tr key={index}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -90,7 +90,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "table header") {
       return (
-        <th colspan={content.colspan}>
+        <th key={index} colSpan={content.colspan}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -100,7 +100,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "table cell") {
       return (
-        <td colspan={content.colspan}>
+        <td key={index} colSpan={content.colspan}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -112,7 +112,7 @@ const contentRecurrsion = (contents) => {
       switch (content.listType) {
         case "lowercase letter":
           return (
-            <ol className={styles["orderedList"]} type="a">
+            <ol key={index} className={styles["orderedList"]} type="a">
               {hasSubContent
                 ? contentRecurrsion(content.contents)
                 : content.contents}
@@ -121,7 +121,7 @@ const contentRecurrsion = (contents) => {
 
         case "uppercase letter":
           return (
-            <ol className={styles["orderedList"]} type="A">
+            <ol key={index} className={styles["orderedList"]} type="A">
               {hasSubContent
                 ? contentRecurrsion(content.contents)
                 : content.contents}
@@ -130,7 +130,7 @@ const contentRecurrsion = (contents) => {
 
         default:
           return (
-            <ol className={styles["orderedList"]}>
+            <ol key={index} className={styles["orderedList"]}>
               {hasSubContent
                 ? contentRecurrsion(content.contents)
                 : content.contents}
@@ -141,7 +141,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "unordered list") {
       return (
-        <ul className={styles["unorderedList"]}>
+        <ul key={index} className={styles["unorderedList"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -151,7 +151,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "list item") {
       return (
-        <li className={styles["listItem"]}>
+        <li key={index} className={styles["listItem"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -161,7 +161,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "description list") {
       return (
-        <dl>
+        <dl key={index}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -171,7 +171,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "description term") {
       return (
-        <dt>
+        <dt key={index}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -181,7 +181,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "description data") {
       return (
-        <dd className={styles["descriptionData"]}>
+        <dd key={index} className={styles["descriptionData"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -191,7 +191,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "title") {
       return (
-        <h2 className={styles["title"]}>
+        <h2 key={index} className={styles["title"]}>
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -200,9 +200,9 @@ const contentRecurrsion = (contents) => {
     }
 
     if (content.type === "google sheets") {
-      console.log(content.contents);
       return (
         <iframe
+          key={index}
           className={styles["googleSheets"]}
           src={content.contents}
         ></iframe>

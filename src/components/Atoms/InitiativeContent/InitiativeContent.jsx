@@ -6,8 +6,6 @@ import Link from "next/link";
 const contentRecurrsion = (contents) => {
   return contents.map((content, index) => {
     const hasSubContent = typeof content.contents === "object";
-    const hasContinuation =
-      "hasContinuation" in content && content.hasContinuation;
 
     if (content.type === "paragraph container") {
       return (

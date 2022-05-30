@@ -32,6 +32,7 @@ export { default as Footer } from "./Organisms/Footer/Footer";
 export { default as AboutFirstSection } from "./Organisms/AboutFirstSection/AboutFirstSection";
 export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
 export { default as AboutSecondSection } from "./Organisms/AboutSecondSection/AboutSecondSection";
+export { default as InformationSection } from "./Organisms/InformationSection/InformationSection";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

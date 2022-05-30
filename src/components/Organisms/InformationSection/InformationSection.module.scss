@@ -1,0 +1,31 @@
+@import "../../../../styles/variables.scss";
+
+.InformationSection {
+    background-color: $color--aquamarine;
+    padding: 3rem 0;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        
+        h1 {
+            color: $color--primary;
+            font-size: $h4FontSize;
+        }
+    }
+
+    .information_area {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        max-width: 820px;
+        align-items: center;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import { Navigation, Footer, Button, FAQCategories } from "../../ComponentIndex";
+import { Navigation, Footer, Button, FAQCategories, InformationSection } from "../../ComponentIndex";
 
 import styles from "./HelpPortalTemplate.module.scss";
 
-const HelpPortalTemplate = ({faqData, guidebookLink}) => {
+const HelpPortalTemplate = ({faqData, information}) => {
   return (
     <>
       <Navigation />
@@ -32,6 +32,7 @@ const HelpPortalTemplate = ({faqData, guidebookLink}) => {
             </div>
           </div>
         </section>
+        <InformationSection information={information}/>
         <section className={styles["help-portal__FAQ"]}>
           <h2>Frequently Asked Questions (FAQs)</h2>
           <div className={styles["category-area"]}>

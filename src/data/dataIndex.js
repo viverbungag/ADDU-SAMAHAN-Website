@@ -10,3 +10,7 @@ export { default as faqData } from "./faqData.json";
 export { default as sgInData } from "./secretaryGeneralInitiatives.json";
 export { default as abtData2 } from "./aboutSecondSection.json";
 export { default as tInData } from "./treasurerInitiatives.json";
+export { default as information } from "../data/Information/Information.json";
+
+/* INFORMATION AREA */
+export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";

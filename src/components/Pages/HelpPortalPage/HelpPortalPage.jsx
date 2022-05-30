@@ -1,12 +1,13 @@
 import React from "react";
 import { HelpPortalTemplate } from "../../ComponentIndex";
 
-import { faqData } from "../../../data/dataIndex";
+import { faqData, information } from "../../../data/dataIndex";
 
 const HelpPortal = () => {
   return (
     <>
-      <HelpPortalTemplate faqData={faqData} />
+      <HelpPortalTemplate faqData={faqData} information={information.information_title} />
+      {console.log(information.information_title)}
     </>
   );
 };

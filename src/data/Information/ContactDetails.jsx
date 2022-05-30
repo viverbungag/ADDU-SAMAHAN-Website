@@ -97,7 +97,7 @@ const ContactDetails = () => {
           </a>{" "}
           <br />
           Google Forms for Concerns:{" "}
-          <a href="tiny.cc/Admissions20" target="_blank" rel="noreferrer">
+          <a href="https://tiny.cc/Admissions20" target="_blank" rel="noreferrer">
             tiny.cc/Admissions20
           </a>
         </p>
@@ -124,7 +124,7 @@ const ContactDetails = () => {
           </a>{" "}
           <br />
           Google Forms for Concerns:{" "}
-          <a href="tiny.cc/Finance20" target="_blank" rel="noreferrer">
+          <a href="https://tiny.cc/Finance20" target="_blank" rel="noreferrer">
             tiny.cc/Finance20
           </a>
         </p>
@@ -145,7 +145,7 @@ const ContactDetails = () => {
           Email: mis@addu.edu.ph <br />
           Twitter: @addu_mis <br />
           Google Forms for Concerns:{" "}
-          <a href="tiny.cc/MIS20" target="_blank" rel="noreferrer">
+          <a href="https://tiny.cc/MIS20" target="_blank" rel="noreferrer">
             tiny.cc/MIS20
           </a>
         </p>

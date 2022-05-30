@@ -1,11 +1,14 @@
 import React from "react";
-import { Navigation, Footer } from "../../ComponentIndex";
+import { Navigation, Footer, OfficeInitiative } from "../../ComponentIndex";
+import styles from "./OfficeOfTheTreasurerTemplate.module.scss";
 
-const OfficeOfTheTreasurerTemplate = () => {
+const OfficeOfTheTreasurerTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
-      <Navigation />
-      <div>OfficeOfTheTreasurerTemplate</div>
+      <div className={styles["office-of-the-treasurer"]}>
+        <Navigation />
+        <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
+      </div>
       <Footer />
     </>
   );

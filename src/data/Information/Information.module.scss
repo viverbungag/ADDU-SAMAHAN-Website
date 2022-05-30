@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+
+.EnrollmentAndPayment {
+    h5 {
+        text-decoration: underline;
+        font-size: $h5FontSize;
+        margin-bottom: 1.2rem;
+    }
+
+    ol {
+        padding-left: 4rem;
+
+        li {
+            margin-bottom: .3rem;
+        }
+    }
+
+    ol ul {
+        padding-left: 2rem;
+        li {
+            margin: .5rem 0;
+        }
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    .indent {
+        padding-left: 3rem;
+    }
+
+    .indent-emphasize {
+        padding-left: 2rem;
+        margin: 1rem 0;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+}

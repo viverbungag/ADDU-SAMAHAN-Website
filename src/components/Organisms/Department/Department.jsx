@@ -2,7 +2,7 @@ import React from "react";
 import { Office, Button } from "../../ComponentIndex";
 import styles from "./Department.module.scss";
 
-const Department = ({ title, offices }) => {
+const Department = ({ title, offices, handleClose }) => {
   return (
     <>
       <div className={styles["componentContainer"]}>
@@ -15,7 +15,7 @@ const Department = ({ title, offices }) => {
           />
         ))}
         <div className={styles["button"]}>
-          <Button label={"< BACK"}></Button>
+          <Button label={"< BACK"} onClick={handleClose}></Button>
         </div>
       </div>
     </>

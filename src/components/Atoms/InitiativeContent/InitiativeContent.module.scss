@@ -1,17 +1,41 @@
 @import "../../../../styles/variables.scss";
 @import "../../Molecules/InitiativeModal/InitiativeModal.module.scss";
 
+$tableBorders: 1px solid #ffffff;
+
 .content-container {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  padding: 8rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   max-width: $maxWidth;
   width: 90vw;
   align-items: center;
 }
 
-.content-text {
+.paragraph-content {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  color: #ffff;
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+
+.paragraph-content--container {
+  text-indent: 2rem;
+}
+
+.paragraph-content--bold {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: bold;
+  color: #ffff;
+  line-height: 2rem;
+  text-indent: 2rem;
+}
+
+.paragraph-content--hypertext {
   text-align: justify;
   font-size: $bodyFontSize;
   font-weight: $bodyFontWeight;
@@ -21,11 +45,60 @@
 }
 
 .content-hypertext {
-  font-size: $h4FontSize;
-  font-weight: $h4FontWeight;
+  font-size: $h5FontSize;
+  font-weight: $h5FontWeight;
   line-height: 2rem;
   text-align: center;
   color: #ffff;
+}
+
+.title {
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  text-align: center;
+  color: #ffff;
+}
+
+.orderedList,
+.unorderedList {
+  margin-left: 1rem;
+  padding: 1rem;
+  color: $color--white;
+  width: 90%;
+}
+
+.listItem,
+.descriptionData {
+  margin-left: 1rem;
+  padding: 0.3rem;
+  color: $color--white;
+}
+
+.table {
+  border: $tableBorders;
+  border-collapse: collapse;
+  width: 90%;
+
+  th,
+  td,
+  tr {
+    border: $tableBorders;
+    padding: 1rem;
+    color: $color--white;
+  }
+
+  .paragraph-content {
+    padding: 1rem;
+    color: $color--white;
+  }
+
+  th {
+    font-size: $h5FontSize;
+  }
+}
+
+.googleSheets {
+  width: 100%;
 }
 
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {

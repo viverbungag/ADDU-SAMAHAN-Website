@@ -6,18 +6,16 @@
       "id": "initiative_1",
       "initiativeNum": "Initiative 1",
       "title": "Student Assembly Archives",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FStudent%20Assembly%20Archives.jpeg?alt=media&token=d31caa87-309e-49d2-a4d8-b3003c39ad7a",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Student Assembly Archives serves as the official virtual library of the Student Assembly. It compiles all Student Assembly's publications and documents on their legislative procedures and activities made accessible to the public for recordkeeping and transparency purposes. It includes such but is not limited to enacted resolutions, policies, proposals, appointments, bills, journals, minutes, and others. Through the archives, the Student Assembly narrows the gap and makes the student body more involved in legislative affairs."
+          "contents": "The Student Assembly Archives serves as the official virtual library of the Student Assembly. It compiles all Student Assembly's publications and documents on their legislative procedures and activities made accessible to the public for recordkeeping and transparency purposes. It includes such but is not limited to enacted resolutions, policies, proposals, appointments, bills, journals, minutes, and others. Through the archives, the Student Assembly narrows the gap and makes the student body more involved in legislative affairs."
         },
         {
           "type": "hyperlink",
-          "body": {
-            "shownText": "Click here to view the Archives",
-            "link": "https://drive.google.com/drive/folders/1WlZnfqweut__sw4BqGV8PF0jJYdfFdAE"
-          }
+          "link": "https://drive.google.com/drive/folders/1WlZnfqweut__sw4BqGV8PF0jJYdfFdAE",
+          "contents": "Click here to view the Archives"
         }
       ]
     },
@@ -25,15 +23,15 @@
       "id": "initiative_2",
       "initiativeNum": "Initiative 2",
       "title": "Ateneo Community Codes",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FAteneo%20Community%20Codes.jpeg?alt=media&token=f8463a0c-0d92-4cd5-b1b4-be7a34585fa6",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Ateneo Community Codes (ACC) are written and recorded guidelines to better understand our specific sectors' needs. They will serve as a code of ethics for people to follow to protect the stakeholders of the Codes. This also involves fathering concerned individuals who form that particular sector to draft the set of provisions for the Code (i.e., Moro student members or LGBTQ+ members). They shall have drafting and reading phases for the final approval. These community codes crafted through the OVP will be coordinated and proposed to the Office of the Student Affairs (OSA) to update the student handbook, which is one of the best avenues to protect the students of Ateneo."
+          "contents": "The Ateneo Community Codes (ACC) are written and recorded guidelines to better understand our specific sectors' needs. They will serve as a code of ethics for people to follow to protect the stakeholders of the Codes. This also involves fathering concerned individuals who form that particular sector to draft the set of provisions for the Code (i.e., Moro student members or LGBTQ+ members). They shall have drafting and reading phases for the final approval. These community codes crafted through the OVP will be coordinated and proposed to the Office of the Student Affairs (OSA) to update the student handbook, which is one of the best avenues to protect the students of Ateneo."
         },
         {
           "type": "paragraph",
-          "body": "The students will now be taught appropriately about other sectors, and we will be able to prevent or at least mitigate our mistakes that could have been avoided if we had been more aware of who they are and how they should be treated. As a sector, we can now effectively articulate our needs and wants. In genuinely putting students first through the ACC, protection will be institutionalized."
+          "contents": "The students will now be taught appropriately about other sectors, and we will be able to prevent or at least mitigate our mistakes that could have been avoided if we had been more aware of who they are and how they should be treated. As a sector, we can now effectively articulate our needs and wants. In genuinely putting students first through the ACC, protection will be institutionalized."
         }
       ]
     },
@@ -41,11 +39,11 @@
       "id": "initiative_3",
       "initiativeNum": "Initiative 3",
       "title": "Ateneo for Ateneans",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FAteneo%20for%20Ateneans.jpeg?alt=media&token=d14cf7e4-5c66-40cf-9f36-1c3ba82d7b45",
+      "contents": [
         {
           "type": "paragraph",
-          "body": ""
+          "contents": "[Adaptation of School of Engineering and Architecture’s iRoar, Relief Operations mechanisms, Protocols, and AA Volunteers]"
         }
       ]
     },
@@ -53,11 +51,11 @@
       "id": "initiative_4",
       "initiativeNum": "Initiative 4",
       "title": "Isdaan",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FIsdaan.jpeg?alt=media&token=cc2bd005-ea43-420f-ba9c-28461461c717",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Student Board: ISDAAN establishes a portal where all opportunities are available to the students, sanctioned by the university, or posted outside AdDU. Through this, opportunities will no longer be exclusive to some when accessing. Agencies and organizations can now have one place to gather applications and offerings. It aims to centralize applications and sources and outsource for a more efficient system for students of AdDU."
+          "contents": "The Student Board: ISDAAN establishes a portal where all opportunities are available to the students, sanctioned by the university, or posted outside AdDU. Through this, opportunities will no longer be exclusive to some when accessing. Agencies and organizations can now have one place to gather applications and offerings. It aims to centralize applications and sources and outsource for a more efficient system for students of AdDU."
         }
       ]
     },
@@ -65,15 +63,15 @@
       "id": "initiative_5",
       "initiativeNum": "Initiative 5",
       "title": "SAMAHAN Speakers Bureau",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FSAMAHAN%20Speakers%20Bureau.JPG?alt=media&token=7214f261-30d5-4027-854e-1aa36f6073ef",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "With Student Judicial Court officially operating this school year 2022-2023, the SAMAHAN Office of the Vice President would like to continue its quest to empower and amplify the voices of the students by complimenting the missing element of the Student Judicial Court. Akin to the lawyers and legal counsels to represent people in court, at Ateneo de Davao University, there is no such organization or arm to do so."
+          "contents": "With Student Judicial Court officially operating this school year 2022-2023, the SAMAHAN Office of the Vice President would like to continue its quest to empower and amplify the voices of the students by complimenting the missing element of the Student Judicial Court. Akin to the lawyers and legal counsels to represent people in court, at Ateneo de Davao University, there is no such organization or arm to do so."
         },
         {
           "type": "paragraph",
-          "body": "SAMAHAN Speakers Bureau becomes an avenue for ateneans to represent themselves to the Student Judicial Court. SSB becomes akin to the Free Legal Assistance Group (FLAG) or the Public Attorney’s Office (PAO)."
+          "contents": "SAMAHAN Speakers Bureau becomes an avenue for ateneans to represent themselves to the Student Judicial Court. SSB becomes akin to the Free Legal Assistance Group (FLAG) or the Public Attorney’s Office (PAO)."
         }
       ]
     },
@@ -81,11 +79,11 @@
       "id": "initiative_6",
       "initiativeNum": "Initiative 6",
       "title": "The Ateneo Parliament 2022",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FVice-President%20Initiatives%2FThe%20Ateneo%20Parliament%202022.jpeg?alt=media&token=3a7f98ca-14f0-470d-abe9-484582b10f7e",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Ateneo Parliament 2022 is a university-wide congress where 60 students will be given a chance for legislative capacity-building and forwarding their advocacies through resolution-making. It aims to #NarrowTheGap on the lack of opportunities for some Ateneans to develop and empower as sui generis leaders who could greatly contribute to serving the Ateneo community, the Mindanaons, and the whole nation."
+          "contents": "The Ateneo Parliament 2022 is a university-wide congress where 60 students will be given a chance for legislative capacity-building and forwarding their advocacies through resolution-making. It aims to #NarrowTheGap on the lack of opportunities for some Ateneans to develop and empower as sui generis leaders who could greatly contribute to serving the Ateneo community, the Mindanaons, and the whole nation."
         }
       ]
     }

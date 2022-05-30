@@ -1,0 +1,27 @@
+@import "../../../../styles/variables.scss";
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.component-container {
+  display: flex;
+  align-items: center;
+  animation-duration: 1s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: $color--white;
+  column-gap: 0.5rem;
+}
+
+.text {
+  font-size: $h2FontSize;
+  font-weight: $h2FontWeight;
+}

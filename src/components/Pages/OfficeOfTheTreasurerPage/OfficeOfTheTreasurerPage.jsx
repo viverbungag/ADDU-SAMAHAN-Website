@@ -1,12 +1,17 @@
 import React from "react";
 import { OfficeOfTheTreasurerTemplate } from "../../ComponentIndex";
+import { tInData } from "../../../data/dataIndex";
 
-const OfficeOfTheTreasurer = () => {
+const OfficeOfTheTreasurerPage = ({ id, initialRoute }) => {
   return (
     <>
-      <OfficeOfTheTreasurerTemplate />
+      <OfficeOfTheTreasurerTemplate
+        id={id}
+        data={tInData}
+        initialRoute={initialRoute}
+      />
     </>
   );
 };
 
-export default OfficeOfTheTreasurer;
+export default OfficeOfTheTreasurerPage;

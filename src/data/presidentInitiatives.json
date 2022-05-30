@@ -7,14 +7,14 @@
       "initiativeNum": "Initiative 1",
       "title": "ABAKADA: Balik Eskwela Mindanao",
       "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "contents": [
         {
           "type": "paragraph",
-          "body": "ABAKADA: Balik Eskwela Mindanao is a youth-led summer outreach project which aims to provide educational materials to identified partner schools in Mindanao that will help students maximize their learning experience amidst the current learning set-up."
+          "contents": "ABAKADA: Balik Eskwela Mindanao is a youth-led summer outreach project which aims to provide educational materials to identified partner schools in Mindanao that will help students maximize their learning experience amidst the current learning set-up."
         },
         {
           "type": "paragraph",
-          "body": "Embodying youth action and collective volunteerism, ABAKADA stands in solidarity with students in need and recognizes every student's right to have access to quality education."
+          "contents": "Embodying youth action and collective volunteerism, ABAKADA stands in solidarity with students in need and recognizes every student's right to have access to quality education."
         }
       ]
     },
@@ -22,11 +22,11 @@
       "id": "initiative_2",
       "initiativeNum": "Initiative 2",
       "title": "Ateneo to the World",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FAteneo%20to%20the%20World.jpeg?alt=media&token=e349b315-62e9-40ae-9d24-21e87bcdd861",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Ateneo to the World is a flagship project of the SAMAHAN in coordination with the Ateneo Internationalization for Mindanao Office which aims to strengthen Ateneans’ reach to exposure programs outside the university. Through this initiative, opportunities for leadership and career development will be more accessible and diversified for Ateneans."
+          "contents": "The Ateneo to the World is a flagship project of the SAMAHAN in coordination with the Ateneo Internationalization for Mindanao Office which aims to strengthen Ateneans’ reach to exposure programs outside the university. Through this initiative, opportunities for leadership and career development will be more accessible and diversified for Ateneans."
         }
       ]
     },
@@ -34,11 +34,11 @@
       "id": "initiative_3",
       "initiativeNum": "Initiative 3",
       "title": "ECOmmitment",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FECOmmitment.jpeg?alt=media&token=bfac844b-3744-45e8-b903-3d57846795e3",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "ECOmmitment is SAMAHAN’s pledge to employ virtual and/or on-site welfare work including but not limited to reforestation efforts and campaigning for environmentally-sound programs every month to mobilize Ateneans to action and raise awareness on different issues concerning our common home."
+          "contents": "ECOmmitment is SAMAHAN’s pledge to employ virtual and/or on-site welfare work including but not limited to reforestation efforts and campaigning for environmentally-sound programs every month to mobilize Ateneans to action and raise awareness on different issues concerning our common home."
         }
       ]
     },
@@ -46,11 +46,11 @@
       "id": "initiative_4",
       "initiativeNum": "Initiative 4",
       "title": "The Mindanao Youth Congress",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FThe%20Mindanao%20Youth%20Congress.jpeg?alt=media&token=3f1d2874-a129-4ebc-943f-6d5376994f52",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "is an annual event to which student-leaders from different universities of Region 11 gathers to emerge, empower, and safeguard the common interest of advocating to create and implement resolutions to societal issues of the region, related to the AdvocaSix of the SAMAHAN Central Board for the Academic Year. The said event will be in partnership with different departments of the SAMAHAN Central Board, such as the Department of Campaigns and Advocacies and the Ecoteneo Student Unit."
+          "contents": "is an annual event to which student-leaders from different universities of Region 11 gathers to emerge, empower, and safeguard the common interest of advocating to create and implement resolutions to societal issues of the region, related to the AdvocaSix of the SAMAHAN Central Board for the Academic Year. The said event will be in partnership with different departments of the SAMAHAN Central Board, such as the Department of Campaigns and Advocacies and the Ecoteneo Student Unit."
         }
       ]
     },
@@ -58,11 +58,11 @@
       "id": "initiative_5",
       "initiativeNum": "Initiative 5",
       "title": "Mindanao Youth Agenda",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FMindanao%20Youth%20Agenda.jpeg?alt=media&token=c09431cc-8085-4d99-bd2c-d038ef9ff37a",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "In advancing the sentiments of the youth, the SAMAHAN shall lobby to the Unyon Mindanao, a convention of student governments of educational institutions in Mindanao, the crafting of the written Mindanaoan Youth Agenda containing the vision and pleas addressed to the Philippine President and other government officials. This project is in line with SAMAHAN’s Advocasix of Good Governance and Youth Empowerment."
+          "contents": "In advancing the sentiments of the youth, the SAMAHAN shall lobby to the Unyon Mindanao, a convention of student governments of educational institutions in Mindanao, the crafting of the written Mindanaoan Youth Agenda containing the vision and pleas addressed to the Philippine President and other government officials. This project is in line with SAMAHAN’s Advocasix of Good Governance and Youth Empowerment."
         }
       ]
     },
@@ -70,11 +70,11 @@
       "id": "initiative_6",
       "initiativeNum": "Initiative 6",
       "title": "Ecosummit 2022",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FEcosummit%202022.jpeg?alt=media&token=8fe6df67-58da-4929-873b-02479af59958",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "The Ecosummit is a forum featuring success stories, and game-changing contributions of youth advocates as they respond to the challenges in their localities. Through their narratives, delegates can understand local, national, or even global environmental challenges and in the process, pick up effective strategies to address issues of concern. This environmental project emphasizes that there is hope in solving our climate crisis and championing environmental justice with the youth in action."
+          "contents": "The Ecosummit is a forum featuring success stories, and game-changing contributions of youth advocates as they respond to the challenges in their localities. Through their narratives, delegates can understand local, national, or even global environmental challenges and in the process, pick up effective strategies to address issues of concern. This environmental project emphasizes that there is hope in solving our climate crisis and championing environmental justice with the youth in action."
         }
       ]
     },
@@ -82,11 +82,11 @@
       "id": "initiative_7",
       "initiativeNum": "Initiative 7",
       "title": "Mulat Mindanao 2022",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FMulat%20Mindanao%202022.jpeg?alt=media&token=eb74e2db-6fd0-434c-ab73-50b2c13a4a4f",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "Mulat Mindanao is the SAMAHAN-led project in partnership with the university offices which aims to discuss perennial issues of Mindanao, peace-building stories, and community-building initiatives. In forwarding the Mindanaoan agenda, SAMAHAN will create a platform to raise discourses involving the youth regarding advocacy-building and solution-making in their localities."
+          "contents": "Mulat Mindanao is the SAMAHAN-led project in partnership with the university offices which aims to discuss perennial issues of Mindanao, peace-building stories, and community-building initiatives. In forwarding the Mindanaoan agenda, SAMAHAN will create a platform to raise discourses involving the youth regarding advocacy-building and solution-making in their localities."
         }
       ]
     },
@@ -94,11 +94,11 @@
       "id": "initiative_8",
       "initiativeNum": "Initiative 8",
       "title": "Gawad Siyasat: Pioneering SAMAHAN Research Congress",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FGawad%20Siyasat%20-%20Pioneering%20SAMAHAN%20Research%20Congress.jpeg?alt=media&token=89bf3526-1016-4de6-97cc-ab450e09bcbf",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "In partnership with the University Research Council, the SAMAHAN shall award outstanding thesis outputs that are dedicated to solving pressing societal issues. This project aims to boost interest of Ateneans towards research through financial support and recognition."
+          "contents": "In partnership with the University Research Council, the SAMAHAN shall award outstanding thesis outputs that are dedicated to solving pressing societal issues. This project aims to boost interest of Ateneans towards research through financial support and recognition."
         }
       ]
     },
@@ -106,11 +106,11 @@
       "id": "initiative_9",
       "initiativeNum": "Initiative 9",
       "title": "Magis Movement 2022",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
-      "content": [
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FPresident%20Initiatives%2FMagis%20Movement%202022.jpeg?alt=media&token=cc30e99f-65cf-4745-8c3d-aeec6d0ced60",
+      "contents": [
         {
           "type": "paragraph",
-          "body": "In 2022, SAMAHAN targets to work with ten communities outside the university in building impactful and sustainable programs for welfare work including but not limited to capacity development projects and provision of supplies. This movement shall be linked to the projects of the Council of Organizations Ateneo - Davao, Council of Class Presidents, Student Executive Councils and other autonomous commissions."
+          "contents": "In 2022, SAMAHAN targets to work with ten communities outside the university in building impactful and sustainable programs for welfare work including but not limited to capacity development projects and provision of supplies. This movement shall be linked to the projects of the Council of Organizations Ateneo - Davao, Council of Class Presidents, Student Executive Councils and other autonomous commissions."
         }
       ]
     }

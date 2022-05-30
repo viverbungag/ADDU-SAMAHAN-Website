@@ -5,8 +5,8 @@ import styles from "./OfficeOfThePresidentTemplate.module.scss";
 const OfficeOfThePresidentTemplate = ({ id, data, initialRoute }) => {
   return (
     <>
-      <Navigation />
       <div className={styles["office-of-the-president"]}>
+        <Navigation />
         <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
       </div>
       <Footer />

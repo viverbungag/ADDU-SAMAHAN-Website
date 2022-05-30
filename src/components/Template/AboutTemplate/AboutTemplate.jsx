@@ -11,7 +11,7 @@ import {
 import styles from "./AboutTemplate.module.scss";
 import { Modal, Slide, Backdrop } from "@mui/material";
 
-const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
+const AboutTemplate = ({ scbData, sdData, abtData1, abtData2, aData }) => {
   const [openCentralBoard, setOpenCentralBoard] = useState(false);
   const handleOpenCentralBoard = () => setOpenCentralBoard(true);
   const handleCloseCentralBoard = () => setOpenCentralBoard(false);
@@ -27,11 +27,10 @@ const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
         <AboutFirstSection data={abtData1} />
       </div>
       <div className={"container" + styles["section"]}>
-        <AboutSecondSection data={abtData2}/>
+        <AboutSecondSection data={abtData2} />
       </div>
       <div className={"container" + styles["section"]}>
-       
-        <VerticalTabs data = {aData} />
+        <VerticalTabs data={aData} />
       </div>
       <section className={styles["about"]}>
         <div className={"container " + styles["component-container"]}>
@@ -59,7 +58,11 @@ const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
             >
               <div className={styles["modal"]}>
                 <div className={styles["content"]}>
-                  <Department title={sdData.title} offices={sdData.offices} />
+                  <Department
+                    title={scbData.title}
+                    offices={scbData.offices}
+                    handleClose={handleCloseCentralBoard}
+                  />
                 </div>
               </div>
             </Slide>
@@ -82,7 +85,11 @@ const AboutTemplate = ({ scbData, sdData, abtData1, abtData2 , aData}) => {
             >
               <div className={styles["modal"]}>
                 <div className={styles["content"]}>
-                  <Department title={scbData.title} offices={scbData.offices} />
+                  <Department
+                    title={sdData.title}
+                    offices={sdData.offices}
+                    handleClose={handleCloseDepartments}
+                  />
                 </div>
               </div>
             </Slide>

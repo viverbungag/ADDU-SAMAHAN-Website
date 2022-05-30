@@ -1,5 +1,5 @@
 {
-  "mainTitle": "PRESIDENT",
+  "mainTitle": "TREASURER",
   "subTitle": "OFFICE OF THE",
   "initiatives": [
     {
@@ -9,17 +9,121 @@
       "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
       "contents": [
         {
-          "type": "paragraph",
+          "type": "table",
           "contents": [
             {
-              "type": "paragraph",
-              "contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table header",
+                  "colspan": 2,
+                  "contents": "AdDU Premiums"
+                }
+              ]
             },
             {
-              "type": "paragraph",
-              "contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "1. Google GSuite"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "20GB Storage for each user"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Unlimited Originality Reports with peer comparison using Google Classroom or Google Assignments"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Document Approvals"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": [
+                        {
+                          "type": "description term",
+                          "contents": "Google Meet"
+                        },
+                        {
+                          "type": "description list",
+                          "contents": [
+                            {
+                              "type": "description data",
+                              "contents": "- Maximum 500 participants"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- In-domain live streaming for up to 100k viewers (for non-student accounts only)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Recordings saved to Drive (ended in January 2022 for non-paid subscriptions)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Polling and QA"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Breakout rooms"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Attendance tracking (for faculty accounts only)"
+                            },
+                            {
+                              "type": "description data",
+                              "contents": "- Noise cancellation"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "contents": "Effective by July 2022."
+                }
+              ]
+            },
+            {
+              "type": "table row",
+              "contents": [
+                {
+                  "type": "table cell",
+                  "colspan": 1,
+                  "contents": "2. Office 365"
+                },
+                {
+                  "type": "unordered list",
+                  "colspan": 1,
+                  "contents": [
+                    {
+                      "type": "list item",
+                      "contents": "Microsoft Office Licensing"
+                    },
+                    {
+                      "type": "list item",
+                      "contents": "Microsoft OS Launching"
+                    }
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "contents": "This is the main philosophy behind AdDU Perks: OST Financial Aid Program. Applications for the program will be open in the first weeks of July 2022."
         }
       ]
     },

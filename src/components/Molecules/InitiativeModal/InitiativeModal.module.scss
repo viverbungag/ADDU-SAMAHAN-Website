@@ -58,7 +58,7 @@ $maxWidth: 1200px;
   overflow: hidden;
   width: 100%;
   height: fit-content;
-  max-height: 90%;
+  max-height: 95%;
   margin: 0 auto;
 }
 
@@ -71,6 +71,14 @@ $maxWidth: 1200px;
 
 .open .card-content::-webkit-scrollbar {
   display: none;
+}
+
+.scroll-down-icon {
+  z-index: 1002;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  opacity: 1;
 }
 
 .overlay {
@@ -99,6 +107,12 @@ $maxWidth: 1200px;
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
   .open .card-content {
     max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .scroll-down-icon {
+    opacity: 0;
   }
 }
 

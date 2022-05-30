@@ -3,7 +3,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 // import { Link } from "react-router-dom";
 import styles from "./InitiativeModal.module.scss";
-import { InitiativeTitle, InitiativeContent } from "../../ComponentIndex";
+import {
+  InitiativeTitle,
+  InitiativeContent,
+  ScrollDownIcon,
+} from "../../ComponentIndex";
 
 const InitiativeModal = ({ id, data, initialRoute }) => {
   const currentData = data.find((item) => item.id === id);
@@ -26,6 +30,10 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
           className={styles["card-content"]}
           layoutId={`card-container-${id}`}
         >
+          <div className={styles["scroll-down-icon"]}>
+            <ScrollDownIcon />
+          </div>
+
           <InitiativeTitle
             id={id}
             initiativeNum={currentData.initiativeNum}
@@ -33,7 +41,7 @@ const InitiativeModal = ({ id, data, initialRoute }) => {
             imgBgSrc={currentData.imgBgSrc}
             open
           />
-          <InitiativeContent content={currentData.content} />
+          <InitiativeContent content={currentData.contents} />
         </motion.div>
       </div>
     </>

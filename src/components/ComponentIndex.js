@@ -30,6 +30,9 @@ export { default as AboutFirstSection } from "./Organisms/AboutFirstSection/Abou
 export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
 export { default as AboutSecondSection } from "./Organisms/AboutSecondSection/AboutSecondSection";
 export { default as InformationSection } from "./Organisms/InformationSection/InformationSection";
+export { default as EmailFAQ } from "./Organisms/EmailFAQ/EmailFAQ";
+export { default as OleFAQ } from "./Organisms/OleFAQ/OleFAQ";
+export { default as GsuiteFAQ } from "./Organisms/GsuiteFAQ/GsuiteFAQ";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

@@ -1,0 +1,27 @@
+{
+    "mainTitle":"AdDU GSuite Accounts and Email Responses",
+    "contents":[
+        {
+            "FAQNum":"FAQ1",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"What do I do if my GSuite has still not been activated even after I have submitted the requirements?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Contact your professors using your personal email account and inform them of your current situation."
+            }]
+        },
+        {
+            "FAQNum":"FAQ2",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"Why have I not received a response to my emails?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"There is heavy traffic as there are many concerns that are being sent to multitude of students. However, it is assured that assigned personnel are working overtime to attend to each student’s requests and concerns. "
+            }]
+        }
+    ]
+}

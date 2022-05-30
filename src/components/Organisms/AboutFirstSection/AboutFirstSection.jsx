@@ -16,20 +16,22 @@ const AboutFirstSection = ({ data }) => {
 
     </div>
     </div> */}
-
-      <div className={styles["container"]}>
-        <div>
-          <Fade right>
-            <h1 className={styles["header"]}>{data.title}</h1>
-          </Fade>
-        </div>
-        <div>
-          <Fade right>
-            <p className={styles["paragraph1"]}>{data.firstP}</p>
-            <p className={styles["paragraph"]}>{data.secondP}</p>
-          </Fade>
-        </div>
+ 
+    <div className={styles["container"]}>
+    <div className="container">
+      <div>
+        <Fade right>
+        <h1 className={styles["header"]}>{data.title}</h1>
+        </Fade>
       </div>
+      <div>
+        <Fade right>
+        <p className={styles["paragraph1"]}>{data.firstP}</p>
+        <p className={styles["paragraph"]}>{data.secondP}</p>
+        </Fade>
+      </div>
+    </div>
+    </div>
     </>
   );
 };

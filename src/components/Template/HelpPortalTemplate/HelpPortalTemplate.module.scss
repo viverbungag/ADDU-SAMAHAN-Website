@@ -91,6 +91,13 @@
     }
 }
 
+@media (max-width: 360px) {
+    .download-area {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 768px) {
     .guidebook-wrapper {
         flex-wrap: wrap;

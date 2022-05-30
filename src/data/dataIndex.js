@@ -15,3 +15,6 @@ export { default as information } from "../data/Information/Information.json";
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";
 export { default as ContactDetails } from "../data/Information/ContactDetails";
+export { default as Appeals } from "../data/Information/Appeals";
+export { default as Shifting } from "../data/Information/Shifting";
+export { default as LeaveOfAbsences } from "../data/Information/LeaveOfAbsences";

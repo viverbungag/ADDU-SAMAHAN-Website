@@ -4,6 +4,7 @@ import styles from "./Information.module.scss";
 const EnrollmentAndPayment = () => {
   return (
     <section className={styles["EnrollmentAndPayment"]}>
+      <h1>ENROLLMENT AND PAYMENT</h1>
       <h5>Enrollment</h5>
       <ol>
         <li>

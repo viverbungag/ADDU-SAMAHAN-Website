@@ -4,6 +4,7 @@ import styles from "./Information.module.scss";
 const ContactDetails = () => {
   return (
     <section className={styles["ContactDetails"]}>
+      <h1>CONTACT DETAILS</h1>
       <h5>Directory of Academic Departments</h5>
       <div className={styles["indent"]}>
         {/* ===== SAS ===== */}

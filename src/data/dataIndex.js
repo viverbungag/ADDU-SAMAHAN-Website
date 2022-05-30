@@ -14,3 +14,4 @@ export { default as information } from "../data/Information/Information.json";
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";
+export { default as ContactDetails } from "../data/Information/ContactDetails";

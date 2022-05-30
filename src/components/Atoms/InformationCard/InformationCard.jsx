@@ -4,7 +4,7 @@ import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import { EnrollmentAndPayment } from "../../../data/dataIndex"
+import { ContactDetails, EnrollmentAndPayment } from "../../../data/dataIndex"
 
 const style = {
   position: 'absolute',
@@ -12,13 +12,14 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: '100%',
-  height: "75%",
+  height: "fit-content",
+  maxHeight: "75%",
   bgcolor: 'background.paper',
   border: '2px solid #ade0c8',
   borderRadius: '10px',
   boxShadow: 24,
   p: 4,
-  overflow: "scroll",
+  overflow: "auto",
   overflowX: "hidden",
 };
 
@@ -30,6 +31,8 @@ const InformationCard = ({ title }) => {
   function renderModalContent(title) {
     if (title === "Enrollment and Payment")
       return <EnrollmentAndPayment />
+    else if (title === "Contact Details")
+      return <ContactDetails />
 
   }
 

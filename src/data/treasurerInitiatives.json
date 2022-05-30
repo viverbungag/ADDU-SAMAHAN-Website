@@ -1,12 +1,12 @@
 {
-  "mainTitle": "VICE PRESIDENT",
+  "mainTitle": "TREASURER",
   "subTitle": "OFFICE OF THE",
   "initiatives": [
     {
       "id": "initiative_1",
       "initiativeNum": "Initiative 1",
       "title": "AdDU Perks: OST Financial Aid Program",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FTreasurer%20Initiatives%2FOST%20Financial%20Aid%20Program.jpeg?alt=media&token=dbe9f5b6-8283-4d2a-b20c-fb5c0b387604",
       "contents": [
         {
           "type": "paragraph",
@@ -82,7 +82,7 @@
       "id": "initiative_2",
       "initiativeNum": "Initiative 2",
       "title": "AdDU Perks: Gadget and HPW Assistance",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FTreasurer%20Initiatives%2FGadget%20and%20HPW%20Assistance.jpeg?alt=media&token=892f22cc-255e-49af-96c9-19446ba440f1",
       "contents": [
         {
           "type": "paragraph",
@@ -98,7 +98,7 @@
       "id": "initiative_3",
       "initiativeNum": "Initiative 3",
       "title": "AdDU Premiums",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FTreasurer%20Initiatives%2FAdDU%20Premiums.JPG?alt=media&token=afeba817-aaa4-4ff3-8d95-9bed80e39dca",
       "contents": [
         {
           "type": "table",
@@ -385,7 +385,7 @@
       "id": "initiative_5",
       "initiativeNum": "Initiative 5",
       "title": "AdDU To Cart",
-      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
+      "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FTreasurer%20Initiatives%2FAdDU%20to%20Cart.jpg?alt=media&token=061c71c8-0385-4639-9e9f-708088cf44a3",
       "contents": [
         {
           "type": "paragraph",

@@ -64,6 +64,14 @@
   font-size: $h5FontSize;
 }
 
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
   .title-container {
     max-width: 90%;

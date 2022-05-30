@@ -31,10 +31,22 @@ $imageSize: 100vw;
   color: #ffff;
 }
 
+.paragraph1 {
+  color: #ffff;
+  padding: 15px 0;
+  text-align: left;
+  margin-left: 135px;
+  margin-right: 30px;
+  line-height: 2rem;
+  font-style: italic;
+}
+
 .paragraph {
   color: #ffff;
   padding: 15px 0;
   text-align: left;
   margin-left: 135px;
   margin-right: 30px;
+  line-height: 2rem;
+  text-align: justify;
 }

@@ -73,6 +73,14 @@ $maxWidth: 1200px;
   display: none;
 }
 
+.scroll-down-icon {
+  z-index: 1002;
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  opacity: 1;
+}
+
 .overlay {
   z-index: 1;
   position: fixed;
@@ -99,6 +107,12 @@ $maxWidth: 1200px;
 @media only screen and (max-width: calc(#{$maxWidth} + 100px)) {
   .open .card-content {
     max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .scroll-down-icon {
+    opacity: 0;
   }
 }
 

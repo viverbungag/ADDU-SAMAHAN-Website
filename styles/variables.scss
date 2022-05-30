@@ -37,3 +37,15 @@ $color--nav-bg: #1a275f;
 $color--triadic-900: #79243b;
 $color--triadic-200: #ee919e;
 $color--dark-grey: #282828;
+
+:export {
+  h1FontSize: $h1FontSize;
+  h2FontSize: $h2FontSize;
+  h3FontSize: $h3FontSize;
+  h4FontSize: $h4FontSize;
+  h5FontSize: $h5FontSize;
+  bodyFontSize: $bodyFontSize;
+  body2FontSize: $body2FontSize;
+  captionFontSize: $captionFontSize;
+  caption2FontSize: $caption2FontSize;
+}

@@ -30,7 +30,6 @@ const Navigation = ({ transparent = false }) => {
   }
 
   function handleSubMenuOpen() {
-    console.log("hello");
     setSubMenuClicked((prevClickState) => {
       if (!prevClickState === true) {
         nav_list_2.current.style.display = "block";

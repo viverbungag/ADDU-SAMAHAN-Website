@@ -7,7 +7,6 @@ const HelpPortal = () => {
   return (
     <>
       <HelpPortalTemplate faqData={faqData} information={information.information_title} />
-      {console.log(information.information_title)}
     </>
   );
 };

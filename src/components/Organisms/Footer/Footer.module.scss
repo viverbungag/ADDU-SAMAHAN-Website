@@ -21,6 +21,13 @@
             font-weight: $h1FontWeight;
         }
     }
+
+    abbr {
+        border-bottom: dotted 1px $color--white;
+        padding-bottom: 2px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
 /* MEDIUM DEVICES */

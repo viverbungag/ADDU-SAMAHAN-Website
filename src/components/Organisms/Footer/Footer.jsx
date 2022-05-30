@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles["footer__content"] + " container"}>
         <p>
           Copyright {"\u00A9"} 2022 <span>SAMAHAN</span> | Developed by{" "}
-          <span>SysDev</span> & <span>SCT</span>
+          <span><abbr title="SAMAHAN System Development">SysDev</abbr></span> & <span><abbr title="SAMAHAN Creative Team">SCT</abbr></span>
         </p>
         <Socials />
       </div>

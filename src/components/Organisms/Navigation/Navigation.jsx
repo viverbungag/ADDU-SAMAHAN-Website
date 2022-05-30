@@ -14,6 +14,7 @@ const Navigation = ({ transparent = false }) => {
   const header = useRef();
   const nav_list_1 = useRef();
   const nav_list_2 = useRef();
+  const li_help_portal = useRef();
 
   function handleClick() {
     setMenuClicked((prevClickState) => {
@@ -114,6 +115,11 @@ const Navigation = ({ transparent = false }) => {
               <li className={styles["nav-links-1"]}>
                 <Link href="/student_judicial_court">
                   STUDENT JUDICIAL COURT
+                </Link>
+              </li>
+              <li className={styles["nav-links-1"]} ref={li_help_portal} id="li_help_portal">
+                <Link href="/help_portal">
+                  HELP PORTAL
                 </Link>
               </li>
             </ul>

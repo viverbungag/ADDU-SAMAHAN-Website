@@ -135,6 +135,11 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
     -ms-interpolation-mode: nearest-neighbor;
     cursor: pointer;
   }
+
+  /* HIDE HELP PORTAL LI VERSION */
+  li[id="li_help_portal"] {
+    display: none;
+  }
 }
 
 /* TRANSPARENT VERSION */
@@ -270,6 +275,11 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
       padding-bottom: 2rem;
       display: none;
     }
+
+  /* SHOW HELP PORTAL LI VERSION */
+  li[id="li_help_portal"] {
+    display: block;
+  }
   }
 }
 

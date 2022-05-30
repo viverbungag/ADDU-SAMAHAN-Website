@@ -33,6 +33,8 @@ export { default as InformationSection } from "./Organisms/InformationSection/In
 export { default as EmailFAQ } from "./Organisms/EmailFAQ/EmailFAQ";
 export { default as OleFAQ } from "./Organisms/OleFAQ/OleFAQ";
 export { default as GsuiteFAQ } from "./Organisms/GsuiteFAQ/GsuiteFAQ";
+export { default as RegFAQ } from "./Organisms/RegFAQ/RegFAQ";
+export { default as ScholarFAQ } from "./Organisms/ScholarFAQ/ScholarFAQ";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";

@@ -20,6 +20,124 @@
                 }
             ]
             }]
+        },
+        {
+            "FAQNum":"FAQ2",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"How much is/are the grants given to students?"
+            }],
+            "Answer":[{
+                "type":"ordered list",
+                "listType":"lowercase letter",
+                "contents":[{
+                    "type":"list item",
+                    "contents":"JSF"
+                },
+                {
+                    "type":"ordered list",
+                    "contents":[
+                        {
+                            "type":"list item",
+                            "contents":"100% Tuition ONLY for valedictorians"
+                        },
+                        {
+                            "type":"list item",
+                            "contents":" 50% Tuition ONLY for salutatorians"
+                        }
+                    ]
+                },
+                {
+                    "type":"list item",
+                    "contents":"GIA or Grant-in-Aid"
+                    
+                },
+                {
+                    "type":"ordered list",
+                    "contents":[
+                        {
+                            "type":"list item",
+                            "contents":"10,000 up to 100% tuition and fees"
+                        }
+                       
+                    ]
+                }
+
+            ]
+            }]
+        },
+        {
+            "FAQNum":"FAQ3",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" How to apply for the Scholarship Program?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"The application will be through online which will be posted on our social media accounts: "
+            },
+            {
+                "type":"ordered list",
+                "contents":[
+                    {
+                        "type":"list item",
+                        "contents":"Facebook Page: Ateneo de Davao – College Admission and Aid / Ateneo de Davao Scholars Society"
+                    },
+                    {
+                        "type":"list item",
+                        "contents":"Twitter: @addu_scholars"
+                    }
+
+                ]
+            }
+
+        ]
+        },
+        {
+            "FAQNum":"FAQ4",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"When is the application and deadline?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"For the First Semester, the application will be the first week of April. The deadline is the last Friday of April."
+            }]
+        },
+        {
+            "FAQNum":"FAQ5",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"What are the requirements?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":" Requirements are as follows:"
+
+            },
+            {
+                "type":"ordered list",
+                "listType":"lowercase letter",
+                "contents":[
+                    {
+                        "type":"list item",
+                        "contents":" ITR for both parents who are working"
+                    },
+                    {
+                        "type":"list item",
+                        "contents":" Or Certificate of Low/No Income from the Barangay stamp by BIR"
+                    },
+                    {
+                        "type":"list item",
+                        "contents":" Senior High School report card with at least 85% and above as average"
+                    },
+                    {
+                        "type":"list item",
+                        "contents":"Filled out the online application"
+                    }
+                ]
+            }]
         }
+
     ]
 }

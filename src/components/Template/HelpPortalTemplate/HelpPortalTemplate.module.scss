@@ -45,6 +45,7 @@
             display: flex;
             justify-content: center;
             img {
+                max-height: 558px;
                 max-width:100%;
                 object-fit: cover;
             }
@@ -93,7 +94,7 @@
 
 @media (max-width: 360px) {
     .download-area {
-        text-align: center;
+        text-align: ce;
         justify-content: center;
         flex-wrap: wrap;
     }

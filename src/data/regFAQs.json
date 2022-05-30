@@ -1,0 +1,78 @@
+{
+    "mainTitle":"Enrollment and Registration",
+    "contents":[
+        {
+            "FAQNum":"FAQ1",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"What is a “pre-registration?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Preregistration is the prelisting of students, prior to the enrollment period, of courses they desire to take for the succeeding semester.  Students may enlist in classes, depending on slot availability."
+            }]
+        },
+        {
+            "FAQNum":"FAQ2",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"When and how can pre-registration be done? "
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Pre-registration is done online via sis.addu.edu.ph which shall commence on the period as set and announced in the same portal."
+            }]
+        },
+        {
+            "FAQNum":"FAQ3",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" Is enrollment guaranteed with pre-registration? "
+            }],
+            "Answer":[{
+                "type":"paragraph container",
+                "contents":[{
+                    "type":"paragraph",
+                    "contents":"The pre-registered courses shall remain in the student’s SIS account until the commencement of the Enrolment Confirmation and Reservation Cancellation Procedure.Unpaid registrations shall be thereafter deemed expired, and slots reserved shall be vacated. Vacated slots shall be made available to other students.Students are encouraged to confirm their enrollment via their payment of the fees before the deadline set.  Otherwise, they may be compelled to find other open slots during the enrollment period."
+                }
+                ]
+            }]
+        },
+        {
+            "FAQNum":"FAQ4",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"When and how can pre-registration be done? "
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Given the prevailing health conditions, adding and dropping are done until the first week of the semester or the first two days during summer, online via sis.addu.edu.ph. No request for adding and dropping will be entertained thereafter."
+            }]
+        },
+        {
+            "FAQNum":"FAQ5",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"How much is the minimum required down payment for enrollment in a semester to be fully enrolled?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"The student needs to pay 10% of the total amount due for the said semester."
+            }]
+        },
+        {
+            "FAQNum":"FAQ6",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"When will a student  be tagged as “Enrolled” after he/she has paid for at least the minimum required tuition fee down payment?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"It will take one (1) to three (3) banking days for the student’s My Registration page on his/her SIS account  to have the status of “Enrolled” for the current semester. "
+            }]
+        }
+
+
+
+    ]
+}

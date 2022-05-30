@@ -1,0 +1,25 @@
+{
+    "mainTitle":"Scholarship",
+    "contents":[
+        {
+            "FAQNum":"FAQ1",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"What are the Scholarship Programs offered by the School?"
+            }],
+            "Answer":[{
+                "type":"ordered list",
+                "contents":[{
+                    "type":"list item",
+                    "contents":"JSF (Exclusive for Valedictorians and Salutatorians)"
+                },
+                {
+                    "type":"list item",
+                    "contents":"GIA or Grant-in-Aid"
+                    
+                }
+            ]
+            }]
+        }
+    ]
+}

@@ -11,6 +11,11 @@ export { default as sgInData } from "./secretaryGeneralInitiatives.json";
 export { default as abtData2 } from "./aboutSecondSection.json";
 export { default as tInData } from "./treasurerInitiatives.json";
 export { default as information } from "../data/Information/Information.json";
+export {default as eFAQData} from "../data/emailsFAQs.json";
+export { default as oleFAQData } from "../data/oleFAQs.json";
+export { default as gsuiteFAQsData } from "../data/gsuiteFAQs.json"
+export { default as regFAQData } from "../data/regFAQs.json";
+export { default as schFAQData } from "../data/scholarFAQs.json";
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";

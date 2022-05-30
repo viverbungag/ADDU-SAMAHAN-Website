@@ -7,6 +7,7 @@ export { default as InitiativeHeader } from "./Atoms/InitiativeHeader/Initiative
 export { default as InitiativeTitle } from "./Atoms/InitiativeTitle/InitiativeTitle";
 export { default as InitiativeContent } from "./Atoms/InitiativeContent/InitiativeContent";
 export { default as FAQCard } from "./Atoms/FAQCard/FAQCard";
+export { default as ScrollDown } from "./Atoms/ScrollDown/ScrollDown";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";

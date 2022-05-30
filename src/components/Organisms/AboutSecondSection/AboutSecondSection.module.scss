@@ -1,47 +1,39 @@
 @import "../../../../styles/variables.scss";
 
-.component-container{
-    background-color: rgb(242, 243, 244);
-
-}
-
-.flexComponent{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
-    row-gap: 1rem;
-    
-}
-
 .outerSection{
-    display: flex;
-    flex-direction: column;
     background-color: rgb(242, 243, 244);
+    padding: 5rem 0;
 }
+
 .container{
     display: flex;
     justify-content: center;
     background-color:rgb(242, 243, 244);
-    padding: 5rem 0;
-    
+    gap: 4rem;
 }
 
 .paragraph{
-    padding: 10px;
+    margin-bottom: .8rem;
     color: black;
-    margin-right: 30px;
     line-height: 1.5rem;
     text-align: justify;
+    text-indent: 5rem;
 }
 
 .header{
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 6.25rem;
     font-weight: $h1FontWeight;
     color: $color--primary;
-    padding: 0 40px;
-    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-wrap: wrap;
+    }
 }
 
 

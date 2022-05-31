@@ -71,9 +71,11 @@ const contentRecurrsion = (contents) => {
     if (content.type === "table") {
       return (
         <table key={index} className={styles["table"]}>
-          {hasSubContent
-            ? contentRecurrsion(content.contents)
-            : content.contents}
+          <tbody>
+            {hasSubContent
+              ? contentRecurrsion(content.contents)
+              : content.contents}
+          </tbody>
         </table>
       );
     }
@@ -141,11 +143,13 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "unordered list") {
       return (
-        <ul key={index} className={styles["unorderedList"]}>
-          {hasSubContent
-            ? contentRecurrsion(content.contents)
-            : content.contents}
-        </ul>
+        <div key={index}>
+          <ul key={index} className={styles["unorderedList"]}>
+            {hasSubContent
+              ? contentRecurrsion(content.contents)
+              : content.contents}
+          </ul>
+        </div>
       );
     }
 

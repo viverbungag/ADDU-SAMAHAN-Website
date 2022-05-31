@@ -25,14 +25,14 @@ $imageSize: 100vw;
 }
 
 .header {
-  font-size: 80px;
+  font-size: 6rem;
   font-weight: $h1FontWeight;
   letter-spacing: -9px;
-  color: #ffff;
+  color: $color--black;
 }
 
 .paragraph1 {
-  color: #ffff;
+  color: $color--black;
   padding: 15px 0;
   text-align: left;
   margin-left: 135px;
@@ -42,7 +42,7 @@ $imageSize: 100vw;
 }
 
 .paragraph {
-  color: #ffff;
+  color: $color--black;
   padding: 15px 0;
   text-align: left;
   margin-left: 135px;

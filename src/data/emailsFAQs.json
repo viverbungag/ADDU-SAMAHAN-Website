@@ -1,160 +1,175 @@
 {
-    "mainTitle":"SIS and ADDU Emails",
-    "contents":[
+  "mainTitle": "SIS and ADDU Emails",
+  "contents": [
+    {
+      "FAQNum": "FAQ1",
+      "Question": [
         {
-            "FAQNum":"FAQ1",
-            "Question":[{
-                "type":"paragraph",
-                "contents":"What is the AdDU Student Information System?"
-            }],
-            "Answer":[{
-                "type":"paragraph",
-                "contents":"The AdDU Student Information System (SIS) is the online portal for official transactions with the University for Student Services. Students may enroll, check their academic statuses, accounts by accessing https://sis.addu.edu.ph/ "
-            }]
-        },
+          "type": "paragraph bold",
+          "contents": "What is the AdDU Student Information System?"
+        }
+      ],
+      "Answer": [
         {
-            "FAQNum":"FAQ2",
-            "Question":[{
-                "type":"paragraph",
-                "contents":"What is the student’s obligation in the use of the Student Information System?"
-            }],
-            "Answer":[{
-                "type":"paragraph",
-                "contents":"Students are required to check their SIS during pre-registration, enrollment, and the first week of classes for possible issues with their enrollment. Any issue raised belatedly, as resulting from the student’s failure to notice the same in his SIS shall not be corrected thereafter. "
-            }]
-        },
+          "type": "paragraph",
+          "contents": "The AdDU Student Information System (SIS) is the online portal for official transactions with the University for Student Services. Students may enroll, check their academic statuses, accounts by accessing https://sis.addu.edu.ph/ "
+        }
+      ]
+    },
+    {
+      "FAQNum": "FAQ2",
+      "Question": [
+        {
+          "type": "paragraph bold",
+          "contents": "What is the student’s obligation in the use of the Student Information System?"
+        }
+      ],
+      "Answer": [
+        {
+          "type": "paragraph",
+          "contents": "Students are required to check their SIS during pre-registration, enrollment, and the first week of classes for possible issues with their enrollment. Any issue raised belatedly, as resulting from the student’s failure to notice the same in his SIS shall not be corrected thereafter. "
+        }
+      ]
+    },
 
+    {
+      "FAQNum": "FAQ3",
+      "Question": [
         {
-            "FAQNum":"FAQ3",
-            "Question":[{
-                "type":"paragraph",
-                "contents":"How do I activate my AdDU email?"
-            }],
-            "Answer":[{
-                "type":"paragraph",
-                "contents":[
-                    {
-                        "type": "ordered list",
-                        "contents":[
-                            {
-                                "type": "list item",
-                                "contents":[
-                                    {
-                                        "type": "paragraph",
-                                        "contents": "Take pictures of yourself."
-                                    },
-                                    {
-                                        "type": "ordered list",
-                                        "listType":"lowercase letter",
-                                        "contents":[
-                                            {
-                                                "type":"list item",
-                                                "contents":"Torso/upper body (includes head down to elbows) holding AdDU ID close to head"
-                                            },
-                                            {
-                                                "type":"list item",
-                                                "contents":"Close up of face with AdDU ID close to head."
-                                            },
-                                            {
-                                                "type":"list item",
-                                                "contents":"Close up of AdDU ID."
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type": "paragraph container",
-                                        "contents": [
-                                            {
-                                                "type": "paragraph",
-                                                "contents":"Note: Make sure that the ID and ID number is visible and legible on all three pictures. If AdDU ID is not available, a student may use a"
-                                            },
-                                            {
-                                                "type": "paragraph bold",
-                                                "contents": " driver’s license, passport, voter’s ID, or any proof for identification."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "list item",
-                                "contents": "Send an email to gdsabaldan@addu.edu.ph and mtropenia@addu.edu.ph with the attached photos, complete name and course."
-                            },
-                            {
-                                "type": "list item",
-                                "contents": "Follow the specific instructions provided by them."
-                                
-                            },
-                            {
-                                "type": "paragraph container",
-                                "contents": [
-                                    {
-                                        "type": "paragraph",
-                                        "contents":"Note: Working hours of the personnel run from 8 AM to 5 PM"
-                                    }
-                                ]
-                            }
-
-                        ]
-                    }
-                ]
-            }]
-        },
+          "type": "paragraph bold",
+          "contents": "How do I activate my AdDU email?"
+        }
+      ],
+      "Answer": [
         {
-            "FAQNum":"FAQ4",
-            "Question":[{
-                "type":"paragraph",
-                "contents":" How do I log into my SIS?"
-            }],
-            "Answer":[{
-                "type":"paragraph",
-                "contents":[
+          "type": "paragraph",
+          "contents": [
+            {
+              "type": "ordered list",
+              "contents": [
+                {
+                  "type": "list item",
+                  "contents": [
                     {
-                        "type":"paragraph",
-                        "contents":"Your account name is formed from the initials of your first name + middle initial + surname. Here are some examples:"
+                      "type": "paragraph",
+                      "contents": "Take pictures of yourself."
                     },
                     {
-                        "type":"ordered list",
-                        "listType":"lowercase letter",
-                        "contents":[
-                            {
-                                "type":"list item",
-                                "contents":"(Theresa Joyce E. Lopez → tjelopez; John Marvin A. De la Cruz → jmdelacruz; M Jessica T. Uy → mjtuy)"
-                            },
-                            {
-                                "type":"list item",
-                                "contents":"(If your name has Jr. attached to it, your account name will have the suffix ‘jr’: Victor Emmanuel C. Estuary Jr. → vecestuartjr)" 
-                            },
-                            {
-                                "type":"list item",
-                                "contents":"(If your name has an ‘ñ’, your account name will have an “n” in its place: Kromyko Justin B. Nuñez → kjbnunez)"
-                            },
-                            {
-                                "type":"list item",
-                                "contents":"(If your name has a Roman numeral suffix such as II or III, your account name will have a Roman numeral suffix corresponding to the Roman numeral: Jerry Neil E. Bulao II → jnebulao2)"
-                            }
-                        ]
+                      "type": "ordered list",
+                      "listType": "lowercase letter",
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "Torso/upper body (includes head down to elbows) holding AdDU ID close to head"
+                        },
+                        {
+                          "type": "list item",
+                          "contents": "Close up of face with AdDU ID close to head."
+                        },
+                        {
+                          "type": "list item",
+                          "contents": "Close up of AdDU ID."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph container",
+                      "contents": [
+                        {
+                          "type": "paragraph",
+                          "contents": "Note: Make sure that the ID and ID number is visible and legible on all three pictures. If AdDU ID is not available, a student may use a"
+                        },
+                        {
+                          "type": "paragraph bold",
+                          "contents": " driver’s license, passport, voter’s ID, or any proof for identification."
+                        }
+                      ]
                     }
-                ]
-            }]
-        },
+                  ]
+                },
+                {
+                  "type": "list item",
+                  "contents": "Send an email to gdsabaldan@addu.edu.ph and mtropenia@addu.edu.ph with the attached photos, complete name and course."
+                },
+                {
+                  "type": "list item",
+                  "contents": "Follow the specific instructions provided by them."
+                },
+                {
+                  "type": "paragraph container",
+                  "contents": [
+                    {
+                      "type": "paragraph",
+                      "contents": "Note: Working hours of the personnel run from 8 AM to 5 PM"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FAQNum": "FAQ4",
+      "Question": [
         {
-            "FAQNum":"FAQ5",
-            "Question":[{
-                "type":"paragraph",
-                "contents":" What is my SIS username and password?"
-            }],
-            "Answer":[{
-                "type":"paragraph",
-                "contents":"Your default password is formed from the phrase “AdDU,” followed by your ID barcode. Thus if your ID barcode is 6201706010342Z, your default password is AdDU6201706010342Z. \n "
+          "type": "paragraph bold",
+          "contents": " How do I log into my SIS?"
+        }
+      ],
+      "Answer": [
+        {
+          "type": "paragraph",
+          "contents": [
+            {
+              "type": "paragraph",
+              "contents": "Your account name is formed from the initials of your first name + middle initial + surname. Here are some examples:"
             },
             {
-                "type":"paragraph",
-                "contents":"Your SIS username is your GSuite username, and your ADDU email account (@addu.edu.ph). Your GSuite password is the same default password above. "
+              "type": "ordered list",
+              "listType": "lowercase letter",
+              "contents": [
+                {
+                  "type": "list item",
+                  "contents": "(Theresa Joyce E. Lopez → tjelopez; John Marvin A. De la Cruz → jmdelacruz; M Jessica T. Uy → mjtuy)"
+                },
+                {
+                  "type": "list item",
+                  "contents": "(If your name has Jr. attached to it, your account name will have the suffix ‘jr’: Victor Emmanuel C. Estuary Jr. → vecestuartjr)"
+                },
+                {
+                  "type": "list item",
+                  "contents": "(If your name has an ‘ñ’, your account name will have an “n” in its place: Kromyko Justin B. Nuñez → kjbnunez)"
+                },
+                {
+                  "type": "list item",
+                  "contents": "(If your name has a Roman numeral suffix such as II or III, your account name will have a Roman numeral suffix corresponding to the Roman numeral: Jerry Neil E. Bulao II → jnebulao2)"
+                }
+              ]
             }
-        ]
+          ]
         }
-
-
-    ]
+      ]
+    },
+    {
+      "FAQNum": "FAQ5",
+      "Question": [
+        {
+          "type": "paragraph bold",
+          "contents": " What is my SIS username and password?"
+        }
+      ],
+      "Answer": [
+        {
+          "type": "paragraph",
+          "contents": "Your default password is formed from the phrase “AdDU,” followed by your ID barcode. Thus if your ID barcode is 6201706010342Z, your default password is AdDU6201706010342Z. \n "
+        },
+        {
+          "type": "paragraph",
+          "contents": "Your SIS username is your GSuite username, and your ADDU email account (@addu.edu.ph). Your GSuite password is the same default password above. "
+        }
+      ]
+    }
+  ]
 }

@@ -8,8 +8,8 @@ const OfficeOfTheVicePresidentTemplate = ({ id, data, initialRoute }) => {
       <div className={styles["office-of-the-vice-president"]}>
         <Navigation />
         <OfficeInitiative id={id} data={data} initialRoute={initialRoute} />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

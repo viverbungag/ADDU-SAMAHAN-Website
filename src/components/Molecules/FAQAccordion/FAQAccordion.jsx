@@ -1,10 +1,11 @@
-import React from 'react'
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import React from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import styles from "./FAQAccordion.module.scss";
+import Link from "next/link";
 
 const contentRecurrsion = (contents) => {
   return contents.map((content, index) => {
@@ -74,9 +75,11 @@ const contentRecurrsion = (contents) => {
     if (content.type === "table") {
       return (
         <table key={index} className={styles["table"]}>
-          {hasSubContent
-            ? contentRecurrsion(content.contents)
-            : content.contents}
+          <tbody>
+            {hasSubContent
+              ? contentRecurrsion(content.contents)
+              : content.contents}
+          </tbody>
         </table>
       );
     }
@@ -144,11 +147,13 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "unordered list") {
       return (
-        <ul key={index} className={styles["unorderedList"]}>
-          {hasSubContent
-            ? contentRecurrsion(content.contents)
-            : content.contents}
-        </ul>
+        <div key={index}>
+          <ul key={index} className={styles["unorderedList"]}>
+            {hasSubContent
+              ? contentRecurrsion(content.contents)
+              : content.contents}
+          </ul>
+        </div>
       );
     }
 
@@ -214,56 +219,27 @@ const contentRecurrsion = (contents) => {
   });
 };
 
-
-const FAQAccordion = ({data}) => {
-  console.log(data.contents);
+const FAQAccordion = ({ data }) => {
   return (
-    <div>
+    <>
       {data.contents.map((content, index) => {
-          return(
-          <Accordion>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id={content.FAQNum}
-          >
-            <Typography>{contentRecurrsion(content.Question)}</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-          <Typography>{contentRecurrsion(content.Answer)}</Typography>
-          </AccordionDetails>
-        </Accordion>
-          )
+        return (
+          <Accordion key={index}>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id={content.FAQNum}
+            >
+              <Typography>{contentRecurrsion(content.Question)}</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>{contentRecurrsion(content.Answer)}</Typography>
+            </AccordionDetails>
+          </Accordion>
+        );
       })}
-        
+    </>
+  );
+};
 
-
-      {/* <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Accordion 2</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion disabled>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
-          <Typography>Disabled Accordion</Typography>
-        </AccordionSummary>
-      </Accordion> */}
-    </div>
-  )
-}
-
-export default FAQAccordion
+export default FAQAccordion;

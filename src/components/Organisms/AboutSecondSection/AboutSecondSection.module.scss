@@ -1,43 +1,49 @@
 @import "../../../../styles/variables.scss";
 
-.outerSection{
-    background-color: rgb(242, 243, 244);
-    padding: 5rem 0;
+.outerSection {
+  background-color: rgb(242, 243, 244);
+  padding: 5rem 0;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    background-color:rgb(242, 243, 244);
-    gap: 4rem;
+.image-container {
+  position: relative;
+  min-width: 400px;
+  //   width: 400px;
+  max-width: 400px;
+  height: fit-content;
+  max-height: 400px;
+  //   flex-grow: 2;
 }
 
-.paragraph{
-    margin-bottom: .8rem;
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 243, 244);
+  gap: 5rem;
+}
+
+.paragraph {
+  p {
+    margin-bottom: 0.8rem;
     color: black;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: justify;
     text-indent: 5rem;
+  }
 }
 
-.header{
-    font-size: 6.25rem;
-    font-weight: $h1FontWeight;
-    color: $color--primary;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+.header {
+  font-size: 6.25rem;
+  font-weight: $h1FontWeight;
+  color: $color--primary;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
-    .container {
-        flex-wrap: wrap;
-    }
+  .container {
+    flex-wrap: wrap;
+  }
 }
-
-
-
-
-
-

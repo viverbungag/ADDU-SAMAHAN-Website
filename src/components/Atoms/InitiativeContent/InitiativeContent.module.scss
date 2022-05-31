@@ -7,7 +7,7 @@ $tableBorders: 1px solid #ffffff;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem 4rem;
   max-width: $maxWidth;
   width: 90vw;
   align-items: center;
@@ -19,11 +19,9 @@ $tableBorders: 1px solid #ffffff;
   font-weight: $bodyFontWeight;
   color: #ffff;
   line-height: 2rem;
-  text-indent: 2rem;
 }
 
 .paragraph-content--container {
-  text-indent: 2rem;
 }
 
 .paragraph-content--bold {
@@ -32,7 +30,6 @@ $tableBorders: 1px solid #ffffff;
   font-weight: bold;
   color: #ffff;
   line-height: 2rem;
-  text-indent: 2rem;
 }
 
 .paragraph-content--hypertext {
@@ -41,7 +38,6 @@ $tableBorders: 1px solid #ffffff;
   font-weight: $bodyFontWeight;
   color: #ffff;
   line-height: 2rem;
-  text-indent: 2rem;
 }
 
 .content-hypertext {
@@ -61,10 +57,9 @@ $tableBorders: 1px solid #ffffff;
 
 .orderedList,
 .unorderedList {
-  margin-left: 1rem;
   padding: 1rem;
   color: $color--white;
-  width: 90%;
+  width: 100%;
 }
 
 .listItem,

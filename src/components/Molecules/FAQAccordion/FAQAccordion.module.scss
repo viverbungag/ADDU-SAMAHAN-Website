@@ -5,89 +5,83 @@ $tableBorders: 1px solid #ffffff;
 $textColor: $color--black;
 
 .paragraph-content {
-    text-align: justify;
-    font-size: $bodyFontSize;
-    font-weight: $bodyFontWeight;
-    color: $textColor;
-    line-height: 2rem;
-    text-indent: 2rem;
-  }
-  
-  .paragraph-content--container {
-    text-indent: 2rem;
-  }
-  
-  .paragraph-content--bold {
-    text-align: justify;
-    font-size: $bodyFontSize;
-    font-weight: bold;
-    color: $textColor;
-    line-height: 2rem;
-    text-indent: 2rem;
-  }
-  
-  .paragraph-content--hypertext {
-    text-align: justify;
-    font-size: $bodyFontSize;
-    font-weight: $bodyFontWeight;
-    color: #ffff;
-    line-height: 2rem;
-    text-indent: 2rem;
-  }
-  
-  .content-hypertext {
-    font-size: $h5FontSize;
-    font-weight: $h5FontWeight;
-    line-height: 2rem;
-    text-align: center;
-    color: $textColor
-  }
-  
-  .title {
-    font-size: $h4FontSize;
-    font-weight: $h4FontWeight;
-    text-align: center;
-    color: $textColor;
-  }
-  
-  .orderedList,
-  .unorderedList {
-    margin-left: 1rem;
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  color: $textColor;
+  line-height: 2rem;
+}
+
+.paragraph-content--container {
+}
+
+.paragraph-content--bold {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: bold;
+  color: $textColor;
+  line-height: 2rem;
+}
+
+.paragraph-content--hypertext {
+  text-align: justify;
+  font-size: $bodyFontSize;
+  font-weight: $bodyFontWeight;
+  line-height: 2rem;
+}
+
+.content-hypertext {
+  font-size: $h5FontSize;
+  font-weight: $h5FontWeight;
+  line-height: 2rem;
+  text-align: center;
+  color: $textColor;
+}
+
+.title {
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  text-align: center;
+  color: $textColor;
+}
+
+.orderedList,
+.unorderedList {
+  padding: 1rem;
+  color: $textColor;
+  width: 100%;
+}
+
+.listItem,
+.descriptionData {
+  margin-left: 1rem;
+  padding: 0.3rem;
+  color: $textColor;
+}
+
+.table {
+  border: $tableBorders;
+  border-collapse: collapse;
+  width: 90%;
+
+  th,
+  td,
+  tr {
+    border: $tableBorders;
     padding: 1rem;
     color: $textColor;
-    width: 90%;
   }
-  
-  .listItem,
-  .descriptionData {
-    margin-left: 1rem;
-    padding: 0.3rem;
+
+  .paragraph-content {
+    padding: 1rem;
     color: $textColor;
   }
-  
-  .table {
-    border: $tableBorders;
-    border-collapse: collapse;
-    width: 90%;
-  
-    th,
-    td,
-    tr {
-      border: $tableBorders;
-      padding: 1rem;
-      color: $textColor;
-    }
-  
-    .paragraph-content {
-      padding: 1rem;
-      color: $textColor;
-    }
-  
-    th {
-      font-size: $h5FontSize;
-    }
+
+  th {
+    font-size: $h5FontSize;
   }
-  
-  .googleSheets {
-    width: 100%;
-  }
+}
+
+.googleSheets {
+  width: 100%;
+}

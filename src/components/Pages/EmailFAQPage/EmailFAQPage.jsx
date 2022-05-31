@@ -1,11 +1,13 @@
-import React from 'react'
-import { EmailFAQTemplate } from '../../ComponentIndex'
-import { eFAQData } from '../../../data/dataIndex'
+import React from "react";
+import { EmailFAQTemplate } from "../../ComponentIndex";
+import { eFAQData } from "../../../data/dataIndex";
 
 const EmailFAQPage = () => {
   return (
-    <> <EmailFAQTemplate eFAQData={eFAQData} /></>
-  )
-}
+    <>
+      <EmailFAQTemplate data={eFAQData} />
+    </>
+  );
+};
 
-export default EmailFAQPage
+export default EmailFAQPage;

@@ -122,68 +122,73 @@
                   "contents": "1. Google GSuite"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "20GB Storage for each user"
-                    },
-                    {
-                      "type": "list item",
-                      "contents": "Unlimited Originality Reports with peer comparison using Google Classroom or Google Assignments"
-                    },
-                    {
-                      "type": "list item",
-                      "contents": "Document Approvals"
-                    },
-                    {
-                      "type": "list item",
+                      "type": "unordered list",
                       "contents": [
                         {
-                          "type": "description term",
-                          "contents": "Google Meet"
+                          "type": "list item",
+                          "contents": "20GB Storage for each user"
                         },
                         {
-                          "type": "description list",
+                          "type": "list item",
+                          "contents": "Unlimited Originality Reports with peer comparison using Google Classroom or Google Assignments"
+                        },
+                        {
+                          "type": "list item",
+                          "contents": "Document Approvals"
+                        },
+                        {
+                          "type": "list item",
                           "contents": [
                             {
-                              "type": "description data",
-                              "contents": "- Maximum 500 participants"
+                              "type": "description term",
+                              "contents": "Google Meet"
                             },
                             {
-                              "type": "description data",
-                              "contents": "- In-domain live streaming for up to 100k viewers (for non-student accounts only)"
-                            },
-                            {
-                              "type": "description data",
-                              "contents": "- Recordings saved to Drive (ended in January 2022 for non-paid subscriptions)"
-                            },
-                            {
-                              "type": "description data",
-                              "contents": "- Polling and QA"
-                            },
-                            {
-                              "type": "description data",
-                              "contents": "- Breakout rooms"
-                            },
-                            {
-                              "type": "description data",
-                              "contents": "- Attendance tracking (for faculty accounts only)"
-                            },
-                            {
-                              "type": "description data",
-                              "contents": "- Noise cancellation"
+                              "type": "description list",
+                              "contents": [
+                                {
+                                  "type": "description data",
+                                  "contents": "- Maximum 500 participants"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- In-domain live streaming for up to 100k viewers (for non-student accounts only)"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- Recordings saved to Drive (ended in January 2022 for non-paid subscriptions)"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- Polling and QA"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- Breakout rooms"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- Attendance tracking (for faculty accounts only)"
+                                },
+                                {
+                                  "type": "description data",
+                                  "contents": "- Noise cancellation"
+                                }
+                              ]
                             }
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "contents": "Effective by July 2022."
                     }
                   ]
-                },
-                {
-                  "type": "paragraph",
-                  "contents": "Effective by July 2022."
                 }
               ]
             },
@@ -196,16 +201,22 @@
                   "contents": "2. Office 365"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "Microsoft Office Licensing"
-                    },
-                    {
-                      "type": "list item",
-                      "contents": "Microsoft OS Launching"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "Microsoft Office Licensing"
+                        },
+                        {
+                          "type": "list item",
+                          "contents": "Microsoft OS Launching"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -220,12 +231,18 @@
                   "contents": "3. Canva"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "Canva Premium Subscription"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "Canva Premium Subscription"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -240,12 +257,18 @@
                   "contents": "4. Github"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "Free access to student developers’ pack"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "Free access to student developers’ pack"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -260,12 +283,18 @@
                   "contents": "5. Grammarly"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "Grammarly Premium Subscription [Limited Users as of 2022]"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "Grammarly Premium Subscription [Limited Users as of 2022]"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -290,12 +319,18 @@
                   "contents": "1. Apple Music"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "50% Off"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "50% Off"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -310,12 +345,18 @@
                   "contents": "2. Spotify"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "50% off"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "50% off"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -330,12 +371,18 @@
                   "contents": "3. Deezer"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "50% Off"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "50% Off"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -350,12 +397,18 @@
                   "contents": "4. Adobe Creative Cloud"
                 },
                 {
-                  "type": "unordered list",
+                  "type": "table cell",
                   "colspan": 1,
                   "contents": [
                     {
-                      "type": "list item",
-                      "contents": "60% Off"
+                      "type": "unordered list",
+                      "colspan": 1,
+                      "contents": [
+                        {
+                          "type": "list item",
+                          "contents": "60% Off"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -372,7 +425,7 @@
     {
       "id": "initiative_4",
       "initiativeNum": "Initiative 4",
-      "title": "AdDU Blue Book: Live Budget Tracker",
+      "title": "Live Budget Tracker",
       "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FSolids%2Fprimary-solid-color-image.png?alt=media&token=60b479f9-5966-4e29-b8f5-ccdc56c72542",
       "contents": [
         {

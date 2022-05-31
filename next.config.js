@@ -7,6 +7,8 @@ const nextConfig = {
   },
   images: {
     domains: ["firebasestorage.googleapis.com", "shipboardtraining.com"],
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 

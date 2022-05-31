@@ -1,5 +1,5 @@
 import React from "react";
-import { HelpPortalPage } from "../src/components/ComponentIndex";
+import { HelpPortalPage } from "../../src/components/ComponentIndex";
 
 const help_portal = () => {
   return (

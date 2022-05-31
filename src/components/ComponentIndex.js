@@ -63,3 +63,8 @@ export { default as OleFAQPage } from "./Pages/OleFAQPage/OleFAQPage";
 export { default as GsuiteFAQPage } from "./Pages/GsuiteFAQPage/GsuiteFAQPage";
 export { default as RegFAQPage } from "./Pages/RegFAQPage/RegFAQPage";
 export { default as SchoFAQPage } from "./Pages/SchFAQPage/SchFAQPage";
+export { default as OfficesAndDepartmentPages } from "./Pages/OfficesAndDepartmentPages/OfficesAndDepartmentPages";
+export { default as EventsPage } from "./Pages/EventsPage/EventsPage";
+export { default as CCPPage } from "./Pages/CCPPage/CCPPage";
+export { default as ClustersPage } from "./Pages/ClustersPage/ClustersPage";
+export { default as SummaryPage } from "./Pages/SummaryPage/SummaryPage";

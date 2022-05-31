@@ -1,5 +1,5 @@
 @import "../../../../styles/variables.scss";
-$fontColor: #17267c;
+$fontColor: $color--primary;
 
 .componentContainer {
   display: flex;
@@ -15,8 +15,11 @@ $fontColor: #17267c;
   font-weight: $h1FontWeight;
   text-align: center;
   color: $fontColor;
+  padding-top: 3rem;
+  border-bottom: solid 3px $color--primary;
 }
 
 .button {
-  margin-top: 1vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

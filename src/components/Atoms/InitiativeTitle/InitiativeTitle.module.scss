@@ -83,3 +83,22 @@
     width: 40rem;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .card-title {
+    font-size: $h4FontSize;
+    font-weight: $h3FontWeight;
+    margin: 8px 0;
+  }
+  .card-title.open {
+    font-size: $h3FontSize;
+    font-weight: $h2FontWeight;
+  }
+  .category {
+    font-size: $body2FontSize;
+    text-transform: uppercase;
+  }
+  .category.open {
+    font-size: $bodyFontSize;
+  }
+}

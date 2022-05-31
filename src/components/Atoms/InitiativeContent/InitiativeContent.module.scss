@@ -9,8 +9,11 @@ $tableBorders: 1px solid #ffffff;
   row-gap: 2rem;
   padding: 2rem 4rem;
   max-width: $maxWidth;
-  width: 90vw;
-  align-items: center;
+  width: 100%;
+  // align-items: center;
+}
+.paragraph-content--container {
+  text-indent: 5rem;
 }
 
 .paragraph-content {
@@ -19,6 +22,7 @@ $tableBorders: 1px solid #ffffff;
   font-weight: $bodyFontWeight;
   color: #ffff;
   line-height: 2rem;
+  text-indent: 5rem;
 }
 
 .paragraph-content--bold {
@@ -27,6 +31,7 @@ $tableBorders: 1px solid #ffffff;
   font-weight: bold;
   color: #ffff;
   line-height: 2rem;
+  text-indent: 5rem;
 }
 
 .paragraph-content--hypertext {
@@ -35,6 +40,7 @@ $tableBorders: 1px solid #ffffff;
   font-weight: $bodyFontWeight;
   color: #ffff;
   line-height: 2rem;
+  text-indent: 5rem;
 }
 
 .content-hypertext {
@@ -45,9 +51,24 @@ $tableBorders: 1px solid #ffffff;
   color: #ffff;
 }
 
+.content-hypertext--large {
+  font-size: $h4FontSize;
+  font-weight: $h4FontWeight;
+  line-height: 2rem;
+  text-align: left;
+  color: #ffff;
+}
+
 .title {
   font-size: $h4FontSize;
   font-weight: $h4FontWeight;
+  text-align: center;
+  color: #ffff;
+}
+
+.title--large {
+  font-size: $h2FontSize;
+  font-weight: $h2FontWeight;
   text-align: center;
   color: #ffff;
 }
@@ -57,6 +78,7 @@ $tableBorders: 1px solid #ffffff;
   padding: 1rem;
   color: $color--white;
   width: 100%;
+  margin-left: 2rem;
 }
 
 .listItem,
@@ -70,6 +92,7 @@ $tableBorders: 1px solid #ffffff;
   border: $tableBorders;
   border-collapse: collapse;
   width: 90%;
+  align-self: center;
 
   th,
   td,

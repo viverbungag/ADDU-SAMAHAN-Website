@@ -7,11 +7,11 @@
 
 .image-container {
   position: relative;
-  min-width: 400px;
+  min-width: 25rem;
   //   width: 400px;
-  max-width: 400px;
+  max-width: 25rem;
   height: fit-content;
-  max-height: 400px;
+  max-height: 25rem;
   //   flex-grow: 2;
 }
 
@@ -23,10 +23,11 @@
 }
 
 .paragraph {
+  align-items: center;
   p {
     margin-bottom: 0.8rem;
     color: black;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: justify;
     text-indent: 5rem;
   }
@@ -45,8 +46,28 @@
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1400px) {
   .container {
     flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 766px) {
+  .container {
+    gap: 3rem;
+  }
+  .image-container {
+    min-width: 20rem;
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-container {
+    min-width: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
   }
 }

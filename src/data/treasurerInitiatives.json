@@ -429,8 +429,33 @@
       "imgBgSrc": "https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2FTreasurer%20Initiatives%2FLive%20Budget%20Tracker.png?alt=media&token=6b96f32a-6908-4ce4-857d-0d806bdf6b2b",
       "contents": [
         {
-          "type": "google sheets",
-          "contents": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRBkPJaLmaCG8JXJ13TGub0Ayk_sb5v2ZCYd2_Ae_HzqsF5j6KHY7ALpNUP-p3N8meRSMCkWugbBGwo/pubhtml?widget=true&amp;headers=false"
+          "type": "title large",
+          "contents": "SAMAHAN Budget Trackers:"
+        },
+        {
+          "type": "hyperlink large",
+          "link": "/budget_tracker_offices_and_department",
+          "contents": "1. Offices and Department"
+        },
+        {
+          "type": "hyperlink large",
+          "link": "/budget_tracker_events",
+          "contents": "2. Events"
+        },
+        {
+          "type": "hyperlink large",
+          "link": "/budget_tracker_ccp",
+          "contents": "3. CCP"
+        },
+        {
+          "type": "hyperlink large",
+          "link": "/budget_tracker_clusters",
+          "contents": "4. Clusters"
+        },
+        {
+          "type": "hyperlink large",
+          "link": "/budget_tracker_summary",
+          "contents": "5. Summary"
         }
       ]
     },

@@ -68,6 +68,20 @@ const contentRecurrsion = (contents) => {
       );
     }
 
+    if (content.type === "hyperlink large") {
+      return (
+        <div key={index}>
+          <Link href={content.link}>
+            <a target="_blank" className={styles["content-hypertext--large"]}>
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </a>
+          </Link>
+        </div>
+      );
+    }
+
     if (content.type === "table") {
       return (
         <table key={index} className={styles["table"]}>
@@ -200,6 +214,16 @@ const contentRecurrsion = (contents) => {
             ? contentRecurrsion(content.contents)
             : content.contents}
         </h2>
+      );
+    }
+
+    if (content.type === "title large") {
+      return (
+        <h1 key={index} className={styles["title--large"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </h1>
       );
     }
 

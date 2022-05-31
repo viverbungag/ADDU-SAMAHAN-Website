@@ -4,7 +4,7 @@ import styles from "./DepartmentIntro.module.scss";
 
 const DepartmentIntro = ({ onClickCentralBoard, onClickDepartments }) => {
   return (
-    <div className={styles["componentContainer"]}>
+    <div className={styles["componentContainer"] + " container"}>
       <DepartmentNavigation
         departmentTitle={"SAMAHAN CENTRAL BOARD"}
         buttonLabel={"LEARN MORE"}

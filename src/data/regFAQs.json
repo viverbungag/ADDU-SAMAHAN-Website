@@ -70,9 +70,142 @@
                 "type":"paragraph",
                 "contents":"It will take one (1) to three (3) banking days for the student’s My Registration page on his/her SIS account  to have the status of “Enrolled” for the current semester. "
             }]
+        },
+        {
+            "FAQNum":"FAQ7",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" Why does a student have un-updated registration during enrollment?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":[{
+                    "type":"paragraph",
+                    "contents":"The student’s enrollment registration for the current semester/summer term is not updated/created yet due to:"
+                },
+                {
+                    "type":"ordered list",
+                    "contents":[
+                        {
+                            "type":"list item",
+                            "contents":" Finance Hold – A hold coming from the finance office which requires students to pay their outstanding balances for the previous semester."
+                        },
+                        {
+                            "type":"list item",
+                            "contents":" OSA Hold – A hold coming from the Office of Student Affairs (OSA) for uncompleted or non-compliance with directives/call slips relating to violations of the student handbook (e.g., uniform, ID, validation, etc.)"
+                        },
+                        {
+                            "type":"list item",
+                            "contents":" Department Hold – A hold coming from the respective department to require students to contact their departments to fulfill certain requirements."
+                        },
+                        {
+                            "type":"list item",
+                            "contents":"QPI Hold – For not obtaining the required QPI to be retained in the University. The student has to contact the concerned department/office to settle and unblock the hold before his registration be created."
+                        }
+                    ]
+                }
+            ]
+            }]
+        },
+        {
+            "FAQNum":"FAQ8",
+            "Question":[{
+                "type":"paragraph",
+                "contents":"Why can’t a student find the subject even if he searched for the correct subject code or class code?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"The search function is limited only to the subjects included in the student’s curriculum assignment. If the subject is outside of the student’s specific curricula, it can’t be searched."
+            }]
+        },
+        {
+            "FAQNum":"FAQ9",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" If class has been filled up, may a student ask for a slot extension?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"No. Class sizes are fixed for the efficient delivery of instruction and in compliance with existing school and CHED regulations."
+            }]
+        },
+        {
+            "FAQNum":"FAQ10",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" What is the difference between dropping and withdrawal?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"“Dropping” refers to the removal of some subjects enrolled by a student, as opposed to “adding” which is the inclusion of those where the latter has not previously been enlisted for. Withdrawal on the other hand is the deletion of all the student’s enlistment for the semester."
+            }]
+        },
+        {
+            "FAQNum":"FAQ11",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" Can a student enroll after the enrollment period or when classes have already started?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Late enrollment may be allowed until the first week of the semester or the first two days during summer, subject to the payment of surcharges. Students who failed to confirm their enrollment via their payment of the fees before the deadline set (or the commencement of the Enrolment Confirmation and Reservation Cancellation Procedure) shall be treated as late enrollees when no payment has been made prior to the start of classes."
+            }]
+        },
+        {
+            "FAQNum":"FAQ12",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" What will happen to excess payments or balances?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Excess payments or balances may be refunded or be deducted in the student’s tuition in the following semester."
+            }]
+        },
+        {
+            "FAQNum":"FAQ13",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" If a student overpays for the previous semester, is he automatically enrolled?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"For the upcoming semesters, if the overpayment is sufficient to cover the fees required for enrollment, the student will be tagged as enrolled."
+            }]
+        },
+        {
+            "FAQNum":"FAQ14",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" What should a student do when his enrolled classes are dissolved?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"Dissolved classes shall be appropriately marked as such on the SIS registration of the students.  If a class is dissolved during the enrollment, or during the adding and dropping period, substitute courses may be added online. The assistance and endorsement of the Department Chairpersons are required for dissolutions after such periods."
+            }]
+        },
+        {
+            "FAQNum":"FAQ15",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" Who to coordinate about crediting of subjects?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"For transferees, coordinate with the admissions office."
+            }]
+        },
+        {
+            "FAQNum":"FAQ16",
+            "Question":[{
+                "type":"paragraph",
+                "contents":" When and how can withdrawal be made?"
+            }],
+            "Answer":[{
+                "type":"paragraph",
+                "contents":"A student may officially withdraw his enrollment within six weeks from the start of the semester or within two weeks from the start of summer school. No request for withdrawal will be entertained thereafter.  For now, this may be done by sending a request to admissions@addu.edu.ph (for the first years and, new students) and registrar@addu.edu.ph (for old students)."
+            }]
         }
-
-
 
     ]
 }

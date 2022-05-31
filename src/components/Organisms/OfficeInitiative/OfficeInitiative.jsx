@@ -11,12 +11,12 @@ const OfficeInitiative = ({ id, data, initialRoute }) => {
   const imageHasLoaded = true;
   return (
     <>
+      <InitiativeHeader
+        mainTitle={data.mainTitle}
+        subTitle={data.subTitle}
+      />
       <div className={styles["root-container"]}>
         <div className={styles["component-container"]}>
-          <InitiativeHeader
-            mainTitle={data.mainTitle}
-            subTitle={data.subTitle}
-          />
           <InitiativeList
             selectedId={id}
             data={data.initiatives}

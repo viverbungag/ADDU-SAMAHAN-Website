@@ -1,19 +1,46 @@
 @import "../../../../styles/variables.scss";
+@import "../../../data/imageSrc.module.scss";
 
 .subTitle {
   font-size: $h5FontSize;
   font-weight: $h5FontWeight;
-  color: $color--dark-grey;
 }
 
 .mainTitle {
   font-size: $h1FontSize;
   font-weight: $h1FontWeight;
-  color: $color--dark-grey;
-  margin: 6px 0 12px;
 }
 
 .component-container {
-  border-bottom: 1px solid $color--dark-grey;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $color--white;
+  gap: .25rem;
+  padding: 5rem 0;
+
+  background-color: $color--primary;
+  background-image: url($office-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-ed ges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+@media screen and (max-width: 992px) {
+  .component-container {
+    background-image: url($office-bg-992px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .component-container {
+    background-image: url($office-bg-600px);
+  }
 }

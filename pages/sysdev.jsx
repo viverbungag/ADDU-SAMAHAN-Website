@@ -6,9 +6,9 @@ const sysdev = () => {
   return (
     <>
       <Head>
-        <title>SysDev Secret Page</title>
+        <title>SysDev</title>
       </Head>
-      <SysDevPage />
+      <div>SysDev</div>
     </>
   );
 };

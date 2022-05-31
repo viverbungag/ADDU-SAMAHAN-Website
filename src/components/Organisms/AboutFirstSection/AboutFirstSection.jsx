@@ -16,7 +16,28 @@ const AboutFirstSection = ({ data, carouselPics }) => {
 
     </div>
     </div> */}
+      {/* <section className={styles["AboutFirstSection"]}>
+        <div className={styles["wrapper"]}>
+          <div className={styles["carousel"]}>
+            <Carousel data={carouselPics} />
+          </div>
+          <div>
+            <div>
+              <Fade>
+                <h1 className={styles["header"]}>{data.title}</h1>
+              </Fade>
+            </div>
+            <div>
+              <Fade>
+                <p className={styles["paragraph1"]}>{data.firstP}</p>
+                <p className={styles["paragraph"]}>{data.secondP}</p>
+              </Fade>
+            </div>
+          </div>
+        </div>
+      </section> */}
 
+<<<<<<< HEAD
       <div className={styles["container"]}>
         <div className={styles["wrapper"]}>
           <div className="container">
@@ -39,6 +60,26 @@ const AboutFirstSection = ({ data, carouselPics }) => {
           </div>
         </div>
       </div>
+=======
+      <section className={styles["AboutFirstSection"]}>
+        <div className={styles["wrapper"]}>
+          <div className={styles["carousel"]}>
+            <Carousel data={carouselPics} />
+          </div>
+          <div className={styles["AboutFirstSection__content"] + " container"}>
+            <Fade>
+              <h1 className={styles["header"]}>{data.title}</h1>
+            </Fade>
+            <div className={styles["description"]}>
+              <Fade>
+                <p className={styles["paragraph1"]}>{data.firstP}</p>
+                <p className={styles["paragraph"]}>{data.secondP}</p>
+              </Fade>
+            </div>
+          </div>
+        </div>
+      </section>
+>>>>>>> 9cbba76fbcd727ac491c1c41fb4cf9941890c595
     </>
   );
 };

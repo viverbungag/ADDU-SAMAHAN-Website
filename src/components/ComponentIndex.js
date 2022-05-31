@@ -46,6 +46,12 @@ export { default as OfficeOfTheSecretaryGeneralTemplate } from "./Template/Offic
 export { default as OfficeOfTheTreasurerTemplate } from "./Template/OfficeOfTheTreasurerTemplate/OfficeOfTheTreasurerTemplate";
 export { default as OfficeOfTheVicePresidentTemplate } from "./Template/OfficeOfTheVicePresidentTemplate/OfficeOfTheVicePresidentTemplate";
 export { default as StudentJudicialCourtTemplate } from "./Template/StudentJudicialCourtTemplate/StudentJudicialCourtTemplate";
+export { default as EmailFAQTemplate } from "./Template/EmailFAQTemplate/EmailFAQTemplate";
+export { default as OleFAQTemplate } from "./Template/OleFAQTemplate/OleFAQTemplate";
+export { default as GsuiteFAQTemplate } from "./Template/GsuiteFAQTemplate/GsuiteFAQTemplate";
+export { default as RegFAQTemplate} from "./Template/RegFAQTemplate/RegFAQTemplate";
+export { default as SchFAQTemplate} from "./Template/SchFAQTemplate/SchFAQTemplate";
+
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";
@@ -57,3 +63,8 @@ export { default as OfficeOfTheSecretaryGeneralPage } from "./Pages/OfficeOfTheS
 export { default as OfficeOfTheTreasurerPage } from "./Pages/OfficeOfTheTreasurerPage/OfficeOfTheTreasurerPage";
 export { default as OfficeOfTheVicePresidentPage } from "./Pages/OfficeOfTheVicePresidentPage/OfficeOfTheVicePresidentPage";
 export { default as StudentJudicialCourtPage } from "./Pages/StudentJudicialCourtPage/StudentJudicialCourtPage";
+export { default as EmailFAQPage } from "./Pages/EmailFAQPage/EmailFAQPage";
+export { default as OleFAQPage } from "./Pages/OleFAQPage/OleFAQPage";
+export { default as GsuiteFAQPage } from "./Pages/GsuiteFAQPage/GsuiteFAQPage";
+export { default as RegFAQPage } from "./Pages/RegFAQPage/RegFAQPage";
+export { default as SchoFAQPage } from "./Pages/SchFAQPage/SchFAQPage";

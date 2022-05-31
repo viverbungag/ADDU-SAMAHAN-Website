@@ -7,12 +7,5 @@ export default {
 };
 
 export const Main = {
-  args: {
-    information: [
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor"
-]},
+  args: {information: information.informationTitle}
 };

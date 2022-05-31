@@ -1,8 +1,18 @@
 @import "../../../../styles/variables.scss";
+@import "../../../data/imageSrc.module.scss";
 
 .about {
-  height: 100vh;
+  height: fit-content;
   background-color: $color--primary;
+  background-image: url($department-bg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+  -ms-interpolation-mode: nearest-neighbor;
 
   .component-container {
     height: 100%;
@@ -10,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 7.5rem 0;
   }
 }
 

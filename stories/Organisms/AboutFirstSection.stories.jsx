@@ -1,5 +1,6 @@
 import { AboutFirstSection } from "../../src/components/ComponentIndex";
 import { abtData1 } from "../../src/data/dataIndex";
+import { slideshowContent } from "../../src/data/dataIndex";
 
 export default {
   title: "Organisms/About Page First Section",
@@ -14,6 +15,7 @@ export default {
 export const Main = {
   args: {
     data: abtData1,
+    carouselPics: slideshowContent
         
     
   },

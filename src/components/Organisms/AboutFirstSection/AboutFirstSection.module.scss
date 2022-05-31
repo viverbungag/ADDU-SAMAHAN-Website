@@ -8,12 +8,10 @@ $imageSize: 100vw;
 }
 
 .container {
-  padding-left: 15rem;
-  padding-bottom: 10rem;
-  padding-top: 5rem;
+ 
   width: auto;
   text-align: center;
-  //   background-color: $color--primary;
+    background-color: $color--primary;
   display: flex;
   flex-direction: column;
 }
@@ -49,4 +47,23 @@ $imageSize: 100vw;
   margin-right: 30px;
   line-height: 2rem;
   text-align: justify;
+}
+
+.wrapper{
+  position: relative;
+ 
+}
+
+.carousel{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.innerContainer{
+  text-align: center;
+  position: absolute;
+  z-index: 1;
 }

@@ -3,30 +3,37 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { CarouselContent } from "../../ComponentIndex";
+import styles from "./Carousel.module.scss";
+
 const settings = {
-    dots: true,
+    dots: false,
     fade: true,
     infinite: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+      speed: 5000,
+      autoplaySpeed: 2000
   };
 
-const Carousel = (data) => {
+const Carousel = ({data}) => {
   return (
     <div>
-        {console.log("image is: ", data)}
+       <div className={styles["sliderContainer"]}>
         <Slider {...settings}>
             {data.content.map((item) => {
+                console.log(item)
                 return (
                     <div>
                     
-                      <CarouselContent imgSrc = {item.pics} />
+                      <CarouselContent imgSrc = {item} />
                     </div>
                 );
             })}
         </Slider>
-        <p>{data}</p>
+        </div>
     </div>
   )
 }

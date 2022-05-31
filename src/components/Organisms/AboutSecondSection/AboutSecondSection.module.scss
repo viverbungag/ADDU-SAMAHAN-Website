@@ -3,6 +3,8 @@
 .outerSection{
     background-color: rgb(242, 243, 244);
     padding: 5rem 0;
+    
+    
 }
 
 .container{
@@ -28,6 +30,9 @@
     align-items: center;
     justify-items: center;
     text-align: center;
+}
+.background{
+    position: relative;
 }
 
 @media (max-width: 992px) {

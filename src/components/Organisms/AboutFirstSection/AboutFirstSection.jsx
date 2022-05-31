@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./AboutFirstSection.module.scss";
 import Fade from "react-reveal/Fade";
-import Image from "next/image";
-const AboutFirstSection = ({ data }) => {
+import { Carousel } from "../../ComponentIndex";
+const AboutFirstSection = ({ data, carouselPics }) => {
   return (
     <>
       {/* <div className={styles["component-container"]}>
@@ -16,20 +16,28 @@ const AboutFirstSection = ({ data }) => {
 
     </div>
     </div> */}
- 
+
     <div className={styles["container"]}>
-    <div className="container">
+    <div className={styles["wrapper"]}>
+     <div  className="container">
+      
+      <div  className={styles["carousel"]}>
+        <Carousel data = {carouselPics} />
+      </div>
+    <div className="innerContainer">
       <div>
-        <Fade right>
+        <Fade>
         <h1 className={styles["header"]}>{data.title}</h1>
         </Fade>
       </div>
       <div>
-        <Fade right>
+        <Fade>
         <p className={styles["paragraph1"]}>{data.firstP}</p>
         <p className={styles["paragraph"]}>{data.secondP}</p>
         </Fade>
       </div>
+      </div>
+    </div>
     </div>
     </div>
     </>

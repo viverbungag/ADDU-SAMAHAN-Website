@@ -19,8 +19,12 @@ export default function TabPanel(props) {
         {value === index && (
           <div className={styles["box"]}>
             <Flip bottom>
-              <h2 className={styles["subHeading"]}>{subHeading}</h2>
+              <div className={styles["subHeading"]}>
+              <h2 >{subHeading}</h2>
+              </div>
+              <div className={styles["contentContainer"]}>
               <Typography className={styles["content"]}>{children}</Typography>
+              </div>
             </Flip>
           </div>
         )}

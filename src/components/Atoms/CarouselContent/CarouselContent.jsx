@@ -8,9 +8,12 @@ const CarouselContent = ({imgSrc}) => {
         <Image.default
             src={imgSrc}
             alt="Image"
-            layout="fill"
+            layout="responsive"
             objectFit="cover"
             draggable={false}
+            width = "100"
+            height = "58px"
+            
           />
         </div>
     

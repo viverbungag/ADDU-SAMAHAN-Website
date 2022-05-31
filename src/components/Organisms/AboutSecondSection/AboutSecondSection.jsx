@@ -24,6 +24,7 @@ const AboutSecondSection = ({ data }) => {
     
     </div>
     </div> */}
+    <div className={styles["background"]}>
       <div className={styles["outerSection"]}>
         <div className={styles["container"] + " container"}>
             <Fade left>
@@ -38,6 +39,7 @@ const AboutSecondSection = ({ data }) => {
           </Fade>
         </div>
       </div>
+    </div>
     </>
   );
 };

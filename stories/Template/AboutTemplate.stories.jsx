@@ -1,5 +1,5 @@
 import { AboutTemplate } from "../../src/components/ComponentIndex";
-import { scbData, sdData, abtData1, abtData2, advoData} from "../../src/sampleData/dataIndex";
+import { scbData, sdData, abtData1, abtData2, advoData, slideshowContent} from "../../src/sampleData/dataIndex";
 
 export default {
   title: "Template/About",
@@ -18,6 +18,7 @@ export const Main = {
     abtData1: abtData1,
     abtData2: abtData2,
     aData: advoData,
+    carouselPics : slideshowContent
 
   },
 };

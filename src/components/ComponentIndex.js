@@ -9,6 +9,7 @@ export { default as InitiativeContent } from "./Atoms/InitiativeContent/Initiati
 export { default as FAQCard } from "./Atoms/FAQCard/FAQCard";
 export { default as InformationCard } from "./Atoms/InformationCard/InformationCard";
 export { default as ScrollDownIcon } from "./Atoms/ScrollDownIcon/ScrollDownIcon";
+export { default as CarouselContent } from "./Atoms/CarouselContent/CarouselContent";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
@@ -20,7 +21,7 @@ export { default as InitiativeModal } from "./Molecules/InitiativeModal/Initiati
 export { default as InitiativeCard } from "./Molecules/InitiativeCard/InitiativeCard";
 export { default as FAQCategories } from "./Molecules/FAQCategories/FAQCategories";
 export { default as FAQAccordion } from "./Molecules/FAQAccordion/FAQAccordion";
-
+export { default as Carousel } from "./Molecules/Carousel/Carousel";
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";

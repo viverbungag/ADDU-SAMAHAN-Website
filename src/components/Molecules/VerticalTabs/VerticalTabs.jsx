@@ -12,7 +12,7 @@ const VerticalTabs = ({ data }) => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  console.log(data.items[0].heading);
+  console.log("hello: ", data.items[0]);
   return (
     <div className={styles["outerBox"]}>
       <Bounce>

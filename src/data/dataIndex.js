@@ -11,6 +11,7 @@ export { default as sgInData } from "./secretaryGeneralInitiatives.json";
 export { default as abtData2 } from "./aboutSecondSection.json";
 export { default as tInData } from "./treasurerInitiatives.json";
 export { default as information } from "../data/Information/Information.json";
+export { default as slideshowContent } from "./aboutSlideshow.json";
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";

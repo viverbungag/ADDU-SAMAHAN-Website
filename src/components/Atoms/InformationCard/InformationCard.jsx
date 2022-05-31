@@ -4,7 +4,7 @@ import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import { Appeals, ContactDetails, EnrollmentAndPayment, LeaveOfAbsences, Shifting } from "../../../data/dataIndex"
+import { Appeals, ContactDetails, EnrollmentAndPayment, FirstSemesterSchedule, LeaveOfAbsences, Shifting } from "../../../data/dataIndex"
 
 /*
 ===== HOW TO ADD AN INFORMATION CARD =====
@@ -40,7 +40,9 @@ const InformationCard = ({ title }) => {
   const handleClose = () => setOpen(false);
 
   function renderModalContent(title) {
-    if (title === "Enrollment and Payment")
+    if (title === "1st Semester Schedule")
+      return <FirstSemesterSchedule />
+    else if (title === "Enrollment and Payment")
       return <EnrollmentAndPayment />
     else if (title === "Contact Details")
       return <ContactDetails />

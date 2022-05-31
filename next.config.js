@@ -6,7 +6,11 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["firebasestorage.googleapis.com", "shipboardtraining.com"],
+    domains: [
+      "firebasestorage.googleapis.com",
+      "shipboardtraining.com",
+      "imgbox.com",
+    ],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },

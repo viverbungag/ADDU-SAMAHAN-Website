@@ -2,20 +2,18 @@ import React from 'react'
 import {
     Navigation,
     Footer,
-    EmailFAQ,
+    OleFAQ,
   } from "../../ComponentIndex";
-  import styles from "./EmailFAQTemplate.module.scss";
-  import { eFAQData } from "../../../data/dataIndex";
-  
+  import styles from "./OleFAQTemplate.module.scss";
+  import { oleFAQData } from "../../../data/dataIndex";
 
-const EmailFAQTemplate = ({data}) => {
-
+const OleFAQTemplate = ({data}) => {
   return (
     <>
-    <Navigation />
+     <Navigation />
     <div className="container">
     <div className={styles["office-of-the-president"]}>
-    <EmailFAQ data={eFAQData} />
+    <OleFAQ data={oleFAQData} />
     </div>     
     </div>
     <Footer />
@@ -23,4 +21,4 @@ const EmailFAQTemplate = ({data}) => {
   )
 }
 
-export default EmailFAQTemplate
+export default OleFAQTemplate

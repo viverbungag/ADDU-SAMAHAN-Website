@@ -2,20 +2,19 @@ import React from 'react'
 import {
     Navigation,
     Footer,
-    EmailFAQ,
+    RegFAQ,
   } from "../../ComponentIndex";
-  import styles from "./EmailFAQTemplate.module.scss";
-  import { eFAQData } from "../../../data/dataIndex";
+  import styles from "./RegFAQTemplate.module.scss";
+  import { regFAQData } from "../../../data/dataIndex";
   
 
-const EmailFAQTemplate = ({data}) => {
-
+const RegFAQTemplate = () => {
   return (
     <>
     <Navigation />
     <div className="container">
     <div className={styles["office-of-the-president"]}>
-    <EmailFAQ data={eFAQData} />
+    <RegFAQ data={regFAQData} />
     </div>     
     </div>
     <Footer />
@@ -23,4 +22,4 @@ const EmailFAQTemplate = ({data}) => {
   )
 }
 
-export default EmailFAQTemplate
+export default RegFAQTemplate

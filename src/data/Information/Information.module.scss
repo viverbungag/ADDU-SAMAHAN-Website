@@ -1,45 +1,64 @@
 @import "../../../styles/variables.scss";
 
-.EnrollmentAndPayment {
-    h5 {
-        text-decoration: underline;
-        font-size: $h5FontSize;
-        margin-bottom: 1.2rem;
-    }
+.EnrollmentAndPayment,
+.ContactDetails,
+.Appeals,
+.Shifting,
+.LeaveOfAbsences {
+  h1 {
+    text-align: center;
+    font-size: $h3FontSize;
+    color: $color--primary;
+    padding: 2rem 3rem;
+    width: fit-content;
+    margin: 0 auto 3rem auto;
+    border-radius: 10px;
+    background-color: $color--aquamarine;
+  }
 
-    ol {
-        padding-left: 4rem;
+  h5 {
+    text-decoration: underline;
+    font-size: $h5FontSize;
+    margin-bottom: 1.2rem;
+    color: $color--primary;
+  }
 
-        li {
-            margin-bottom: .3rem;
-        }
-    }
+  ol {
+    padding-left: 4rem;
 
-    ol ul {
-        padding-left: 2rem;
-        li {
-            margin: .5rem 0;
-        }
+    li {
+      margin-bottom: 0.3rem;
+      text-align: justify;
     }
+  }
 
-    p {
-        margin-bottom: 1rem;
+  ol ul {
+    padding-left: 2rem;
+    li {
+      margin: 0.5rem 0;
+      text-align: justify;
     }
+  }
 
-    .indent {
-        padding-left: 3rem;
-    }
+  p {
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
 
-    .indent-emphasize {
-        padding-left: 2rem;
-        margin: 1rem 0;
-    }
+  .indent {
+    padding-left: 3rem;
+  }
 
-    .italic {
-        font-style: italic;
-    }
+  .indent-emphasize {
+    padding-left: 2rem;
+    margin: 1rem 0;
+  }
 
-    .bold {
-        font-weight: 700;
-    }
+  .italic {
+    font-style: italic;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
 }

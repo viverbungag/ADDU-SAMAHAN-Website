@@ -74,6 +74,14 @@ footer {
 }
 
 /* SMALL DEVICES */
+@media (max-width: 576px) {
+  .container-sm,
+  .container {
+    --bs-gutter-x: 5rem !important;
+  }
+}
+
+/* SMALL DEVICES */
 @media (min-width: 576px) {
   .container-sm,
   .container {

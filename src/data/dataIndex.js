@@ -12,6 +12,15 @@ export { default as abtData2 } from "./aboutSecondSection.json";
 export { default as tInData } from "./treasurerInitiatives.json";
 export { default as information } from "../data/Information/Information.json";
 export { default as slideshowContent } from "./aboutSlideshow.json";
+export {default as eFAQData} from "../data/emailsFAQs.json";
+export { default as oleFAQData } from "../data/oleFAQs.json";
+export { default as gsuiteFAQsData } from "../data/gsuiteFAQs.json"
+export { default as regFAQData } from "../data/regFAQs.json";
+export { default as schFAQData } from "../data/scholarFAQs.json";
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";
+export { default as ContactDetails } from "../data/Information/ContactDetails";
+export { default as Appeals } from "../data/Information/Appeals";
+export { default as Shifting } from "../data/Information/Shifting";
+export { default as LeaveOfAbsences } from "../data/Information/LeaveOfAbsences";

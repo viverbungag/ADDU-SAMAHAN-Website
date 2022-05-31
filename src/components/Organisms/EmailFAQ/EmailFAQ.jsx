@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import styles from "./FAQAccordion.module.scss";
+import styles from "./EmailFAQ.module.scss";
 
 const contentRecurrsion = (contents) => {
   return contents.map((content, index) => {
@@ -215,7 +215,7 @@ const contentRecurrsion = (contents) => {
 };
 
 
-const FAQAccordion = ({data}) => {
+const EmailFAQ = ({data}) => {
   console.log(data.contents);
   return (
     <div>
@@ -266,4 +266,4 @@ const FAQAccordion = ({data}) => {
   )
 }
 
-export default FAQAccordion
+export default EmailFAQ

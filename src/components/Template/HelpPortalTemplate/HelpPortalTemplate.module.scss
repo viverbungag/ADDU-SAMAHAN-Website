@@ -45,6 +45,7 @@
             display: flex;
             justify-content: center;
             img {
+                max-height: 558px;
                 max-width:100%;
                 object-fit: cover;
             }
@@ -91,6 +92,13 @@
     }
 }
 
+@media (max-width: 360px) {
+    .download-area {
+        text-align: ce;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 768px) {
     .guidebook-wrapper {
         flex-wrap: wrap;

@@ -21,7 +21,7 @@ const HelpPortalTemplate = ({faqData, information}) => {
         <section className={styles["help-portal__guidebook"]}>
           <div className={styles["guidebook-wrapper"] + " container"}>
             <div className={styles["guidebook"]}>
-              <img src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2Fguidebook.png?alt=media&token=8b5f876d-9664-43d6-8788-afe836a3379c" alt="SAMAHAN Guidebook" draggable/>
+              <img loading="lazy" src="https://firebasestorage.googleapis.com/v0/b/samahan-website.appspot.com/o/Images%2Fguidebook.png?alt=media&token=58e7af09-e17c-4f76-ad0e-6e911637a4f0" alt="SAMAHAN Guidebook" draggable={false}/>
             </div>
             <div className={styles["download-area"]}>
               <div className={styles["prompt"]}>

@@ -1,9 +1,9 @@
-import { FAQAccordion } from "../../src/components/ComponentIndex"; 
+import { EmailFAQ } from "../../src/components/ComponentIndex"; 
 import { eFAQData } from "../../src/data/dataIndex";
 
 export default{
-    title:"Molecules/FAQAccordion",
-    component:FAQAccordion,
+    title:"Organisms/SIS and ADDU Email FAQs",
+    component:EmailFAQ,
     parameters:{
         backgrounds:{
             default: "ADDU Blue"

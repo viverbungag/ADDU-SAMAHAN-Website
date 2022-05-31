@@ -12,14 +12,15 @@ const VerticalTabs = ({ data }) => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  console.log(data.items[0].heading);
   return (
+    <div className={styles["background"]}>
     <div className={styles["outerBox"]}>
       <Bounce>
-        {" "}
+        <div className={styles["headerContainer"]}>
         <h1 className={styles["header"]}>
           ADVOCA<span>SIX</span>
         </h1>
+        </div>
       </Bounce>
       <Slide bottom>
         <Box
@@ -61,6 +62,7 @@ const VerticalTabs = ({ data }) => {
           </div>
         </Box>
       </Slide>
+    </div>
     </div>
   );
 };

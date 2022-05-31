@@ -5,12 +5,14 @@
     justify-content: left;
     color: $color--white;
     padding-top: 3rem;
+    
 }
 
 .subHeading{
     text-align: center;
     color: $color--white;
     font-weight: bold;
+    padding-right: 3.125rem;
     
 }
 
@@ -27,4 +29,10 @@
     justify-content: 'left';
      display: 'inline-block';
      
+}
+
+.contentContainer{
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
 }

@@ -1,17 +1,34 @@
 {
-    "mainTitle":"AdDU Learning Environment",
-    "contents":[
+  "mainTitle": "AdDU Learning Environment",
+  "contents": [
+    {
+      "FAQNum": "FAQ1",
+      "Question": [
+        {
+          "type": "paragraph bold",
+          "contents": "What applications will professors use?"
+        }
+      ],
+      "Answer": [
+        {
+          "type": "paragraph container",
+          "contents": [
             {
-                "FAQNum":"FAQ1",
-                "Question":[{
-                    "type":"paragraph",
-                    "contents":"What applications will professors use?"
-                }],
-                "Answer":[{
-                    "type":"paragraph",
-                    "contents":"Professors will be using Daigler20 (https://daigler20.addu.edu.ph) as the official medium to post their assignments and assessments, and to receive the outputs from their students. For video conferences, Google Meet, Zoom, or the Big Blue Button (via Daigler) may be used."
-                }]
+              "type": "paragraph",
+              "contents": "Professors will be using Daigler20 ("
+            },
+            {
+              "type": "paragraph hyperlink",
+              "link": "https://daigler20.addu.edu.ph",
+              "contents": "https://daigler20.addu.edu.ph"
+            },
+            {
+              "type": "paragraph",
+              "contents": ") as the official medium to post their assignments and assessments, and to receive the outputs from their students. For video conferences, Google Meet, Zoom, or the Big Blue Button (via Daigler) may be used."
             }
-        
-    ]
+          ]
+        }
+      ]
+    }
+  ]
 }

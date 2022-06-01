@@ -31,11 +31,7 @@ export { default as AboutFirstSection } from "./Organisms/AboutFirstSection/Abou
 export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/OfficeInitiative";
 export { default as AboutSecondSection } from "./Organisms/AboutSecondSection/AboutSecondSection";
 export { default as InformationSection } from "./Organisms/InformationSection/InformationSection";
-export { default as EmailFAQ } from "./Organisms/EmailFAQ/EmailFAQ";
-export { default as OleFAQ } from "./Organisms/OleFAQ/OleFAQ";
-export { default as GsuiteFAQ } from "./Organisms/GsuiteFAQ/GsuiteFAQ";
-export { default as RegFAQ } from "./Organisms/RegFAQ/RegFAQ";
-export { default as ScholarFAQ } from "./Organisms/ScholarFAQ/ScholarFAQ";
+export { default as FAQSection } from "./Organisms/FAQSection/FAQSection";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
@@ -49,9 +45,8 @@ export { default as StudentJudicialCourtTemplate } from "./Template/StudentJudic
 export { default as EmailFAQTemplate } from "./Template/EmailFAQTemplate/EmailFAQTemplate";
 export { default as OleFAQTemplate } from "./Template/OleFAQTemplate/OleFAQTemplate";
 export { default as GsuiteFAQTemplate } from "./Template/GsuiteFAQTemplate/GsuiteFAQTemplate";
-export { default as RegFAQTemplate} from "./Template/RegFAQTemplate/RegFAQTemplate";
-export { default as SchFAQTemplate} from "./Template/SchFAQTemplate/SchFAQTemplate";
-
+export { default as RegFAQTemplate } from "./Template/RegFAQTemplate/RegFAQTemplate";
+export { default as SchFAQTemplate } from "./Template/SchFAQTemplate/SchFAQTemplate";
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";
@@ -68,3 +63,8 @@ export { default as OleFAQPage } from "./Pages/OleFAQPage/OleFAQPage";
 export { default as GsuiteFAQPage } from "./Pages/GsuiteFAQPage/GsuiteFAQPage";
 export { default as RegFAQPage } from "./Pages/RegFAQPage/RegFAQPage";
 export { default as SchoFAQPage } from "./Pages/SchFAQPage/SchFAQPage";
+export { default as OfficesAndDepartmentPages } from "./Pages/OfficesAndDepartmentPages/OfficesAndDepartmentPages";
+export { default as EventsPage } from "./Pages/EventsPage/EventsPage";
+export { default as CCPPage } from "./Pages/CCPPage/CCPPage";
+export { default as ClustersPage } from "./Pages/ClustersPage/ClustersPage";
+export { default as SummaryPage } from "./Pages/SummaryPage/SummaryPage";

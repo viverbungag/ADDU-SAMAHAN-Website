@@ -1,48 +1,73 @@
 @import "../../../../styles/variables.scss";
 
-.outerSection{
-    background-color: rgb(242, 243, 244);
-    padding: 5rem 0;
-    
-    
+.outerSection {
+  background-color: rgb(242, 243, 244);
+  padding: 5rem 0;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    background-color:rgb(242, 243, 244);
-    gap: 4rem;
+.image-container {
+  position: relative;
+  min-width: 25rem;
+  //   width: 400px;
+  max-width: 25rem;
+  height: fit-content;
+  max-height: 25rem;
+  //   flex-grow: 2;
 }
 
-.paragraph{
-    margin-bottom: .8rem;
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 243, 244);
+  gap: 5rem;
+}
+
+.paragraph {
+  align-items: center;
+  p {
+    margin-bottom: 0.8rem;
     color: black;
-    line-height: 1.5rem;
+    line-height: 2rem;
     text-align: justify;
     text-indent: 5rem;
+  }
 }
 
-.header{
-    font-size: 6.25rem;
-    font-weight: $h1FontWeight;
-    color: $color--primary;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+.header {
+  font-size: 6.25rem;
+  font-weight: $h1FontWeight;
+  color: $color--primary;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
-.background{
-    position: relative;
-}
-
-@media (max-width: 992px) {
-    .container {
-        flex-wrap: wrap;
-    }
+.background {
+  position: relative;
 }
 
+@media (max-width: 1400px) {
+  .container {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
 
+@media (max-width: 766px) {
+  .container {
+    gap: 3rem;
+  }
+  .image-container {
+    min-width: 20rem;
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}
 
-
-
-
+@media (max-width: 400px) {
+  .image-container {
+    min-width: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+}

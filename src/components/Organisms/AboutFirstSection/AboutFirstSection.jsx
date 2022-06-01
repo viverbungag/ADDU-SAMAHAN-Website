@@ -5,38 +5,6 @@ import { Carousel } from "../../ComponentIndex";
 const AboutFirstSection = ({ data, carouselPics }) => {
   return (
     <>
-      {/* <div className={styles["component-container"]}>
-    <div className="container">
-    <div className={styles["flexContainer"]}>
-    <div> <h1 className={styles["header"]}>{data.title}</h1></div>
-    <div className={styles["firstParagraph"]}>{data.firstP}</div>
-    <div className={styles["secondParagraph"]}>{data.secondP}</div>
-
-    </div>
-
-    </div>
-    </div> */}
-      {/* <section className={styles["AboutFirstSection"]}>
-        <div className={styles["wrapper"]}>
-          <div className={styles["carousel"]}>
-            <Carousel data={carouselPics} />
-          </div>
-          <div>
-            <div>
-              <Fade>
-                <h1 className={styles["header"]}>{data.title}</h1>
-              </Fade>
-            </div>
-            <div>
-              <Fade>
-                <p className={styles["paragraph1"]}>{data.firstP}</p>
-                <p className={styles["paragraph"]}>{data.secondP}</p>
-              </Fade>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className={styles["AboutFirstSection"]}>
         <div className={styles["wrapper"]}>
           <div className={styles["carousel"]}>

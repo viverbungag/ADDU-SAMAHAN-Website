@@ -1,63 +1,61 @@
 @import "../../../../styles/variables.scss";
 
-.tabdesign{
-    border: 1px;
-    border-color: black;
+.tabdesign {
+  border: 1px;
+  border-color: black;
 }
 
-.content{
-    color: black;
+.content {
+  color: black;
 }
 
-.outerBox{
-    background-color: $color--primary;
-    display: flex;
-    flex-direction: column;
-  
-    
+.outerBox {
+  background-color: $color--primary;
+  display: flex;
+  flex-direction: column;
 }
 
-.tabStyle{
-    color: black;
+.tabStyle {
+  color: black;
 }
 
-.outerTab{
-    width: fit-content;
-    margin-left: 60px;
+.outerTab {
+  width: fit-content;
+  margin-left: 60px;
 }
-.header{
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    color: #FFFF;
-    font-weight: $h1FontWeight;
-    font-size: 72px;
-    padding-left: 10rem;
+.header {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #ffff;
+  font-weight: $h1FontWeight;
+  font-size: 72px;
+  padding-left: 10rem;
 }
-.six{
-    color: aquamarine;
+.six {
+  color: aquamarine;
 }
 
-.background{
-    position: relative;
+.background {
+  position: relative;
 }
 
 @media (max-width: 992px) {
-    .background {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .header{
-        text-align: center;
-        padding-bottom: 2rem;
-        color: #FFFF;
-        font-weight: $h1FontWeight;
-        font-size: 2.625rem;
-        padding-left: 6rem;
-        flex-wrap: wrap;
-    }
-    .headerContainer{
-        flex-wrap: wrap;
-        display: flex;
-    }
+  .background {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .header {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #ffff;
+    font-weight: $h1FontWeight;
+    font-size: 2.625rem;
+    padding-left: 6rem;
+    flex-wrap: wrap;
+  }
+  .headerContainer {
+    flex-wrap: wrap;
+    display: flex;
+  }
 }

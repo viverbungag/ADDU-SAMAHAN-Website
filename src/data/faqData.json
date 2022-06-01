@@ -1,34 +1,34 @@
 {
-    "categories": [
-        {
-            "title": "SIS and AdDU Emails",
-            "description": "",
-            "icon": "emailOutline",
-            "route": "/help_portal/SISAndAdDUEmails"
-        },
-        {
-            "title": "AdDU Online Learning Environment",
-            "description": "",
-            "icon": "webIcon",
-            "route": "/help_portal/AdDUOnlineLearningEnvironment"
-        },
-        {
-            "title": "AdDU GSuite Account",
-            "description": "",
-            "icon": "googleIcon",
-            "route": "/help_portal/AdDUEmail"
-        },
-        {
-            "title": "Enrollment and Registration",
-            "description": "",
-            "icon": "schoolOutline",
-            "route": "/help_portal/EnrollmentAndRegistration"
-        },
-        {
-            "title": "Scholarship",
-            "description": "",
-            "icon": "idCardH",
-            "route": "/help_portal/Scholarship"
-        }
-    ]
+  "categories": [
+    {
+      "title": "SIS and AdDU Emails",
+      "description": "",
+      "icon": "emailOutline",
+      "route": "/help_portal/SIS_and_AdDU_Emails"
+    },
+    {
+      "title": "AdDU Online Learning Environment",
+      "description": "",
+      "icon": "webIcon",
+      "route": "/help_portal/AdDU_Online_Learning_Environment"
+    },
+    {
+      "title": "AdDU GSuite Account",
+      "description": "",
+      "icon": "googleIcon",
+      "route": "/help_portal/AdDU_GSuite"
+    },
+    {
+      "title": "Enrollment and Registration",
+      "description": "",
+      "icon": "schoolOutline",
+      "route": "/help_portal/Enrollment_and_Registration"
+    },
+    {
+      "title": "Scholarship",
+      "description": "",
+      "icon": "idCardH",
+      "route": "/help_portal/Scholarship"
+    }
+  ]
 }

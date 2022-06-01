@@ -1,26 +1,19 @@
-import React from 'react'
-import {
-    Navigation,
-    Footer,
-    EmailFAQ,
-  } from "../../ComponentIndex";
-  import styles from "./EmailFAQTemplate.module.scss";
-  import { eFAQData } from "../../../data/dataIndex";
-  
+import React from "react";
+import { Navigation, Footer, FAQSection } from "../../ComponentIndex";
+import styles from "./EmailFAQTemplate.module.scss";
 
-const EmailFAQTemplate = ({data}) => {
-
+const EmailFAQTemplate = ({ data }) => {
   return (
     <>
-    <Navigation />
-    <div className="container">
-    <div className={styles["office-of-the-president"]}>
-    <EmailFAQ data={eFAQData} />
-    </div>     
-    </div>
-    <Footer />
+      <Navigation />
+      <div className="container">
+        <div className={styles["office-of-the-president"]}>
+          <FAQSection data={data} />
+        </div>
+      </div>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default EmailFAQTemplate
+export default EmailFAQTemplate;

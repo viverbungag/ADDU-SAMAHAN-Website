@@ -1,0 +1,14 @@
+@import "../../../../styles/variables.scss";
+
+.component-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: $h1FontSize;
+  font-weight: $h1FontWeight;
+}

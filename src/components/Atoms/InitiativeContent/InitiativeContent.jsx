@@ -56,7 +56,7 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "hyperlink") {
       return (
-        <div key={index}>
+        <div key={index} className={styles["hyperlink"]}>
           <Link href={content.link}>
             <a target="_blank" className={styles["content-hypertext"]}>
               {hasSubContent

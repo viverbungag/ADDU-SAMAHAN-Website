@@ -19,13 +19,27 @@
 
         span {
             font-weight: $h1FontWeight;
+
+            a {
+                text-decoration: none;
+                color: $color--white;
+                transition: color .2s ease-in;
+
+                &:hover {
+                    color: $color--secondary;
+                }
+
+                &:active {
+                    color: $color--primary;
+                    transition: color .1s ease;
+                }
+            }
         }
     }
 
     abbr {
         border-bottom: dotted 1px $color--white;
         padding-bottom: 2px;
-        cursor: pointer;
         text-decoration: none;
     }
 }

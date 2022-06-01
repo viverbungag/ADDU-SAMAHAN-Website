@@ -10,6 +10,7 @@ export { default as FAQCard } from "./Atoms/FAQCard/FAQCard";
 export { default as InformationCard } from "./Atoms/InformationCard/InformationCard";
 export { default as ScrollDownIcon } from "./Atoms/ScrollDownIcon/ScrollDownIcon";
 export { default as CarouselContent } from "./Atoms/CarouselContent/CarouselContent";
+export { default as SysDevSocials } from "./Atoms/SysDevSocials/SysDevSocials";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";
@@ -22,6 +23,8 @@ export { default as InitiativeCard } from "./Molecules/InitiativeCard/Initiative
 export { default as FAQCategories } from "./Molecules/FAQCategories/FAQCategories";
 export { default as FAQAccordion } from "./Molecules/FAQAccordion/FAQAccordion";
 export { default as Carousel } from "./Molecules/Carousel/Carousel";
+export { default as SysDevProfile } from "./Molecules/SysDevProfile/SysDevProfile";
+
 /* ORGANISMS */
 export { default as Navigation } from "./Organisms/Navigation/Navigation";
 export { default as DepartmentIntro } from "./Organisms/DepartmentIntro/DepartmentIntro";
@@ -32,6 +35,7 @@ export { default as OfficeInitiative } from "./Organisms/OfficeInitiative/Office
 export { default as AboutSecondSection } from "./Organisms/AboutSecondSection/AboutSecondSection";
 export { default as InformationSection } from "./Organisms/InformationSection/InformationSection";
 export { default as FAQSection } from "./Organisms/FAQSection/FAQSection";
+export { default as Developers } from "./Organisms/Developers/Developers";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
@@ -47,6 +51,7 @@ export { default as OleFAQTemplate } from "./Template/OleFAQTemplate/OleFAQTempl
 export { default as GsuiteFAQTemplate } from "./Template/GsuiteFAQTemplate/GsuiteFAQTemplate";
 export { default as RegFAQTemplate } from "./Template/RegFAQTemplate/RegFAQTemplate";
 export { default as SchFAQTemplate } from "./Template/SchFAQTemplate/SchFAQTemplate";
+export { default as SysDevTemplate } from "./Template/SysDevTemplate/SysDevTemplate";
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";
@@ -68,3 +73,4 @@ export { default as EventsPage } from "./Pages/EventsPage/EventsPage";
 export { default as CCPPage } from "./Pages/CCPPage/CCPPage";
 export { default as ClustersPage } from "./Pages/ClustersPage/ClustersPage";
 export { default as SummaryPage } from "./Pages/SummaryPage/SummaryPage";
+export { default as SysDevPage } from "./Pages/SysDevPage/SysDevPage";

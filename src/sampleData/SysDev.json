@@ -1,0 +1,43 @@
+{
+  "developers": [
+    {
+      "name": "John Doe",
+      "position": "Front-End Developer",
+      "course": "BS in Lorem Ipsum",
+      "email": "abcdefgh12345678@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/" },
+        { "site": "facebook", "url": "https://facebook.com/" },
+        { "site": "instagram", "url": "https://instagram.com/" },
+        { "site": "twitter", "url": "https://twitter.com/" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "John Doe",
+      "position": "Front-End Developer",
+      "course": "BS in Lorem Ipsum",
+      "email": "abcdefgh12345678@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/" },
+        { "site": "facebook", "url": "https://facebook.com/" },
+        { "site": "instagram", "url": "https://instagram.com/" },
+        { "site": "twitter", "url": "https://twitter.com/" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "John Doe",
+      "position": "Front-End Developer",
+      "course": "BS in Lorem Ipsum",
+      "email": "abcdefgh12345678@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/" },
+        { "site": "facebook", "url": "https://facebook.com/" },
+        { "site": "instagram", "url": "https://instagram.com/" },
+        { "site": "twitter", "url": "https://twitter.com/" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    }
+  ]
+}

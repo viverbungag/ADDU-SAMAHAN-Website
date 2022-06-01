@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import styles from "./Tabpanel.module.scss";
 import { textAlign } from "@mui/system";
 import Flip from "react-reveal/Flip";
+
 export default function TabPanel(props) {
   const { children, value, index, subHeading } = props;
 
@@ -23,7 +24,7 @@ export default function TabPanel(props) {
               <h2 >{subHeading}</h2>
               </div>
               <div className={styles["contentContainer"]}>
-              <Typography className={styles["content"]}>{children}</Typography>
+              <Typography variant = "h6" color = "common.white">{children}</Typography>
               </div>
             </Flip>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation, Footer } from "../../ComponentIndex";
+import { Navigation, Footer, OfficeInitiatve } from "../../ComponentIndex";
 const StudentJudicialCourtTemplate = () => {
   return (
     <>

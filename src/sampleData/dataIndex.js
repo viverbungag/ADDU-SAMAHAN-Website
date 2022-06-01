@@ -10,4 +10,4 @@ export { default as advoData } from "./advocaSix.json";
 export { default as tInData } from "./treasurerInitiatives.json";
 export { default as information } from "./information.json";
 export { default as slideshowContent } from "./aboutSlideshow.json";
-
+export { default as sjcInData } from "./studentJudicialInitiatives.json";

@@ -1,0 +1,259 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/CRuAiPYtZLyOWP_QxWIco/_buildManifest.js",
+    "static/CRuAiPYtZLyOWP_QxWIco/_ssgManifest.js",
+    "static/CRuAiPYtZLyOWP_QxWIco/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/index-345ed393ed8d1eb8.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/css/b6e3b36db7535152.css",
+      "static/chunks/pages/_app-7d9c571a474cf49b.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/pages/_error-0a004b8b8498208d.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/about-33c515f93b6f03c8.js"
+    ],
+    "/budget_tracker_ccp": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/budget_tracker_ccp-7102ed1523efa55d.js"
+    ],
+    "/budget_tracker_clusters": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/budget_tracker_clusters-d7716351de89849d.js"
+    ],
+    "/budget_tracker_events": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/budget_tracker_events-709743d8199c3c3c.js"
+    ],
+    "/budget_tracker_offices_and_department": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/budget_tracker_offices_and_department-cf16b810520404c7.js"
+    ],
+    "/budget_tracker_summary": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/budget_tracker_summary-20c6d159726b0bdd.js"
+    ],
+    "/faq": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/faq-2b4b9afe7a899b5d.js"
+    ],
+    "/help_portal": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal-513b6d4233095a1c.js"
+    ],
+    "/help_portal/AdDU_GSuite": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal/AdDU_GSuite-6d2cdd50be458446.js"
+    ],
+    "/help_portal/AdDU_Online_Learning_Environment": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal/AdDU_Online_Learning_Environment-ad6c844f4ca3afce.js"
+    ],
+    "/help_portal/Enrollment_and_Registration": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal/Enrollment_and_Registration-15206c4ab6f01455.js"
+    ],
+    "/help_portal/SIS_and_AdDU_Emails": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal/SIS_and_AdDU_Emails-d53f11bd68618564.js"
+    ],
+    "/help_portal/Scholarship": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/help_portal/Scholarship-b8b4d69aa3fa88c5.js"
+    ],
+    "/office_of_the_president": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_president-fbc7a48f38a14c0d.js"
+    ],
+    "/office_of_the_president/[InitiativeNum]": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_president/[InitiativeNum]-86ad8dde3e59726b.js"
+    ],
+    "/office_of_the_secretary_general": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_secretary_general-d5ca81878193dc44.js"
+    ],
+    "/office_of_the_secretary_general/[InitiativeNum]": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_secretary_general/[InitiativeNum]-ee2842c8ee5428d3.js"
+    ],
+    "/office_of_the_treasurer": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_treasurer-32fa624217084a7a.js"
+    ],
+    "/office_of_the_treasurer/[InitiativeNum]": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_treasurer/[InitiativeNum]-2977e245bd0f547e.js"
+    ],
+    "/office_of_the_vice_president": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_vice_president-6b2bbd7458400bf3.js"
+    ],
+    "/office_of_the_vice_president/[InitiativeNum]": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/office_of_the_vice_president/[InitiativeNum]-0863cbfdeaa38fdc.js"
+    ],
+    "/student_judicial_court": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/student_judicial_court-962e18c2e93fe2b1.js"
+    ],
+    "/student_judicial_court/[InitiativeNum]": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/student_judicial_court/[InitiativeNum]-2337dc260e87458d.js"
+    ],
+    "/sysdev": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/736-2fb0faf09c9c011b.js",
+      "static/css/7469265c1496f21c.css",
+      "static/chunks/610-6869e788304fb560.js",
+      "static/chunks/pages/sysdev-beef815995a95781.js"
+    ],
+    "/sysdev/secret": [
+      "static/chunks/webpack-df4cf1c8d23aa877.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-81f4fb35f4507347.js",
+      "static/chunks/pages/sysdev/secret-4e3258568d82413a.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -17,11 +17,8 @@ export { default as oleFAQData } from "../data/oleFAQs.json";
 export { default as gsuiteFAQsData } from "../data/gsuiteFAQs.json";
 export { default as regFAQData } from "../data/regFAQs.json";
 export { default as schFAQData } from "../data/scholarFAQs.json";
-<<<<<<< HEAD
 export { default as sjcInData } from "./studentJudicialInitiatives.json";
-=======
 export { default as SysDev } from "../data/SysDev.json";
->>>>>>> a8cfba9207d42b178d234385b43969330a4015d7
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";

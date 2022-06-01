@@ -1,0 +1,16 @@
+@import "../../../../styles/variables.scss";
+
+.SysDevSocials {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+
+  a {
+    transition: transform 0.3s ease, background-color 0.1s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}

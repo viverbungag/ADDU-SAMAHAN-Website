@@ -17,6 +17,7 @@ export { default as oleFAQData } from "../data/oleFAQs.json";
 export { default as gsuiteFAQsData } from "../data/gsuiteFAQs.json"
 export { default as regFAQData } from "../data/regFAQs.json";
 export { default as schFAQData } from "../data/scholarFAQs.json";
+export { default as SysDev } from "../data/SysDev.json";
 
 /* INFORMATION AREA */
 export { default as EnrollmentAndPayment } from "../data/Information/EnrollmentAndPayment";

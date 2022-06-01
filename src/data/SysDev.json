@@ -1,0 +1,64 @@
+{
+  "developers": [
+    {
+      "name": "Viver Val P. Bungag",
+      "position": "Front-End Developer",
+      "course": "BS in Computer Science",
+      "email": "viverbungag1@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/viverbungag" },
+        { "site": "facebook", "url": "https://facebook.com/buboy1" },
+        { "site": "twitter", "url": "https://twitter.com/vvrbngag" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "Cyril M. Olanolan",
+      "position": "Front-End Developer",
+      "course": "BS in Computer Science",
+      "email": "olanolancyrilm@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/CyrilOlanolan" },
+        { "site": "facebook", "url": "https://facebook.com/CyrilOlanolan" },
+        { "site": "instagram", "url": "https://instagram.com/CyrilOlanolan" },
+        { "site": "twitter", "url": "https://twitter.com/CyrilOlanolan" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "Jan Patrick D. Matayabas",
+      "position": "Front-End Developer",
+      "course": "BS in Information Technology",
+      "email": "patmatayabas@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/janpatmat" },
+        { "site": "twitter", "url": "https://twitter.com/Jpmatayabas" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "Miguel Emmanuel P. Dailisan",
+      "position": "Front-End Developer",
+      "course": "BS in Information Technology",
+      "email": "miguelemmanueldailisan@gmail.com",
+      "socials": [
+        { "site": "github", "url": "https://github.com/miggydai" },
+        { "site": "twitter", "url": "https://twitter.com/miggydailisan__" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    },
+    {
+      "name": "Wayne",
+      "position": "Front-End Developer",
+      "course": "BS in Information Technology",
+      "email": "",
+      "socials": [
+        { "site": "github", "url": "https://github.com/" },
+        { "site": "facebook", "url": "https://facebook.com/" },
+        { "site": "instagram", "url": "https://instagram.com/" },
+        { "site": "twitter", "url": "https://twitter.com/" }
+      ],
+      "picture": "http://shipboardtraining.com/resources/thumb-female.845dfe89.jpg"
+    }
+  ]
+}

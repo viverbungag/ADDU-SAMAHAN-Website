@@ -1,8 +1,10 @@
 import React from 'react'
+import { SysDev } from "../../../data/dataIndex"
+import { SysDevTemplate } from '../../ComponentIndex'
 
 const SysDevPage = () => {
   return (
-    <div>Welcome to SysDev Secret Page!</div>
+    <SysDevTemplate developers={SysDev.developers} />
   )
 }
 

@@ -6,9 +6,10 @@ const sysdev = () => {
   return (
     <>
       <Head>
-        <title>SysDev</title>
+        <title>SAMAHAN - System Development</title>
       </Head>
-      <div>SysDev</div>
+      
+      <SysDevPage />
     </>
   );
 };

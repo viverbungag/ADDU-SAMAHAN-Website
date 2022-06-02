@@ -10,11 +10,14 @@ const StretchedButton = forwardRef(({ onClick, href, label }, ref) => {
         onClick={onClick}
         ref={ref}
         target="_blank"
+        rel="noreferrer"
       >
         <span className={styles["buttonLabel"]}>{label}</span>
       </a>
     </div>
   );
 });
+
+StretchedButton.displayName = "Stretched_Button";
 
 export default StretchedButton;

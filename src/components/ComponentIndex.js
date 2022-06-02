@@ -12,6 +12,7 @@ export { default as ScrollDownIcon } from "./Atoms/ScrollDownIcon/ScrollDownIcon
 export { default as CarouselContent } from "./Atoms/CarouselContent/CarouselContent";
 export { default as SysDevSocials } from "./Atoms/SysDevSocials/SysDevSocials";
 export { default as InitiativeOfficeDescription } from "./Atoms/InitiativeOfficeDescription/InitiativeOfficeDescription";
+export { default as StretchedButton } from "./Atoms/StretchedButton/StretchedButton";
 
 /* MOLECULES */
 export { default as DepartmentNavigation } from "./Molecules/DepartmentNavigation/DepartmentNavigation";

@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import styles from "./InitiativeContent.module.scss";
 import Link from "next/link";
+import { StretchedButton } from "../../ComponentIndex";
 
 const contentRecurrsion = (contents) => {
   return contents.map((content, index) => {
@@ -9,7 +10,10 @@ const contentRecurrsion = (contents) => {
 
     if (content.type === "paragraph container") {
       return (
-        <div key={index} className={styles["paragraph-content--container"]}>
+        <div
+          key={index}
+          className={content.indent && styles["paragraph-content--container"]}
+        >
           {hasSubContent
             ? contentRecurrsion(content.contents)
             : content.contents}
@@ -78,6 +82,14 @@ const contentRecurrsion = (contents) => {
                 : content.contents}
             </a>
           </Link>
+        </div>
+      );
+    }
+
+    if (content.type === "stretched button") {
+      return (
+        <div key={index} className={styles["stretched-button"]}>
+          <StretchedButton label={content.contents} href={content.link} />
         </div>
       );
     }
@@ -208,13 +220,34 @@ const contentRecurrsion = (contents) => {
     }
 
     if (content.type === "title") {
-      return (
-        <h2 key={index} className={styles["title"]}>
-          {hasSubContent
-            ? contentRecurrsion(content.contents)
-            : content.contents}
-        </h2>
-      );
+      switch (content.align) {
+        case "left":
+          return (
+            <h2 key={index} className={styles["title--align-left"]}>
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </h2>
+          );
+
+        case "right":
+          return (
+            <h2 key={index} className={styles["title--align-right"]}>
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </h2>
+          );
+
+        default:
+          return (
+            <h2 key={index} className={styles["title--align-center"]}>
+              {hasSubContent
+                ? contentRecurrsion(content.contents)
+                : content.contents}
+            </h2>
+          );
+      }
     }
 
     if (content.type === "title large") {
@@ -227,13 +260,13 @@ const contentRecurrsion = (contents) => {
       );
     }
 
-    if (content.type === "google sheets") {
+    if (content.type === "title italized") {
       return (
-        <iframe
-          key={index}
-          className={styles["googleSheets"]}
-          src={content.contents}
-        ></iframe>
+        <h2 key={index} className={styles["title-italized"]}>
+          {hasSubContent
+            ? contentRecurrsion(content.contents)
+            : content.contents}
+        </h2>
       );
     }
   });

@@ -10,7 +10,6 @@ import styles from "./OfficeInitiative.module.scss";
 
 const OfficeInitiative = ({ id, data, initialRoute }) => {
   const imageHasLoaded = true;
-  console.log(data.description);
   return (
     <>
       <InitiativeHeader mainTitle={data.mainTitle} subTitle={data.subTitle} />

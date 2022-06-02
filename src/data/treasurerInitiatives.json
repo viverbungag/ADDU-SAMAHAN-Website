@@ -480,6 +480,7 @@
       "contents": [
         {
           "type": "paragraph container",
+          "indent": true,
           "contents": [
             {
               "type": "paragraph",
@@ -498,6 +499,7 @@
         },
         {
           "type": "paragraph container",
+          "indent": true,
           "contents": [
             {
               "type": "paragraph",
@@ -694,6 +696,7 @@
         },
         {
           "type": "paragraph container",
+          "indent": true,
           "contents": [
             {
               "type": "paragraph",
@@ -715,6 +718,7 @@
         },
         {
           "type": "paragraph container",
+          "indent": true,
           "contents": [
             {
               "type": "paragraph bold",

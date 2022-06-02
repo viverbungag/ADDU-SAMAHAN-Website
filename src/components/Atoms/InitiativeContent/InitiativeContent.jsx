@@ -12,7 +12,9 @@ const contentRecurrsion = (contents) => {
       return (
         <div
           key={index}
-          className={content.indent && styles["paragraph-content--container"]}
+          className={
+            content.indent && styles["paragraph-content--container-with-indent"]
+          }
         >
           {hasSubContent
             ? contentRecurrsion(content.contents)

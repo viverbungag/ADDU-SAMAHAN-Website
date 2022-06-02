@@ -36,7 +36,6 @@
       "Answer": [
         {
           "type": "ordered list",
-          "listType": "lowercase letter",
           "contents": [
             {
               "type": "list item",
@@ -44,6 +43,7 @@
             },
             {
               "type": "ordered list",
+              "listType": "lowercase letter",
               "contents": [
                 {
                   "type": "list item",
@@ -61,6 +61,7 @@
             },
             {
               "type": "ordered list",
+              "listType": "lowercase letter",
               "contents": [
                 {
                   "type": "list item",

@@ -158,6 +158,23 @@ $nav-list-2--position: $nav-links-1--ypadding + 4.5rem; // FOR POSITIONING DROPD
     background-color: $color--nav-bg;
   }
 }
+@media (min-width: 992px) {
+  .drop_down {
+    &:hover {
+      svg {
+        transform: rotate(180deg);
+
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+
+    svg {
+      transform: rotate(0deg);
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+  }
+}
 
 /* LARGE DEVICES */
 @media (max-width: 992px) {

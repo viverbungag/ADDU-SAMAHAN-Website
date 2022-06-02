@@ -105,13 +105,30 @@
       "Question": [
         {
           "type": "paragraph bold",
-          "contents": "When is the application and deadline?"
+          "contents": " I have a Government Grant, is it okay to apply for GIA or JSF Program?"
         }
       ],
       "Answer": [
         {
-          "type": "paragraph",
-          "contents": "For the First Semester, the application will be the first week of April. The deadline is the last Friday of April."
+          "type": "ordered list",
+          "contents": [
+            {
+              "type":"list item",
+              "contents":"For DOST and CHED grants:"
+            },
+            {
+              "type":"paragraph",
+              "contents":"It is allowed however, GIA/JSF grant will be adjusted if the total scholarship grant of the scholar exceeds the student’s total assessment"
+            },
+            {
+              "type":"list item",
+              "contents":"STEP/EBSU:"
+            },
+            {
+              "type":"paragraph",
+              "contents":"They do not allow having a GIA grant. But they will allow students with JSF grant."
+            }
+          ]
         }
       ]
     },

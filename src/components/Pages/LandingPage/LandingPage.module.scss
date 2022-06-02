@@ -1,14 +1,6 @@
 @import "../../../../styles/variables.scss";
 @import "../../../data/imageSrc.module.scss";
 
-.hide {
-  opacity: 0;
-}
-
-.show {
-  opacity: 1;
-}
-
 .landing {
   background-color: $color--primary;
   background-image: url($landing-bg);

@@ -1,10 +1,11 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import "../styles/nprogress.css"
+import "../styles/nprogress.css";
 import Router from "next/router";
 import nProgress from "nprogress";
 import { AnimateSharedLayout } from "framer-motion";
 import App from "next/app";
+import { CircularProgress } from "@mui/material";
 
 /* LOADING PROGRESS BAR */
 Router.events.on("routeChangeStart", nProgress.start);

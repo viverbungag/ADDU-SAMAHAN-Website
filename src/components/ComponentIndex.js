@@ -41,7 +41,6 @@ export { default as Developers } from "./Organisms/Developers/Developers";
 
 /* TEMPLATES */
 export { default as AboutTemplate } from "./Template/AboutTemplate/AboutTemplate";
-export { default as FAQTemplate } from "./Template/FAQTemplate/FAQTemplate";
 export { default as HelpPortalTemplate } from "./Template/HelpPortalTemplate/HelpPortalTemplate";
 export { default as OfficeOfThePresidentTemplate } from "./Template/OfficeOfThePresidentTemplate/OfficeOfThePresidentTemplate";
 export { default as OfficeOfTheSecretaryGeneralTemplate } from "./Template/OfficeOfTheSecretaryGeneralTemplate/OfficeOfTheSecretaryGeneralTemplate";
@@ -57,7 +56,6 @@ export { default as SysDevTemplate } from "./Template/SysDevTemplate/SysDevTempl
 
 /* PAGES */
 export { default as AboutPage } from "./Pages/AboutPage/AboutPage";
-export { default as FAQPage } from "./Pages/FAQPage/FAQPage";
 export { default as HelpPortalPage } from "./Pages/HelpPortalPage/HelpPortalPage";
 export { default as LandingPage } from "./Pages/LandingPage/LandingPage";
 export { default as OfficeOfThePresidentPage } from "./Pages/OfficeOfThePresidentPage/OfficeOfThePresidentPage";
